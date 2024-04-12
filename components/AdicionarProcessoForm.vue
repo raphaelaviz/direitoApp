@@ -25,7 +25,7 @@ const form = useForm({
 const onSubmit = form.handleSubmit(async (entries) => {
   try {
    
-    await useFetch("/api/processos", {
+    await useFetch(process.env.API_ENDPOINT, {
       method: "POST",
       body: {
         numero: entries.numero,
