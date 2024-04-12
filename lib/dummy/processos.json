@@ -1,0 +1,363 @@
+[
+    {
+        "id": "93.2011.495.0015",
+        "requerente": "Alice Smith",
+        "requerido": "Bob Johnson",
+        "status": "Prazo para recurso",
+        "prioridade": "Alta",
+        "favorito": false,
+        "grupos": []
+    },
+    {
+        "id": "73.2019.322.0046",
+        "requerente": "Emma Davis",
+        "requerido": "Michael Brown",
+        "status": "Aguardando",
+        "prioridade": "Crítica",
+        "favorito": false,
+        "grupos": []
+    },
+    {
+        "id": "82.2007.198.0037",
+        "requerente": "Sophia Wilson",
+        "requerido": "David Martinez",
+        "status": "Prazo para recurso",
+        "prioridade": "Alta",
+        "favorito": false,
+        "grupos": []
+    },
+    {
+        "id": "65.2014.645.0028",
+        "requerente": "Oliver Taylor",
+        "requerido": "Emily Anderson",
+        "status": "Prazo para recurso",
+        "prioridade": "Baixa",
+        "favorito": false,
+        "grupos": []
+    },
+    {
+        "id": "88.2003.819.0019",
+        "requerente": "Ethan Thomas",
+        "requerido": "Ava White",
+        "status": "Aguardando",
+        "prioridade": "Crítica",
+        "favorito": false,
+        "grupos": []
+    },
+    {
+        "id": "77.2008.134.0063",
+        "requerente": "Mia Harris",
+        "requerido": "James Miller",
+        "status": "Aguardando",
+        "prioridade": "Média",
+        "favorito": false,
+        "grupos": []
+    },
+    {
+        "id": "91.2016.577.0082",
+        "requerente": "Noah Wilson",
+        "requerido": "Emma Jackson",
+        "status": "Prazo para recurso",
+        "prioridade": "Baixa",
+        "favorito": false,
+        "grupos": []
+    },
+    {
+        "id": "83.2004.287.0045",
+        "requerente": "Charlotte Thompson",
+        "requerido": "Liam Martinez",
+        "status": "Aguardando",
+        "prioridade": "Crítica",
+        "favorito": false,
+        "grupos": []
+    },
+    {
+        "id": "78.2013.999.0021",
+        "requerente": "Logan Johnson",
+        "requerido": "Sophia Brown",
+        "status": "Aguardando",
+        "prioridade": "Baixa",
+        "favorito": false,
+        "grupos": []
+    },
+    {
+        "id": "94.2015.462.0077",
+        "requerente": "Amelia Thomas",
+        "requerido": "Jackson Wilson",
+        "status": "Aguardando",
+        "prioridade": "Média",
+        "favorito": false,
+        "grupos": []
+    },
+    {
+        "id": "72.2012.526.0054",
+        "requerente": "Lucas Miller",
+        "requerido": "Ella Taylor",
+        "status": "Aguardando",
+        "prioridade": "Alta",
+        "favorito": false,
+        "grupos": []
+    },
+    {
+        "id": "86.2005.129.0033",
+        "requerente": "Harper Garcia",
+        "requerido": "Aiden Anderson",
+        "status": "Aguardando",
+        "prioridade": "Crítica",
+        "favorito": false,
+        "grupos": []
+    },
+    {
+        "id": "67.2018.273.0062",
+        "requerente": "Avery Martinez",
+        "requerido": "Scarlett Wilson",
+        "status": "Aguardando",
+        "prioridade": "Alta",
+        "favorito": false,
+        "grupos": []
+    },
+    {
+        "id": "85.2010.793.0026",
+        "requerente": "Benjamin Jones",
+        "requerido": "Lily Moore",
+        "status": "Aguardando",
+        "prioridade": "Média",
+        "favorito": false,
+        "grupos": []
+    },
+    {
+        "id": "89.2006.542.0058",
+        "requerente": "Evelyn Brown",
+        "requerido": "Carter Taylor",
+        "status": "Aguardando",
+        "prioridade": "Baixa",
+        "favorito": false,
+        "grupos": []
+    },
+    {
+        "id": "71.2017.889.0071",
+        "requerente": "Luna Wilson",
+        "requerido": "Mason Davis",
+        "status": "Aguardando",
+        "prioridade": "Média",
+        "favorito": false,
+        "grupos": []
+    },
+    {
+        "id": "90.2009.416.0042",
+        "requerente": "Henry Harris",
+        "requerido": "Chloe Rodriguez",
+        "status": "Aguardando",
+        "prioridade": "Alta",
+        "favorito": false,
+        "grupos": []
+    },
+    {
+        "id": "74.2013.648.0018",
+        "requerente": "Elena Martinez",
+        "requerido": "Grayson Brown",
+        "status": "Aguardando",
+        "prioridade": "Baixa",
+        "favorito": false,
+        "grupos": []
+    },
+    {
+        "id": "81.2011.837.0083",
+        "requerente": "Zoey Miller",
+        "requerido": "Daniel Garcia",
+        "status": "Aguardando",
+        "prioridade": "Média",
+        "favorito": false,
+        "grupos": []
+    },
+    {
+        "id": "84.2008.563.0039",
+        "requerente": "Miles Anderson",
+        "requerido": "Penelope Wilson",
+        "status": "Aguardando",
+        "prioridade": "Alta",
+        "favorito": false,
+        "grupos": []
+    },
+    {
+        "id": "79.2019.374.0074",
+        "requerente": "Aria Thompson",
+        "requerido": "Owen Jackson",
+        "status": "Aguardando",
+        "prioridade": "Baixa",
+        "favorito": false,
+        "grupos": []
+    },
+    {
+        "id": "53.2018.238.0067",
+        "requerente": "Aidan Clark",
+        "requerido": "Grace Moore",
+        "status": "Prazo para recurso",
+        "prioridade": "Média",
+        "favorito": false,
+        "grupos": []
+      },
+      {
+        "id": "62.2017.104.0098",
+        "requerente": "Ella Rodriguez",
+        "requerido": "Carter Harris",
+        "status": "Aguardando",
+        "prioridade": "Alta",
+        "favorito": false,
+        "grupos": []
+      },
+      {
+        "id": "58.2016.757.0024",
+        "requerente": "Scarlett Martin",
+        "requerido": "Lucas Johnson",
+        "status": "Prazo para recurso",
+        "prioridade": "Baixa",
+        "favorito": false,
+        "grupos": []
+      },
+      {
+        "id": "57.2015.249.0087",
+        "requerente": "Noah Wilson",
+        "requerido": "Amelia Garcia",
+        "status": "Aguardando",
+        "prioridade": "Média",
+        "favorito": false,
+        "grupos": []
+      },
+      {
+        "id": "60.2014.314.0042",
+        "requerente": "Aria Moore",
+        "requerido": "James Davis",
+        "status": "Prazo para recurso",
+        "prioridade": "Alta",
+        "favorito": false,
+        "grupos": []
+      },
+      {
+        "id": "64.2013.184.0073",
+        "requerente": "Olivia Wilson",
+        "requerido": "Benjamin Rodriguez",
+        "status": "Aguardando",
+        "prioridade": "Baixa",
+        "favorito": false,
+        "grupos": []
+      },
+      {
+        "id": "54.2012.547.0027",
+        "requerente": "Emma Harris",
+        "requerido": "Logan Johnson",
+        "status": "Prazo para recurso",
+        "prioridade": "Média",
+        "favorito": false,
+        "grupos": []
+      },
+      {
+        "id": "61.2011.493.0049",
+        "requerente": "Aiden Wilson",
+        "requerido": "Sophia Brown",
+        "status": "Aguardando",
+        "prioridade": "Alta",
+        "favorito": false,
+        "grupos": []
+      },
+      {
+        "id": "56.2010.312.0033",
+        "requerente": "Mia Thompson",
+        "requerido": "Daniel Anderson",
+        "status": "Aguardando",
+        "prioridade": "Baixa",
+        "favorito": false,
+        "grupos": []
+      },
+      {
+        "id": "63.2009.298.0025",
+        "requerente": "Jackson Davis",
+        "requerido": "Ava Martinez",
+        "status": "Prazo para recurso",
+        "prioridade": "Média",
+        "favorito": false,
+        "grupos": []
+      },
+      {
+        "id": "59.2008.183.0012",
+        "requerente": "Evelyn White",
+        "requerido": "Ethan Rodriguez",
+        "status": "Aguardando",
+        "prioridade": "Alta",
+        "favorito": false,
+        "grupos": []
+      },
+      {
+        "id": "52.2007.439.0093",
+        "requerente": "Zoey Anderson",
+        "requerido": "Charlotte Brown",
+        "status": "Prazo para recurso",
+        "prioridade": "Baixa",
+        "favorito": false,
+        "grupos": []
+      },
+      {
+        "id": "55.2006.688.0031",
+        "requerente": "Harper Harris",
+        "requerido": "Liam Thomas",
+        "status": "Aguardando",
+        "prioridade": "Média",
+        "favorito": false,
+        "grupos": []
+      },
+      {
+        "id": "66.2005.112.0056",
+        "requerente": "Lily Davis",
+        "requerido": "Ella Wilson",
+        "status": "Prazo para recurso",
+        "prioridade": "Alta",
+        "favorito": false,
+        "grupos": []
+      },
+      {
+        "id": "69.2004.489.0085",
+        "requerente": "Sophia Rodriguez",
+        "requerido": "Mason Thompson",
+        "status": "Aguardando",
+        "prioridade": "Baixa",
+        "favorito": false,
+        "grupos": []
+      },
+      {
+        "id": "68.2003.828.0072",
+        "requerente": "Grayson Moore",
+        "requerido": "Chloe Anderson",
+        "status": "Prazo para recurso",
+        "prioridade": "Média",
+        "favorito": false,
+        "grupos": []
+      },
+      {
+        "id": "70.2002.716.0068",
+        "requerente": "Avery Wilson",
+        "requerido": "Penelope Johnson",
+        "status": "Aguardando",
+        "prioridade": "Alta",
+        "favorito": false,
+        "grupos": []
+      },
+      {
+        "id": "51.2001.584.0014",
+        "requerente": "Miles Thompson",
+        "requerido": "Emma White",
+        "status": "Prazo para recurso",
+        "prioridade": "Baixa",
+        "favorito": false,
+        "grupos": []
+      },
+      {
+        "id": "75.2000.369.0021",
+        "requerente": "Elena Martinez",
+        "requerido": "Harper Davis",
+        "status": "Aguardando",
+        "prioridade": "Média",
+        "favorito": false,
+        "grupos": []
+      }
+  ]
+  

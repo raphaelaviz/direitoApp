@@ -1,0 +1,42 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "@nuxt/image": "^1.5.0",
+    "@pinia/nuxt": "^0.5.1",
+    "@radix-icons/vue": "^1.0.0",
+    "@tanstack/vue-table": "^8.15.3",
+    "@types/better-sqlite3": "^7.6.9",
+    "@vee-validate/zod": "^4.12.6",
+    "@vueuse/core": "^10.9.0",
+    "better-sqlite3": "^9.5.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "D": "^1.0.0",
+    "drizzle-orm": "^0.29.5",
+    "lucide-vue-next": "^0.365.0",
+    "nuxt": "^3.11.2",
+    "pinia": "^2.1.7",
+    "radix-vue": "^1.6.2",
+    "tailwind-merge": "^2.2.2",
+    "tailwindcss-animate": "^1.0.7",
+    "vee-validate": "^4.12.6",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "drizzle-kit": "^0.20.14",
+    "typescript": "^5.4.4"
+  }
+}
