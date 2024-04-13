@@ -1,5 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  routeRules: {
+    '/processos': {ssr: true}
+  },
   runtimeConfig: {
     public: {
       API_ENDPOINT: process.env.API_ENDPOINT
