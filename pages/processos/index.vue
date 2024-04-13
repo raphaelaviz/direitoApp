@@ -3,7 +3,7 @@
 import { columns } from '@/components/List/columns'
 
 
-const {data, pending, error, refresh } = await useFetch(process.env.API_ENDPOINT)
+const {data, pending, error, refresh } = await useFetch('/api/processos')
 
 
 </script>
