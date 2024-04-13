@@ -7,6 +7,8 @@ import { FormField } from './ui/form';
 
 const sheet = useSheet()
 
+const config = useRuntimeConfig()
+
 const { refreshData } = defineProps<{ refreshData: () => void }>();
 
 const formSchema = toTypedSchema(z.object({
@@ -25,7 +27,7 @@ const form = useForm({
 const onSubmit = form.handleSubmit(async (entries) => {
   try {
    
-    await useFetch("/api/processos", {
+    await useFetch(config.public.API_ENDPOINT, {
       method: "POST",
       body: {
         numero: entries.numero,

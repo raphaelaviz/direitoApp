@@ -2,8 +2,9 @@
 
 import { columns } from '@/components/List/columns'
 
+const config = useRuntimeConfig()
 
-const {data, pending, error, refresh } = await useFetch('/api/processos')
+const {data, pending, error, refresh } = await useFetch(config.public.API_ENDPOINT)
 
 
 </script>
