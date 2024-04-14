@@ -1,21 +1,14 @@
 <script setup lang="ts">
 import type { Table } from '@tanstack/vue-table'
 import { computed } from 'vue'
-import type { Processo } from '@/lib/utils'
+import type { ProcessoType } from '@/lib/utils'
 
 import { Button } from '@/components/ui/button'
 import { Eye } from 'lucide-vue-next';
-import {
-  DropdownMenu,
-  DropdownMenuCheckboxItem,
-  DropdownMenuContent,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu'
+
 
 interface DataTableViewOptionsProps {
-  table: Table<Processo>
+  table: Table<ProcessoType>
 }
 
 const props = defineProps<DataTableViewOptionsProps>()
@@ -29,12 +22,14 @@ const columns = computed(() => props.table.getAllColumns()
 
 <template>
   <DropdownMenu>
+    <CustomTooltip content="Visualizar">
     <DropdownMenuTrigger as-child>
       <Button
         variant="outline"
         size="sm"
         class="ml-auto hidden h-8 lg:flex"
       >
+      <span class="sr-only">Visualizar</span>
        <Eye/>
       </Button>
     </DropdownMenuTrigger>
@@ -49,8 +44,11 @@ const columns = computed(() => props.table.getAllColumns()
         :checked="column.getIsVisible()"
         @update:checked="(value) => column.toggleVisibility(!!value)"
       >
-        {{ column.id }}
+      <!-- TODO: delete this conditional rendering after changing the tables names  -->
+      {{ column.id === 'createdAt' ? 'Registrado em' : column.id === 'numero' ? 'Número' : column.id }}
+
       </DropdownMenuCheckboxItem>
     </DropdownMenuContent>
+  </CustomTooltip>
   </DropdownMenu>
 </template>

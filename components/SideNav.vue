@@ -14,7 +14,7 @@
         <div class="relative h-8 w-8 mr-4">
           <img alt="Logo" :src="logo" />
         </div>
-        <h1 class="text-2xl font-bold">DireitoApp</h1>
+        <h1 class="text-2xl font-bold mr-2">DireitoApp</h1>
       </NuxtLink>
 
       <div class="flex flex-col space-y-1">

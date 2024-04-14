@@ -5,10 +5,10 @@
 
 <template>
     <div class="h-full relative">
-      <div class="hidden h-full md:flex">
+      <div class="flex h-full">
         <CustomDialog/>
-        <!-- <CustomSheet/> -- Voltar com esse component quando for totalmente customizável> 
-        <!-- <AdicionarProcessoSheet/> -->
+         <!-- <CustomSheet/> -- TODO: finish customizable sheet and use it.  -->
+        
           <SideNav/>
           <div class="flex flex-col w-full">
             <div class="bg-green-400">NAVBAR</div>

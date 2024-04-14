@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { Table } from '@tanstack/vue-table'
 import { computed } from 'vue'
-import type { Processo } from '@/lib/utils'
+import type { ProcessoType } from '@/lib/utils'
 
 import { priorities, statuses } from '@/lib/constants'
 import DataTableFacetedFilter from './DataTableFacetedFilter.vue'
@@ -11,7 +11,7 @@ import { Input } from '@/components/ui/input'
 import { Plus, PlusCircleIcon } from 'lucide-vue-next';
 const sheet = useSheet()
 interface DataTableToolbarProps {
-  table: Table<Processo>
+  table: Table<ProcessoType>
 }
 
 const props = defineProps<DataTableToolbarProps>()
@@ -43,6 +43,7 @@ const isFiltered = computed(() => props.table.getState().columnFilters.length > 
         title="Prioridade"
         :options="priorities"
       />
+      
     </div>
     <div class="flex space-x-4">
       <Input

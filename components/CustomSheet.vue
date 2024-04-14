@@ -13,7 +13,7 @@ import { priorities, groups } from '~/lib/constants';
           <label>Número do Processo</label>
           <Input placeholder="00.000.00"/>
           <label>Requerente</label>
-          <Input placeholder="Fulano de tal"/>
+          <Input placeholder="João da Silva"/>
           <label>Requerido</label>
           <Input placeholder="Siclano de tal"/>
           <label>Prioridade</label>

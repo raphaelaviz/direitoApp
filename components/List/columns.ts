@@ -6,6 +6,8 @@ import DataTableColumnHeader from './DataTableColumnHeader.vue'
 import DataTableRowActions from './DataTableRowActions.vue'
 import { Checkbox } from '@/components/ui/checkbox'
 import { Badge } from '@/components/ui/badge'
+import { SquareArrowOutUpRight } from 'lucide-vue-next'
+import DataTableRowLink from './DataTableRowLink.vue'
 
 export const columns: ColumnDef<ProcessoType>[] = [
   {
@@ -108,8 +110,12 @@ export const columns: ColumnDef<ProcessoType>[] = [
   enableSorting: true,
   enableHiding: true,
 },
+{
+  id: 'see',
+  cell: ({ row }) => h(DataTableRowLink, { id: row.id }),
+},
   {
     id: 'actions',
-    cell: ({ row }) => h(DataTableRowActions, { row }),
+    cell: ({ row }) => h(DataTableRowActions, { id: row.id }),
   },
 ]

@@ -4,12 +4,19 @@ import { toTypedSchema } from '@vee-validate/zod'
 import * as z from 'zod'
 import { priorities, groups, statuses } from '~/lib/constants';
 import { FormField } from './ui/form';
+import { useToast } from '@/components/ui/toast/use-toast'
 
 const sheet = useSheet()
 
+
+    const route = useRoute()    
+    const { toast } = useToast()
 const config = useRuntimeConfig()
 
 const { refreshData } = defineProps<{ refreshData: () => void }>();
+
+
+// TODO: Refine validation and change default error message
 
 const formSchema = toTypedSchema(z.object({
   numero: z.string().min(2).max(30),
@@ -37,6 +44,9 @@ const onSubmit = form.handleSubmit(async (entries) => {
         status: entries.status
       },
     });
+    toast({
+        description: 'Novo processo criado.',
+      });
     await refreshData()
     
   } catch (error) {
@@ -66,7 +76,7 @@ const onSubmit = form.handleSubmit(async (entries) => {
         <FormItem>
           <FormLabel>Requerente</FormLabel>
           <FormControl>
-            <Input type="text"placeholder="Fulano de Tal" v-bind="componentField"/>
+            <Input type="text"placeholder="Nome do requerente" v-bind="componentField"/>
           </FormControl>
           <FormMessage />
         </FormItem>
@@ -76,7 +86,7 @@ const onSubmit = form.handleSubmit(async (entries) => {
       <FormItem>
         <FormLabel>Requerido</FormLabel>
         <FormControl>
-          <Input type="text" placeholder="Siclano de Tal" v-bind="componentField" />
+          <Input type="text" placeholder="Nome do requerido" v-bind="componentField" />
         </FormControl>
         <FormMessage />
       </FormItem>

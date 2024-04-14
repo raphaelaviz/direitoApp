@@ -18,15 +18,23 @@ import {
 
 const dialog = useDialog()
 
+defineProps({
+  id: String,
+})
 
-function openDeleteConfirmation () {
-  dialog.onOpen({ title: 'Excluir processo?', description: 'Essa ação não poderá ser desfeita. Deseja mesmo excluir o processo?' });
+function openDeleteConfirmation (id?: string) {
+  dialog.onOpen({ title: `Excluir processo ${id}?`, description: 'Essa ação não poderá ser desfeita. Deseja mesmo excluir o processo?' });
 };
 
 </script>
 
 <template>
   <DropdownMenu>
+    
+       <CustomTooltip content="Mais opções">
+
+       
+      
     <DropdownMenuTrigger as-child>
       <Button
         variant="ghost"
@@ -37,15 +45,6 @@ function openDeleteConfirmation () {
       </Button>
     </DropdownMenuTrigger>
     <DropdownMenuContent align="end" class="w-[160px]">
-      
-      <NuxtLink to="/processos/blabla">
-        <DropdownMenuItem class="flex justify-between">
-          <div>Ver processo</div>
-          <div class="flex items-center justify-center">
-            <SquareArrowOutUpRight class="w-4 h-4"/>
-          </div>
-        </DropdownMenuItem>
-      </NuxtLink>
       
       <DropdownMenuItem>Favoritar</DropdownMenuItem>
       <DropdownMenuSeparator />
@@ -70,10 +69,11 @@ function openDeleteConfirmation () {
         </DropdownMenuSubContent>
       </DropdownMenuSub>
       <DropdownMenuSeparator />
-      <DropdownMenuItem @click="openDeleteConfirmation">
+      <DropdownMenuItem @click="openDeleteConfirmation(id)">
         Deletar
         <DropdownMenuShortcut>⌘⌫</DropdownMenuShortcut>
       </DropdownMenuItem>
     </DropdownMenuContent>
+  </CustomTooltip> 
   </DropdownMenu>
 </template>
