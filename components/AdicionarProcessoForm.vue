@@ -11,7 +11,7 @@ const sheet = useSheet()
 
     const route = useRoute()    
     const { toast } = useToast()
-const config = useRuntimeConfig()
+    const config = useRuntimeConfig()
 
 const { refreshData } = defineProps<{ refreshData: () => void }>();
 
@@ -34,7 +34,7 @@ const form = useForm({
 const onSubmit = form.handleSubmit(async (entries) => {
   try {
    
-    await useFetch(config.public.API_ENDPOINT, {
+    await useFetch("http://localhost:3000/api/processos", {
       method: "POST",
       body: {
         numero: entries.numero,

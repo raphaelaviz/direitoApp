@@ -4,10 +4,10 @@ import type { ProcessoType } from '~/lib/utils';
 
 const config = useRuntimeConfig()
 
+//TODO: change to env variable after switching to postgres
+const { data = { processos: [] }, pending, error, refresh } = await useFetch("http://localhost:3000/api/processos")
 
-// TODO: Review this typing.
-const { data = { processos: [] }, pending, error, refresh } = await useFetch(config.public.API_ENDPOINT)
-
+// TODO: Review this type
 interface DataProps {
   processos: ProcessoType[]
 }

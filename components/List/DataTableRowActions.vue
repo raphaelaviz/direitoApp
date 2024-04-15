@@ -59,10 +59,10 @@ function openDeleteConfirmation (id?: string) {
         </DropdownMenuSubContent>
       </DropdownMenuSub>
       <DropdownMenuSub>
-        <DropdownMenuSubTrigger class="not-ready">Adicionar à</DropdownMenuSubTrigger>
+        <DropdownMenuSubTrigger>Adicionar à</DropdownMenuSubTrigger>
         <DropdownMenuSubContent>
           <DropdownMenuRadioGroup>
-            <DropdownMenuRadioItem v-for="group in groups" :key="group.value" :value="group.value " class="not-ready">
+            <DropdownMenuRadioItem v-for="group in groups" :key="group.value" :value="group.value ">
               {{ group.label }}
             </DropdownMenuRadioItem>
           </DropdownMenuRadioGroup>

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { Table } from '@tanstack/vue-table'
-import type { Processo } from '@/lib/utils'
+import type { ProcessoType } from '@/lib/utils'
 
 
 import { Button } from '@/components/ui/button'
@@ -13,7 +13,7 @@ import {
 } from '@/components/ui/select'
 
 interface DataTablePaginationProps {
-  table: Table<Processo>
+  table: Table<ProcessoType>
 }
 defineProps<DataTablePaginationProps>()
 
@@ -58,7 +58,7 @@ import { ChevronLeft, ChevronsLeft, ChevronRight, ChevronsRight } from 'lucide-v
           :disabled="!table.getCanPreviousPage()"
           @click="table.setPageIndex(0)"
         >
-          <span class="sr-only">Go to first page</span>
+          <span class="sr-only">Vá para a primeira página</span>
           <ChevronsLeft class="h-4 w-4" />
         </Button>
         <Button
@@ -67,7 +67,7 @@ import { ChevronLeft, ChevronsLeft, ChevronRight, ChevronsRight } from 'lucide-v
           :disabled="!table.getCanPreviousPage()"
           @click="table.previousPage()"
         >
-          <span class="sr-only">Go to previous page</span>
+          <span class="sr-only">Vá para a página anterior</span>
           <ChevronLeft class="h-4 w-4" />
         </Button>
         <Button
@@ -76,7 +76,7 @@ import { ChevronLeft, ChevronsLeft, ChevronRight, ChevronsRight } from 'lucide-v
           :disabled="!table.getCanNextPage()"
           @click="table.nextPage()"
         >
-          <span class="sr-only">Go to next page</span>
+          <span class="sr-only">Vá para a próxima página</span>
           <ChevronRight class="h-4 w-4" />
         </Button>
         <Button
@@ -85,7 +85,7 @@ import { ChevronLeft, ChevronsLeft, ChevronRight, ChevronsRight } from 'lucide-v
           :disabled="!table.getCanNextPage()"
           @click="table.setPageIndex(table.getPageCount() - 1)"
         >
-          <span class="sr-only">Go to last page</span>
+          <span class="sr-only">Vá para a última página</span>
           <ChevronsRight class="h-4 w-4" />
         </Button>
       </div>

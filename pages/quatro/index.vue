@@ -1,3 +1,10 @@
+<script setup lang="ts">
+
+
+</script>
+
 <template>
-    <div>Quatro</div>
+    <div>
+        Quatro
+    </div>
 </template>

@@ -1,13 +1,13 @@
 import type { ColumnDef } from '@tanstack/vue-table'
 import { h } from 'vue'
 import { groups, priorities, statuses } from '@/lib/constants'
-import type { Processo } from '@/lib/utils'
+import type { ProcessoType } from '@/lib/utils'
 import DataTableColumnHeader from './DataTableColumnHeader.vue'
 import DataTableRowActions from './DataTableRowActions.vue'
 import { Checkbox } from '@/components/ui/checkbox'
 import { Badge } from '@/components/ui/badge'
 
-export const prazosColumns: ColumnDef<Processo>[] = [
+export const prazosColumns: ColumnDef<ProcessoType>[] = [
   {
     id: 'select',
     header: ({ table }) => h(Checkbox, {
