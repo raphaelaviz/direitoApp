@@ -1,3 +1,3 @@
 <template>
-    <div>Cinco</div>
+    <div>Calendar</div>
 </template>

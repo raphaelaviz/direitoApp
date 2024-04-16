@@ -107,7 +107,7 @@ const table = useVueTable({
             :colspan="columns.length"
             class="h-24 text-center"
             >
-            Sem resultados.
+            No results.
           </TableCell>
         </TableRow>
       </TableBody>

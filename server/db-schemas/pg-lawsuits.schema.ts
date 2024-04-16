@@ -9,9 +9,9 @@ import {
 } from 'drizzle-orm/pg-core';
 import { boolean } from 'drizzle-orm/pg-core';
  
-// Use this object to send drizzle queries to your DB
+
 export const db = drizzle(sql);
-// Create a pgTable that maps to a table in your DB
+
 export const lawsuitsTable = pgTable(
   'lawsuits',
   {
@@ -22,7 +22,7 @@ export const lawsuitsTable = pgTable(
     status: text ("Status").notNull(),
     priority: text("Priority"),
     favorite: boolean('boolean'),
-    createdAt: timestamp('createdAt').defaultNow(),
+    createdAt: text ("Created at"),
   },
   (lawsuits) => {
     return {

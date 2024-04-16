@@ -20,7 +20,6 @@
     "@vercel/node": "^3.0.26",
     "@vercel/postgres": "^0.8.0",
     "@vueuse/core": "^10.9.0",
-    "better-sqlite3": "^9.5.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "D": "^1.0.0",

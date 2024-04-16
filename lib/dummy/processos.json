@@ -1,363 +1,284 @@
+
 [
     {
-        "id": "93.2011.495.0015",
-        "requerente": "Alice Smith",
-        "requerido": "Bob Johnson",
-        "status": "Prazo para recurso",
-        "prioridade": "Alta",
-        "favorito": false,
-        "grupos": []
+        "number": "93.2011.495.0015",
+        "plaintiff": "Alice Smith",
+        "defendant": "Bob Johnson",
+        "status": "Deadline for Z",
+        "priority": "High"
     },
     {
-        "id": "73.2019.322.0046",
-        "requerente": "Emma Davis",
-        "requerido": "Michael Brown",
-        "status": "Aguardando",
-        "prioridade": "Crítica",
-        "favorito": false,
-        "grupos": []
+        "number": "73.2019.322.0046",
+        "plaintiff": "Emma Davis",
+        "defendant": "Michael Brown",
+        "status": "Waiting for Y",
+        "priority": "Critic"
     },
     {
-        "id": "82.2007.198.0037",
-        "requerente": "Sophia Wilson",
-        "requerido": "David Martinez",
-        "status": "Prazo para recurso",
-        "prioridade": "Alta",
-        "favorito": false,
-        "grupos": []
+        "number": "82.2007.198.0037",
+        "plaintiff": "Sophia Wilson",
+        "defendant": "David Martinez",
+        "status": "Deadline for Z",
+        "priority": "High"
     },
     {
-        "id": "65.2014.645.0028",
-        "requerente": "Oliver Taylor",
-        "requerido": "Emily Anderson",
-        "status": "Prazo para recurso",
-        "prioridade": "Baixa",
-        "favorito": false,
-        "grupos": []
+        "number": "65.2014.645.0028",
+        "plaintiff": "Oliver Taylor",
+        "defendant": "Emily Anderson",
+        "status": "Deadline for Z",
+        "priority": "Low"
     },
     {
-        "id": "88.2003.819.0019",
-        "requerente": "Ethan Thomas",
-        "requerido": "Ava White",
-        "status": "Aguardando",
-        "prioridade": "Crítica",
-        "favorito": false,
-        "grupos": []
+        "number": "88.2003.819.0019",
+        "plaintiff": "Ethan Thomas",
+        "defendant": "Ava White",
+        "status": "Waiting for Y",
+        "priority": "Critic"
     },
     {
-        "id": "77.2008.134.0063",
-        "requerente": "Mia Harris",
-        "requerido": "James Miller",
-        "status": "Aguardando",
-        "prioridade": "Média",
-        "favorito": false,
-        "grupos": []
+        "number": "77.2008.134.0063",
+        "plaintiff": "Mia Harris",
+        "defendant": "James Miller",
+        "status": "Waiting for X",
+        "priority": "Medium"
     },
     {
-        "id": "91.2016.577.0082",
-        "requerente": "Noah Wilson",
-        "requerido": "Emma Jackson",
-        "status": "Prazo para recurso",
-        "prioridade": "Baixa",
-        "favorito": false,
-        "grupos": []
+        "number": "91.2016.577.0082",
+        "plaintiff": "Noah Wilson",
+        "defendant": "Emma Jackson",
+        "status": "Deadline for Z",
+        "priority": "Low"
     },
     {
-        "id": "83.2004.287.0045",
-        "requerente": "Charlotte Thompson",
-        "requerido": "Liam Martinez",
-        "status": "Aguardando",
-        "prioridade": "Crítica",
-        "favorito": false,
-        "grupos": []
+        "number": "83.2004.287.0045",
+        "plaintiff": "Charlotte Thompson",
+        "defendant": "Liam Martinez",
+        "status": "Waiting for Y",
+        "priority": "Critic"
     },
     {
-        "id": "78.2013.999.0021",
-        "requerente": "Logan Johnson",
-        "requerido": "Sophia Brown",
-        "status": "Aguardando",
-        "prioridade": "Baixa",
-        "favorito": false,
-        "grupos": []
+        "number": "78.2013.999.0021",
+        "plaintiff": "Logan Johnson",
+        "defendant": "Sophia Brown",
+        "status": "Waiting for X",
+        "priority": "Low"
     },
     {
-        "id": "94.2015.462.0077",
-        "requerente": "Amelia Thomas",
-        "requerido": "Jackson Wilson",
-        "status": "Aguardando",
-        "prioridade": "Média",
-        "favorito": false,
-        "grupos": []
+        "number": "94.2015.462.0077",
+        "plaintiff": "Amelia Thomas",
+        "defendant": "Jackson Wilson",
+        "status": "Waiting for X",
+        "priority": "Medium"
     },
     {
-        "id": "72.2012.526.0054",
-        "requerente": "Lucas Miller",
-        "requerido": "Ella Taylor",
-        "status": "Aguardando",
-        "prioridade": "Alta",
-        "favorito": false,
-        "grupos": []
+        "number": "72.2012.526.0054",
+        "plaintiff": "Lucas Miller",
+        "defendant": "Ella Taylor",
+        "status": "Waiting for X",
+        "priority": "High"
     },
     {
-        "id": "86.2005.129.0033",
-        "requerente": "Harper Garcia",
-        "requerido": "Aiden Anderson",
-        "status": "Aguardando",
-        "prioridade": "Crítica",
-        "favorito": false,
-        "grupos": []
+        "number": "86.2005.129.0033",
+        "plaintiff": "Harper Garcia",
+        "defendant": "Aiden Anderson",
+        "status": "Waiting for Y",
+        "priority": "Critic"
     },
     {
-        "id": "67.2018.273.0062",
-        "requerente": "Avery Martinez",
-        "requerido": "Scarlett Wilson",
-        "status": "Aguardando",
-        "prioridade": "Alta",
-        "favorito": false,
-        "grupos": []
+        "number": "67.2018.273.0062",
+        "plaintiff": "Avery Martinez",
+        "defendant": "Scarlett Wilson",
+        "status": "Waiting for X",
+        "priority": "High"
     },
     {
-        "id": "85.2010.793.0026",
-        "requerente": "Benjamin Jones",
-        "requerido": "Lily Moore",
-        "status": "Aguardando",
-        "prioridade": "Média",
-        "favorito": false,
-        "grupos": []
+        "number": "85.2010.793.0026",
+        "plaintiff": "Benjamin Jones",
+        "defendant": "Lily Moore",
+        "status": "Waiting for X",
+        "priority": "Medium"
     },
     {
-        "id": "89.2006.542.0058",
-        "requerente": "Evelyn Brown",
-        "requerido": "Carter Taylor",
-        "status": "Aguardando",
-        "prioridade": "Baixa",
-        "favorito": false,
-        "grupos": []
+        "number": "89.2006.542.0058",
+        "plaintiff": "Evelyn Brown",
+        "defendant": "Carter Taylor",
+        "status": "Waiting for X",
+        "priority": "Low"
     },
     {
-        "id": "71.2017.889.0071",
-        "requerente": "Luna Wilson",
-        "requerido": "Mason Davis",
-        "status": "Aguardando",
-        "prioridade": "Média",
-        "favorito": false,
-        "grupos": []
+        "number": "71.2017.889.0071",
+        "plaintiff": "Luna Wilson",
+        "defendant": "Mason Davis",
+        "status": "Waiting for Y",
+        "priority": "Medium"
     },
     {
-        "id": "90.2009.416.0042",
-        "requerente": "Henry Harris",
-        "requerido": "Chloe Rodriguez",
-        "status": "Aguardando",
-        "prioridade": "Alta",
-        "favorito": false,
-        "grupos": []
+        "number": "90.2009.416.0042",
+        "plaintiff": "Henry Harris",
+        "defendant": "Chloe Rodriguez",
+        "status": "Waiting for Y",
+        "priority": "High"
     },
     {
-        "id": "74.2013.648.0018",
-        "requerente": "Elena Martinez",
-        "requerido": "Grayson Brown",
-        "status": "Aguardando",
-        "prioridade": "Baixa",
-        "favorito": false,
-        "grupos": []
+        "number": "74.2013.648.0018",
+        "plaintiff": "Elena Martinez",
+        "defendant": "Grayson Brown",
+        "status": "Waiting for X",
+        "priority": "Low"
     },
     {
-        "id": "81.2011.837.0083",
-        "requerente": "Zoey Miller",
-        "requerido": "Daniel Garcia",
-        "status": "Aguardando",
-        "prioridade": "Média",
-        "favorito": false,
-        "grupos": []
+        "number": "81.2011.837.0083",
+        "plaintiff": "Zoey Miller",
+        "defendant": "Daniel Garcia",
+        "status": "Waiting for X",
+        "priority": "Medium"
     },
     {
-        "id": "84.2008.563.0039",
-        "requerente": "Miles Anderson",
-        "requerido": "Penelope Wilson",
-        "status": "Aguardando",
-        "prioridade": "Alta",
-        "favorito": false,
-        "grupos": []
+        "number": "84.2008.563.0039",
+        "plaintiff": "Miles Anderson",
+        "defendant": "Penelope Wilson",
+        "status": "Waiting for X",
+        "priority": "High"
     },
     {
-        "id": "79.2019.374.0074",
-        "requerente": "Aria Thompson",
-        "requerido": "Owen Jackson",
-        "status": "Aguardando",
-        "prioridade": "Baixa",
-        "favorito": false,
-        "grupos": []
+        "number": "79.2019.374.0074",
+        "plaintiff": "Aria Thompson",
+        "defendant": "Owen Jackson",
+        "status": "Waiting for Y",
+        "priority": "Low"
     },
     {
-        "id": "53.2018.238.0067",
-        "requerente": "Aidan Clark",
-        "requerido": "Grace Moore",
-        "status": "Prazo para recurso",
-        "prioridade": "Média",
-        "favorito": false,
-        "grupos": []
+        "number": "53.2018.238.0067",
+        "plaintiff": "Aidan Clark",
+        "defendant": "Grace Moore",
+        "status": "Deadline for Z",
+        "priority": "Medium"
       },
       {
-        "id": "62.2017.104.0098",
-        "requerente": "Ella Rodriguez",
-        "requerido": "Carter Harris",
-        "status": "Aguardando",
-        "prioridade": "Alta",
-        "favorito": false,
-        "grupos": []
+        "number": "62.2017.104.0098",
+        "plaintiff": "Ella Rodriguez",
+        "defendant": "Carter Harris",
+        "status": "Waiting for Y",
+        "priority": "High"
       },
       {
-        "id": "58.2016.757.0024",
-        "requerente": "Scarlett Martin",
-        "requerido": "Lucas Johnson",
-        "status": "Prazo para recurso",
-        "prioridade": "Baixa",
-        "favorito": false,
-        "grupos": []
+        "number": "58.2016.757.0024",
+        "plaintiff": "Scarlett Martin",
+        "defendant": "Lucas Johnson",
+        "status": "Deadline for Z",
+        "priority": "Low"
       },
       {
-        "id": "57.2015.249.0087",
-        "requerente": "Noah Wilson",
-        "requerido": "Amelia Garcia",
-        "status": "Aguardando",
-        "prioridade": "Média",
-        "favorito": false,
-        "grupos": []
+        "number": "57.2015.249.0087",
+        "plaintiff": "Noah Wilson",
+        "defendant": "Amelia Garcia",
+        "status": "Waiting for X",
+        "priority": "Medium"
       },
       {
-        "id": "60.2014.314.0042",
-        "requerente": "Aria Moore",
-        "requerido": "James Davis",
-        "status": "Prazo para recurso",
-        "prioridade": "Alta",
-        "favorito": false,
-        "grupos": []
+        "number": "60.2014.314.0042",
+        "plaintiff": "Aria Moore",
+        "defendant": "James Davis",
+        "status": "Deadline for Z",
+        "priority": "High"
       },
       {
-        "id": "64.2013.184.0073",
-        "requerente": "Olivia Wilson",
-        "requerido": "Benjamin Rodriguez",
-        "status": "Aguardando",
-        "prioridade": "Baixa",
-        "favorito": false,
-        "grupos": []
+        "number": "64.2013.184.0073",
+        "plaintiff": "Olivia Wilson",
+        "defendant": "Benjamin Rodriguez",
+        "status": "Waiting for X",
+        "priority": "Low"
       },
       {
-        "id": "54.2012.547.0027",
-        "requerente": "Emma Harris",
-        "requerido": "Logan Johnson",
-        "status": "Prazo para recurso",
-        "prioridade": "Média",
-        "favorito": false,
-        "grupos": []
+        "number": "54.2012.547.0027",
+        "plaintiff": "Emma Harris",
+        "defendant": "Logan Johnson",
+        "status": "Deadline for Z",
+        "priority": "Medium"
       },
       {
-        "id": "61.2011.493.0049",
-        "requerente": "Aiden Wilson",
-        "requerido": "Sophia Brown",
-        "status": "Aguardando",
-        "prioridade": "Alta",
-        "favorito": false,
-        "grupos": []
+        "number": "61.2011.493.0049",
+        "plaintiff": "Aiden Wilson",
+        "defendant": "Sophia Brown",
+        "status": "Waiting for Y",
+        "priority": "High"
       },
       {
-        "id": "56.2010.312.0033",
-        "requerente": "Mia Thompson",
-        "requerido": "Daniel Anderson",
-        "status": "Aguardando",
-        "prioridade": "Baixa",
-        "favorito": false,
-        "grupos": []
+        "number": "56.2010.312.0033",
+        "plaintiff": "Mia Thompson",
+        "defendant": "Daniel Anderson",
+        "status": "Waiting for Y",
+        "priority": "Low"
       },
       {
-        "id": "63.2009.298.0025",
-        "requerente": "Jackson Davis",
-        "requerido": "Ava Martinez",
-        "status": "Prazo para recurso",
-        "prioridade": "Média",
-        "favorito": false,
-        "grupos": []
+        "number": "63.2009.298.0025",
+        "plaintiff": "Jackson Davis",
+        "defendant": "Ava Martinez",
+        "status": "Deadline for Z",
+        "priority": "Medium"
       },
       {
-        "id": "59.2008.183.0012",
-        "requerente": "Evelyn White",
-        "requerido": "Ethan Rodriguez",
-        "status": "Aguardando",
-        "prioridade": "Alta",
-        "favorito": false,
-        "grupos": []
+        "number": "59.2008.183.0012",
+        "plaintiff": "Evelyn White",
+        "defendant": "Ethan Rodriguez",
+        "status": "Waiting for X",
+        "priority": "High"
       },
       {
-        "id": "52.2007.439.0093",
-        "requerente": "Zoey Anderson",
-        "requerido": "Charlotte Brown",
-        "status": "Prazo para recurso",
-        "prioridade": "Baixa",
-        "favorito": false,
-        "grupos": []
+        "number": "52.2007.439.0093",
+        "plaintiff": "Zoey Anderson",
+        "defendant": "Charlotte Brown",
+        "status": "Deadline for Z",
+        "priority": "Low"
       },
       {
-        "id": "55.2006.688.0031",
-        "requerente": "Harper Harris",
-        "requerido": "Liam Thomas",
-        "status": "Aguardando",
-        "prioridade": "Média",
-        "favorito": false,
-        "grupos": []
+        "number": "55.2006.688.0031",
+        "plaintiff": "Harper Harris",
+        "defendant": "Liam Thomas",
+        "status": "Waiting for Y",
+        "priority": "Medium"
       },
       {
-        "id": "66.2005.112.0056",
-        "requerente": "Lily Davis",
-        "requerido": "Ella Wilson",
-        "status": "Prazo para recurso",
-        "prioridade": "Alta",
-        "favorito": false,
-        "grupos": []
+        "number": "66.2005.112.0056",
+        "plaintiff": "Lily Davis",
+        "defendant": "Ella Wilson",
+        "status": "Deadline for Z",
+        "priority": "High"
       },
       {
-        "id": "69.2004.489.0085",
-        "requerente": "Sophia Rodriguez",
-        "requerido": "Mason Thompson",
-        "status": "Aguardando",
-        "prioridade": "Baixa",
-        "favorito": false,
-        "grupos": []
+        "number": "69.2004.489.0085",
+        "plaintiff": "Sophia Rodriguez",
+        "defendant": "Mason Thompson",
+        "status": "Waiting for X",
+        "priority": "Low"
       },
       {
-        "id": "68.2003.828.0072",
-        "requerente": "Grayson Moore",
-        "requerido": "Chloe Anderson",
-        "status": "Prazo para recurso",
-        "prioridade": "Média",
-        "favorito": false,
-        "grupos": []
+        "number": "68.2003.828.0072",
+        "plaintiff": "Grayson Moore",
+        "defendant": "Chloe Anderson",
+        "status": "Deadline for Z",
+        "priority": "Medium"
       },
       {
-        "id": "70.2002.716.0068",
-        "requerente": "Avery Wilson",
-        "requerido": "Penelope Johnson",
-        "status": "Aguardando",
-        "prioridade": "Alta",
-        "favorito": false,
-        "grupos": []
+        "number": "70.2002.716.0068",
+        "plaintiff": "Avery Wilson",
+        "defendant": "Penelope Johnson",
+        "status": "Waiting for Y",
+        "priority": "High"
       },
       {
-        "id": "51.2001.584.0014",
-        "requerente": "Miles Thompson",
-        "requerido": "Emma White",
-        "status": "Prazo para recurso",
-        "prioridade": "Baixa",
-        "favorito": false,
-        "grupos": []
+        "number": "51.2001.584.0014",
+        "plaintiff": "Miles Thompson",
+        "defendant": "Emma White",
+        "status": "Deadline for Z",
+        "priority": "Low"
       },
       {
-        "id": "75.2000.369.0021",
-        "requerente": "Elena Martinez",
-        "requerido": "Harper Davis",
-        "status": "Aguardando",
-        "prioridade": "Média",
-        "favorito": false,
-        "grupos": []
+        "number": "75.2000.369.0021",
+        "plaintiff": "Elena Martinez",
+        "defendant": "Harper Davis",
+        "status": "Waiting for Y",
+        "priority": "Medium"
       }
   ]
   

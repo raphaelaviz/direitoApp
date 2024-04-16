@@ -1,16 +1,8 @@
-const allowedUsers = {
-    tim: "bla bla",
-    tania: "bla bla"
-}
 
-function login(user) {
-    if (allowedUsers.hasOwnProperty(user)) {
-        console.log("Allowed");
-    } else {
-        console.log("Not allowed");
-    }
-}
+// create a new `Date` object
+const now = new Date();
 
+// get the current date and time as a string
+const currentDateTime = now.toLocaleString();
 
-// Now let's check if the login function is affected by prototype pollution
-login("tim"); // Output: Allowed
+console.log(currentDateTime); // output: "7/20/2021, 2:28:15 PM" (will vary depending on your time zone)

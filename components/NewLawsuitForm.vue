@@ -23,7 +23,8 @@ const formSchema = toTypedSchema(z.object({
   plaintiff: z.string().min(2).max(30),
   defendant: z.string().min(2).max(30),
   priority: z.string().min(1), //resolve later
-  status: z.string().min(1),
+  status: z.string().min(1)
+
 }))
 
 const form = useForm({
@@ -33,6 +34,9 @@ const form = useForm({
 
 const onSubmit = form.handleSubmit(async (entries) => {
   try {
+
+    const now = new Date();
+    const currentDateTime = now.toLocaleString().replace(',', '');
    
     await useFetch(config.public.API_ENDPOINT, {
       method: "POST",
@@ -41,7 +45,8 @@ const onSubmit = form.handleSubmit(async (entries) => {
         plaintiff: entries.plaintiff,
         defendant: entries.defendant,
         priority: entries.priority,
-        status: entries.status
+        status: entries.status,
+        createdAt: currentDateTime
       },
     });
     toast({
