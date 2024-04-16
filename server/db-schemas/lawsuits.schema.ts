@@ -6,14 +6,16 @@ import { sqliteTable, text, integer } from "drizzle-orm/sqlite-core";
 
 // TODO: change the "numero" and "createdAt" tables to "número" and "registrado em"
 // then change the quick fix in DataTableViewOptions
-export const processos = sqliteTable("processos", {
+
+
+export const lawsuits = sqliteTable("lawsuits", {
   id: integer("id").primaryKey(),
-  numero: text ("Número"),
-  requerente: text("Requerente"),
-  requerido: text("Requerido"),
+  number: text ("Number"),
+  plaintiff: text("Plaintiff"),
+  defendant: text("Defendant"),
   status: text ("Status"),
-  prioridade: text("Prioridade"),
-  favorito: integer('Favorito', { mode: 'boolean' }),
+  priority: text("Priority"),
+  favorite: integer('Favorite', { mode: 'boolean' }),
   createdAt: text("createdAt").default(sql`CURRENT_TIMESTAMP`),
 });
 

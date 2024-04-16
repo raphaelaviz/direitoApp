@@ -1,6 +1,16 @@
-const obj1 = { a: 1, b: 2 };
-const obj2 = { c: 3, d: 4 };
+const allowedUsers = {
+    tim: "bla bla",
+    tania: "bla bla"
+}
 
-const obj3 = { ...obj1, ...obj2 };
+function login(user) {
+    if (allowedUsers.hasOwnProperty(user)) {
+        console.log("Allowed");
+    } else {
+        console.log("Not allowed");
+    }
+}
 
-console.log(obj3);
+
+// Now let's check if the login function is affected by prototype pollution
+login("tim"); // Output: Allowed

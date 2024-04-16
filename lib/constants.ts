@@ -3,81 +3,81 @@ import { AlarmClock, LayoutDashboard, BookText } from 'lucide-vue-next';
 
 export const sideBarButtons = {
     button1: {
-        name: "Painel",
-        route: "/painel",
+        name: "Dashboard",
+        route: "/dashboard",
         icon: LayoutDashboard
     },
     button2: {
-        name: "Processos",
-        route: "/processos",
+        name: "Lawsuits",
+        route: "/lawsuits",
         icon: BookText
     },
     button3: {
-        name: "Prazos",
-        route: "/prazos",
+        name: "Deadlines",
+        route: "/deadlines",
         icon: AlarmClock
     },
      button4: {
-         name: "Button 4",
-         route: "/quatro",
+         name: "Precedents",
+         route: "/precedents",
          icon: BookText
      },
      button5: {
-         name: "Button 5",
-         route: "/cinco",
+         name: "Calendar",
+         route: "/calendar",
          icon: BookText
      }
 };
 
 export const groups = [
     {
-      label: 'Causas Civis',
-      value: 'Causas Civis',
+      label: 'Civil cases',
+      value: 'Civil cases',
     },
     {
-      label: 'Causas Penais',
-      value: 'Causas Penais',
+      label: 'Criminal cases',
+      value: 'Criminal cases',
     },
     {
-      label: 'Extrajudiciais',
-      value: 'Extrajudiciais',
+      label: 'Administrative cases',
+      value: 'Administrative cases',
     },
     {
-      label: 'Causas Trabalhistas',
-      value: 'Causas Trabalhistas',
+      label: 'Employment Law',
+      value: 'Employment Law',
     },
   ]
   
   export const statuses = [
     {
-      label: 'Aguardando X',
-      value: 'Aguardando X',
+      label: 'Waiting for X',
+      value: 'Waiting for X',
     },
     {
-      label: 'Aguardando Y',
-      value: 'Aguardando Y',
+      label: 'Waiting for Y',
+      value: 'Waiting for Y',
     },
     {
-      label: 'Prazo para Z',
-      value: 'Prazo para Z',
+      label: 'Deadline for Z',
+      value: 'Deadline for Z',
     },
   ]
   
   export const priorities = [
     {
-      label: 'Baixa',
-      value: 'Baixa',
+      label: 'Low',
+      value: 'Low',
     },
     {
-      label: 'Média',
-      value: 'Média',
+      label: 'Medium',
+      value: 'Medium',
     },
     {
-      label: 'Alta',
-      value: 'Alta',
+      label: 'High',
+      value: 'High',
     },
     {
-      label: 'Crítica',
-      value: 'Crítica',
+      label: 'Critic',
+      value: 'Critic',
     },
   ]

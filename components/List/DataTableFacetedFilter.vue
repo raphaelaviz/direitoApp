@@ -2,7 +2,7 @@
 import type { Column } from '@tanstack/vue-table'
 import type { Component } from 'vue'
 import { computed } from 'vue'
-import type { ProcessoType } from '@/lib/utils'
+import type { LawsuitType } from '@/lib/utils'
 import { SquareMousePointer, Check} from 'lucide-vue-next'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
@@ -16,7 +16,7 @@ import { Separator } from '@/components/ui/separator'
 import { cn } from '@/lib/utils'
 
 interface DataTableFacetedFilter {
-  column?: Column<ProcessoType, any>
+  column?: Column<LawsuitType, any>
   title?: string
   options: {
     label: string

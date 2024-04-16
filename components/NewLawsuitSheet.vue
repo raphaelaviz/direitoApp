@@ -1,9 +1,8 @@
 <script setup lang="ts">
 
-
 const sheet = useSheet()
 
-//TODO: resolve this prop drilling: Processos Page> AdicionarSheet > AdicionarForm
+//TODO: resolve this prop drilling: Lawsuits Page> NewLawsuitSheet > NewlawsuitForm
 const { refreshData } = defineProps<{ refreshData: () => void }>();
 
 </script>
@@ -12,9 +11,9 @@ const { refreshData } = defineProps<{ refreshData: () => void }>();
     <Sheet :open="sheet.isOpen" @update:open="sheet.onClose">
       <SheetContent class="space-y-40">
         <SheetHeader>
-            <SheetTitle>Adicionar processo</SheetTitle>
+            <SheetTitle>Add new lawsuit</SheetTitle>
             <Separator/>
-            <AdicionarProcessoForm :refreshData="refreshData"/>
+            <NewLawsuitForm :refreshData="refreshData"/>
         </SheetHeader>
       </SheetContent>
     </Sheet>

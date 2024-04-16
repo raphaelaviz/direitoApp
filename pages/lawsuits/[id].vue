@@ -5,7 +5,7 @@ import { Bell, Pencil } from 'lucide-vue-next';
     const route = useRoute()    
 
 </script>
-<!-- TODO: fetch processos/:id -->
+<!-- TODO: fetch lawsuits/:id -->
 <template>
     <div class="min-h-screen space-y-10">
         <div class="flex justify-between items-center h-20 bg-green-100 p-3 px-6 rounded-lg">

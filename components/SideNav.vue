@@ -10,11 +10,11 @@
   <div class="space-y-4 py-4 flex flex-col bg-slate-50 rounded-lg shadow-md border-r">
     <div class="px-3 py-2 flex-1">
 
-      <NuxtLink to="/painel" class="flex items-center pl-3 mb-14">
+      <NuxtLink to="/dashboard" class="flex items-center pl-3 mb-14">
         <div class="relative h-8 w-8 mr-4">
           <img alt="Logo" :src="logo" />
         </div>
-        <h1 class="text-2xl font-bold mr-2">DireitoApp</h1>
+        <h1 class="text-2xl font-bold mr-2">JurisDash</h1>
       </NuxtLink>
 
       <div class="flex flex-col space-y-1">

@@ -31,7 +31,7 @@ function openDeleteConfirmation (id?: string) {
 <template>
   <DropdownMenu>
     
-       <CustomTooltip content="Mais opções">
+       <CustomTooltip content="Options">
 
        
       

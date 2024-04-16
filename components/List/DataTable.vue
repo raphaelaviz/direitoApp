@@ -17,7 +17,7 @@ import {
 } from '@tanstack/vue-table'
 
 import { ref } from 'vue'
-import type { ProcessoType } from '@/lib/utils'
+import type { LawsuitType } from '@/lib/utils'
 
 import DataTableToolbar from './DataTableToolbar.vue'
 import { valueUpdater } from '@/lib/utils'
@@ -31,8 +31,8 @@ import {
 } from '@/components/ui/table'
 
 interface DataTableProps {
-  columns: ColumnDef<ProcessoType, any>[]
-  data: ProcessoType[]
+  columns: ColumnDef<LawsuitType, any>[]
+  data: LawsuitType[]
 }
 const props = defineProps<DataTableProps>()
 

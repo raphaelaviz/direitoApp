@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   routeRules: {
-    '/processos': {ssr: true}
+    '/lawsuits': {ssr: true}
   },
   runtimeConfig: {
     public: {

@@ -19,10 +19,10 @@ const { refreshData } = defineProps<{ refreshData: () => void }>();
 // TODO: Refine validation and change default error message
 
 const formSchema = toTypedSchema(z.object({
-  numero: z.string().min(2).max(30),
-  requerente: z.string().min(2).max(30),
-  requerido: z.string().min(2).max(30),
-  prioridade: z.string().min(1), //resolve later
+  number: z.string().min(2).max(30),
+  plaintiff: z.string().min(2).max(30),
+  defendant: z.string().min(2).max(30),
+  priority: z.string().min(1), //resolve later
   status: z.string().min(1),
 }))
 
@@ -34,23 +34,23 @@ const form = useForm({
 const onSubmit = form.handleSubmit(async (entries) => {
   try {
    
-    await useFetch("http://localhost:3000/api/processos", {
+    await useFetch("http://localhost:3000/api/lawsuits", {
       method: "POST",
       body: {
-        numero: entries.numero,
-        requerente: entries.requerente,
-        requerido: entries.requerido,
-        prioridade: entries.prioridade,
+        number: entries.number,
+        plaintiff: entries.plaintiff,
+        defendant: entries.defendant,
+        priority: entries.priority,
         status: entries.status
       },
     });
     toast({
-        description: 'Novo processo criado.',
+        description: 'New lawsuit created.',
       });
     await refreshData()
     
   } catch (error) {
-    console.error('Error creating processo:', error);
+    console.error('Error creating lawsuit:', error);
   }
   sheet.onClose()
   console.log('Form submitted!', entries)
@@ -62,41 +62,41 @@ const onSubmit = form.handleSubmit(async (entries) => {
 <template>
 
     <form @submit="onSubmit" class="space-y-4">
-      <FormField v-slot="{ componentField }" name="numero">
+      <FormField v-slot="{ componentField }" name="number">
         <FormItem>
           <FormControl>
-          <FormLabel>Número do Processo</FormLabel>
+          <FormLabel>Lawsuit number</FormLabel>
           <Input type="text" placeholder="00.000.00" v-bind="componentField" />
         </FormControl>
         <FormMessage />
       </FormItem>
     </FormField>
     
-      <FormField v-slot="{ componentField }" name="requerente">
+      <FormField v-slot="{ componentField }" name="plaintiff">
         <FormItem>
-          <FormLabel>Requerente</FormLabel>
+          <FormLabel>Plaintiff</FormLabel>
           <FormControl>
-            <Input type="text"placeholder="Nome do requerente" v-bind="componentField"/>
+            <Input type="text"placeholder="Plaintiff's name" v-bind="componentField"/>
           </FormControl>
           <FormMessage />
         </FormItem>
     </FormField>
    
-    <FormField v-slot="{ componentField }" name="requerido">
+    <FormField v-slot="{ componentField }" name="defendant">
       <FormItem>
-        <FormLabel>Requerido</FormLabel>
+        <FormLabel>Defendant</FormLabel>
         <FormControl>
-          <Input type="text" placeholder="Nome do requerido" v-bind="componentField" />
+          <Input type="text" placeholder="Defendant's name" v-bind="componentField" />
         </FormControl>
         <FormMessage />
       </FormItem>
   </FormField>
 
-  <FormField v-slot="{ componentField }" name="prioridade">
+  <FormField v-slot="{ componentField }" name="priority">
       <FormItem>
-        <FormLabel>Prioridade</FormLabel>
+        <FormLabel>Priority</FormLabel>
         <FormControl>
-          <CustomSelect :options="priorities" placeholder="Selecione a prioridade" v-bind="componentField"/>
+          <CustomSelect :options="priorities" placeholder="Select a priority" v-bind="componentField"/>
         </FormControl>
         <FormMessage />
       </FormItem>
@@ -106,14 +106,14 @@ const onSubmit = form.handleSubmit(async (entries) => {
       <FormItem>
         <FormLabel>Status</FormLabel>
         <FormControl>
-          <CustomSelect :options="statuses" placeholder="Selecione o status" v-bind="componentField"/>
+          <CustomSelect :options="statuses" placeholder="Select a status" v-bind="componentField"/>
         </FormControl>
         <FormMessage />
       </FormItem>
   </FormField>
 
       <div class="flex justify-end">
-        <Button type="submit" variant="default" class="mt-16">Adicionar</Button>
+        <Button type="submit" variant="default" class="mt-16">Create</Button>
       </div>
   </form>
 

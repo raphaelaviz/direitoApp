@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { Table } from '@tanstack/vue-table'
-import type { ProcessoType } from '@/lib/utils'
+import type { LawsuitType } from '@/lib/utils'
 
 
 import { Button } from '@/components/ui/button'
@@ -13,7 +13,7 @@ import {
 } from '@/components/ui/select'
 
 interface DataTablePaginationProps {
-  table: Table<ProcessoType>
+  table: Table<LawsuitType>
 }
 defineProps<DataTablePaginationProps>()
 
@@ -25,13 +25,13 @@ import { ChevronLeft, ChevronsLeft, ChevronRight, ChevronsRight } from 'lucide-v
 <template>
   <div class="flex items-center justify-between px-2">
     <div class="flex-1 text-sm text-muted-foreground">
-      {{ table.getFilteredSelectedRowModel().rows.length }} de
-      {{ table.getFilteredRowModel().rows.length }} linha(s) selecionadas.
+      {{ table.getFilteredSelectedRowModel().rows.length }} of
+      {{ table.getFilteredRowModel().rows.length }} lines(s) selected.
     </div>
     <div class="flex items-center space-x-6 lg:space-x-8">
       <div class="flex items-center space-x-2">
         <p class="text-sm font-medium">
-          Linhas por página
+          Rows per page
         </p>
         <Select
           :model-value="`${table.getState().pagination.pageSize}`"
@@ -48,7 +48,7 @@ import { ChevronLeft, ChevronsLeft, ChevronRight, ChevronsRight } from 'lucide-v
         </Select>
       </div>
       <div class="flex w-[100px] items-center justify-center text-sm font-medium">
-        Página {{ table.getState().pagination.pageIndex + 1 }} de
+        Page {{ table.getState().pagination.pageIndex + 1 }} of
         {{ table.getPageCount() }}
       </div>
       <div class="flex items-center space-x-2">
@@ -58,7 +58,7 @@ import { ChevronLeft, ChevronsLeft, ChevronRight, ChevronsRight } from 'lucide-v
           :disabled="!table.getCanPreviousPage()"
           @click="table.setPageIndex(0)"
         >
-          <span class="sr-only">Vá para a primeira página</span>
+          <span class="sr-only">Go to first page</span>
           <ChevronsLeft class="h-4 w-4" />
         </Button>
         <Button
@@ -67,7 +67,7 @@ import { ChevronLeft, ChevronsLeft, ChevronRight, ChevronsRight } from 'lucide-v
           :disabled="!table.getCanPreviousPage()"
           @click="table.previousPage()"
         >
-          <span class="sr-only">Vá para a página anterior</span>
+          <span class="sr-only">Go to previous page</span>
           <ChevronLeft class="h-4 w-4" />
         </Button>
         <Button
@@ -76,7 +76,7 @@ import { ChevronLeft, ChevronsLeft, ChevronRight, ChevronsRight } from 'lucide-v
           :disabled="!table.getCanNextPage()"
           @click="table.nextPage()"
         >
-          <span class="sr-only">Vá para a próxima página</span>
+          <span class="sr-only">Go to next page</span>
           <ChevronRight class="h-4 w-4" />
         </Button>
         <Button
@@ -85,7 +85,7 @@ import { ChevronLeft, ChevronsLeft, ChevronRight, ChevronsRight } from 'lucide-v
           :disabled="!table.getCanNextPage()"
           @click="table.setPageIndex(table.getPageCount() - 1)"
         >
-          <span class="sr-only">Vá para a última página</span>
+          <span class="sr-only">Go to last page</span>
           <ChevronsRight class="h-4 w-4" />
         </Button>
       </div>

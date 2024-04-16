@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { Column } from '@tanstack/vue-table'
-import type { ProcessoType } from '@/lib/utils'
+import type { LawsuitType } from '@/lib/utils'
 
 import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
@@ -14,7 +14,7 @@ import {
 import { ArrowDownUp, ArrowUpNarrowWide, ArrowDownNarrowWide } from 'lucide-vue-next'
 
 interface DataTableColumnHeaderProps {
-  column: Column<ProcessoType, any>
+  column: Column<LawsuitType, any>
   title: string
 }
 
@@ -45,11 +45,11 @@ export default {
       <DropdownMenuContent align="start">
         <DropdownMenuItem @click="column.toggleSorting(true)">
           <ArrowUpNarrowWide class="mr-2 h-3.5 w-3.5 text-muted-foreground/70" />
-          Mais recentes
+          Most recent
         </DropdownMenuItem>
         <DropdownMenuItem @click="column.toggleSorting(false)">
           <ArrowDownNarrowWide class="mr-2 h-3.5 w-3.5 text-muted-foreground/70" />
-          Mais antigos
+          Oldest
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>

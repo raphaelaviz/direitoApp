@@ -22,15 +22,15 @@ export function valueUpdater<T extends Updater<any>>(updaterOrValue: T, ref: Ref
 
 
 ////////////
-export const processoSchema = z.object({
+export const lawsuitSchema = z.object({
   id: z.string(),
-  numero: z.string(),
-  requerente: z.string(),
-  requerido: z.string(),
+  number: z.string(),
+  plaintiff: z.string(),
+  defendant: z.string(),
   status: z.string(),
-  prioridade: z.string(),
-  favorito: z.boolean(),
+  priority: z.string(),
+  favorite: z.boolean(),
   // grupos: z.array(z.string()) //resolve later
 })
 
-export type ProcessoType = z.infer<typeof processoSchema>
+export type LawsuitType = z.infer<typeof lawsuitSchema>

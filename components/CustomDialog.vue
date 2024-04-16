@@ -11,8 +11,8 @@ const dialog = useDialog();
         <DialogTitle>{{ dialog.title }}</DialogTitle>
         <DialogDescription>{{ dialog.description }}</DialogDescription>
       </DialogHeader>
-      <div class="flex justify-end space-x-4">
 
+      <div class="flex justify-end space-x-4">
         <Button @click="dialog.onClose">Cancelar</Button>
         <Button @click="dialog.onClose" variant="destructive">Confirmar</Button>
       </div>

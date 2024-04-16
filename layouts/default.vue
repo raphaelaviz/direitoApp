@@ -7,7 +7,6 @@
     <div class="h-full relative">
       <div class="flex h-full">
         <CustomDialog/>
-         <!-- <CustomSheet/> -- TODO: finish customizable sheet and use it.  -->
         
           <SideNav/>
           <div class="flex flex-col w-full">
