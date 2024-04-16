@@ -5,7 +5,7 @@ import type { LawsuitType} from '~/lib/utils';
 const config = useRuntimeConfig()
 
 //TODO: change to env variable after switching to postgres
-const { data = { lawsuits: [] }, pending, error, refresh } = await useFetch("http://localhost:3000/api/lawsuits")
+const { data = { lawsuits: [] }, pending, error, refresh } = await useFetch(config.public.API_ENDPOINT)
 
 // TODO: Review this type
 interface DataProps {

@@ -34,7 +34,7 @@ const form = useForm({
 const onSubmit = form.handleSubmit(async (entries) => {
   try {
    
-    await useFetch("http://localhost:3000/api/lawsuits", {
+    await useFetch(config.public.API_ENDPOINT, {
       method: "POST",
       body: {
         number: entries.number,
