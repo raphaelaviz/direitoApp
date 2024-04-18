@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   routeRules: {
     '/lawsuits': {ssr: true},
-    '/dashboard': {ssr: false},
+    '/dashboard': {prerender:true},
   },
   runtimeConfig: {
     public: {
