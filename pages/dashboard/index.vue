@@ -7,7 +7,7 @@ import { GridStack } from 'gridstack';
 
 // https://github.com/gridstack/gridstack.js/blob/master/doc/README.md#grid-options
 
-onMounted(() => {
+onBeforeMount(() => {
             GridStack.init({ 
               float: true,
               cellHeight: "200px",
