@@ -1,7 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   routeRules: {
-    '/lawsuits': {ssr: true}
+    '/lawsuits': {ssr: true},
+    '/dashboard': {ssr: false}
   },
   runtimeConfig: {
     public: {
