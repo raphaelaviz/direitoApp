@@ -1,283 +1,363 @@
 
 [
-    {
+    {   "id": 1,       
         "number": "93.2011.495.0015",
         "plaintiff": "Alice Smith",
         "defendant": "Bob Johnson",
         "status": "Deadline for Z",
-        "priority": "High"
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
+        "priority": "Low"
     },
-    {
+    {   "id": 2,
         "number": "73.2019.322.0046",
         "plaintiff": "Emma Davis",
         "defendant": "Michael Brown",
         "status": "Waiting for Y",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "Critic"
     },
-    {
+    {   "id": 3,
         "number": "82.2007.198.0037",
         "plaintiff": "Sophia Wilson",
         "defendant": "David Martinez",
         "status": "Deadline for Z",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "High"
     },
-    {
+    {   "id": 4,
         "number": "65.2014.645.0028",
         "plaintiff": "Oliver Taylor",
         "defendant": "Emily Anderson",
         "status": "Deadline for Z",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "Low"
     },
-    {
+    {   "id": 5,
         "number": "88.2003.819.0019",
         "plaintiff": "Ethan Thomas",
         "defendant": "Ava White",
         "status": "Waiting for Y",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "Critic"
     },
-    {
+    {   "id": 6,
         "number": "77.2008.134.0063",
         "plaintiff": "Mia Harris",
         "defendant": "James Miller",
         "status": "Waiting for X",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "Medium"
     },
-    {
+    {   "id": 7,
         "number": "91.2016.577.0082",
         "plaintiff": "Noah Wilson",
         "defendant": "Emma Jackson",
         "status": "Deadline for Z",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "Low"
     },
-    {
+    {   "id": 8,
         "number": "83.2004.287.0045",
         "plaintiff": "Charlotte Thompson",
         "defendant": "Liam Martinez",
         "status": "Waiting for Y",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "Critic"
     },
-    {
+    {   "id": 9,
         "number": "78.2013.999.0021",
         "plaintiff": "Logan Johnson",
         "defendant": "Sophia Brown",
         "status": "Waiting for X",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "Low"
     },
-    {
+    {   "id": 10,
         "number": "94.2015.462.0077",
         "plaintiff": "Amelia Thomas",
         "defendant": "Jackson Wilson",
         "status": "Waiting for X",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "Medium"
     },
-    {
+    {   "id": 11,
         "number": "72.2012.526.0054",
         "plaintiff": "Lucas Miller",
         "defendant": "Ella Taylor",
         "status": "Waiting for X",
-        "priority": "High"
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
+        "priority": "Low"
     },
-    {
+    {   "id": 12,
         "number": "86.2005.129.0033",
         "plaintiff": "Harper Garcia",
         "defendant": "Aiden Anderson",
         "status": "Waiting for Y",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "Critic"
     },
-    {
+    {   "id": 13,
         "number": "67.2018.273.0062",
         "plaintiff": "Avery Martinez",
         "defendant": "Scarlett Wilson",
         "status": "Waiting for X",
-        "priority": "High"
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
+        "priority": "Low"
     },
-    {
+    {   "id": 14,
         "number": "85.2010.793.0026",
         "plaintiff": "Benjamin Jones",
         "defendant": "Lily Moore",
         "status": "Waiting for X",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "Medium"
     },
-    {
+    {   "id": 15,
         "number": "89.2006.542.0058",
         "plaintiff": "Evelyn Brown",
         "defendant": "Carter Taylor",
         "status": "Waiting for X",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "Low"
     },
-    {
+    {   "id": 16,
         "number": "71.2017.889.0071",
         "plaintiff": "Luna Wilson",
         "defendant": "Mason Davis",
         "status": "Waiting for Y",
-        "priority": "Medium"
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
+        "priority": "Low"
     },
-    {
+    {   "id": 17,
         "number": "90.2009.416.0042",
         "plaintiff": "Henry Harris",
         "defendant": "Chloe Rodriguez",
         "status": "Waiting for Y",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "High"
     },
-    {
+    {   "id": 18,
         "number": "74.2013.648.0018",
         "plaintiff": "Elena Martinez",
         "defendant": "Grayson Brown",
         "status": "Waiting for X",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "Low"
     },
-    {
+    {   "id": 19,
         "number": "81.2011.837.0083",
         "plaintiff": "Zoey Miller",
         "defendant": "Daniel Garcia",
         "status": "Waiting for X",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "Medium"
     },
-    {
+    {   "id": 20,
         "number": "84.2008.563.0039",
         "plaintiff": "Miles Anderson",
         "defendant": "Penelope Wilson",
         "status": "Waiting for X",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "High"
     },
-    {
+    {   "id": 21,
         "number": "79.2019.374.0074",
         "plaintiff": "Aria Thompson",
         "defendant": "Owen Jackson",
         "status": "Waiting for Y",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "Low"
     },
-    {
+    {   "id": 22,
         "number": "53.2018.238.0067",
         "plaintiff": "Aidan Clark",
         "defendant": "Grace Moore",
         "status": "Deadline for Z",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "Medium"
       },
-      {
+      {   "id": 23,
         "number": "62.2017.104.0098",
         "plaintiff": "Ella Rodriguez",
         "defendant": "Carter Harris",
         "status": "Waiting for Y",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "High"
       },
-      {
+      {   "id": 24,
         "number": "58.2016.757.0024",
         "plaintiff": "Scarlett Martin",
         "defendant": "Lucas Johnson",
         "status": "Deadline for Z",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "Low"
       },
-      {
+      {   "id": 25,
         "number": "57.2015.249.0087",
         "plaintiff": "Noah Wilson",
         "defendant": "Amelia Garcia",
         "status": "Waiting for X",
-        "priority": "Medium"
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
+        "priority": "Low"
       },
-      {
+      {   "id": 26,
         "number": "60.2014.314.0042",
         "plaintiff": "Aria Moore",
         "defendant": "James Davis",
         "status": "Deadline for Z",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "High"
       },
-      {
+      {   "id": 27,
         "number": "64.2013.184.0073",
         "plaintiff": "Olivia Wilson",
         "defendant": "Benjamin Rodriguez",
         "status": "Waiting for X",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "Low"
       },
-      {
+      {   "id": 28,
         "number": "54.2012.547.0027",
         "plaintiff": "Emma Harris",
         "defendant": "Logan Johnson",
         "status": "Deadline for Z",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "Medium"
       },
-      {
+      {   "id": 29,
         "number": "61.2011.493.0049",
         "plaintiff": "Aiden Wilson",
         "defendant": "Sophia Brown",
         "status": "Waiting for Y",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "High"
       },
-      {
+      {   "id": 30,
         "number": "56.2010.312.0033",
         "plaintiff": "Mia Thompson",
         "defendant": "Daniel Anderson",
         "status": "Waiting for Y",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "Low"
       },
-      {
+      {   "id": 31,
         "number": "63.2009.298.0025",
         "plaintiff": "Jackson Davis",
         "defendant": "Ava Martinez",
         "status": "Deadline for Z",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "Medium"
       },
-      {
+      {   "id": 32,
         "number": "59.2008.183.0012",
         "plaintiff": "Evelyn White",
         "defendant": "Ethan Rodriguez",
         "status": "Waiting for X",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "High"
       },
-      {
+      {   "id": 33,
         "number": "52.2007.439.0093",
         "plaintiff": "Zoey Anderson",
         "defendant": "Charlotte Brown",
         "status": "Deadline for Z",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "Low"
       },
-      {
+      {   "id": 34,
         "number": "55.2006.688.0031",
         "plaintiff": "Harper Harris",
         "defendant": "Liam Thomas",
         "status": "Waiting for Y",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "Medium"
       },
-      {
+      {   "id": 35,
         "number": "66.2005.112.0056",
         "plaintiff": "Lily Davis",
         "defendant": "Ella Wilson",
         "status": "Deadline for Z",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "High"
       },
-      {
+      {   "id": 36,
         "number": "69.2004.489.0085",
         "plaintiff": "Sophia Rodriguez",
         "defendant": "Mason Thompson",
         "status": "Waiting for X",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "Low"
       },
-      {
+      {   "id": 37,
         "number": "68.2003.828.0072",
         "plaintiff": "Grayson Moore",
         "defendant": "Chloe Anderson",
         "status": "Deadline for Z",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "Medium"
       },
-      {
+      {   "id": 38,
         "number": "70.2002.716.0068",
         "plaintiff": "Avery Wilson",
         "defendant": "Penelope Johnson",
         "status": "Waiting for Y",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "High"
       },
-      {
+      {   "id": 39,
         "number": "51.2001.584.0014",
         "plaintiff": "Miles Thompson",
         "defendant": "Emma White",
         "status": "Deadline for Z",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "Low"
       },
-      {
+      {   "id": 40,
         "number": "75.2000.369.0021",
         "plaintiff": "Elena Martinez",
         "defendant": "Harper Davis",
         "status": "Waiting for Y",
+        "favorite": null,
+        "createdAt": "16/04/2024 14:00:59",
         "priority": "Medium"
       }
   ]

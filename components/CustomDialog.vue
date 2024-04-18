@@ -13,8 +13,8 @@ const dialog = useDialog();
       </DialogHeader>
 
       <div class="flex justify-end space-x-4">
-        <Button @click="dialog.onClose">Cancelar</Button>
-        <Button @click="dialog.onClose" variant="destructive">Confirmar</Button>
+        <Button @click="dialog.onClose">Cancel</Button>
+        <Button @click="dialog.onClose" variant="destructive">Confirm</Button>
       </div>
 
       <DialogFooter>

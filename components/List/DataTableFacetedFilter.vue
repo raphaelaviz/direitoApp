@@ -6,7 +6,7 @@ import type { LawsuitType } from '@/lib/utils'
 import { SquareMousePointer, Check} from 'lucide-vue-next'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
-
+import { priorities } from '~/lib/constants'
 import {
   Popover,
   PopoverContent,
@@ -33,8 +33,9 @@ const selectedValues = computed(() => new Set(props.column?.getFilterValue() as 
 
 <template>
   <Popover>
-    <PopoverTrigger as-child>
-      <Button variant="outline" size="sm" class="h-8 border-dashed">
+    <PopoverTrigger as-child data-testid="faceted2">
+      <Button variant="outline" size="sm" class="h-8 border-dashed"
+      >
         <SquareMousePointer class="mr-2 h-4 w-4" />
         {{ title }}
         <template v-if="selectedValues.size > 0">
@@ -78,7 +79,6 @@ const selectedValues = computed(() => new Set(props.column?.getFilterValue() as 
               :key="option.value"
               :value="option"
               @select="(e) => {
-                console.log(e.detail.value)
                 const isSelected = selectedValues.has(option.value)
                 if (isSelected) {
                   selectedValues.delete(option.value)
@@ -102,8 +102,7 @@ const selectedValues = computed(() => new Set(props.column?.getFilterValue() as 
               >
                 <Check :class="cn('h-4 w-4')" />
               </div>
-              <component :is="option.icon" v-if="option.icon" class="mr-2 h-4 w-4 text-muted-foreground" />
-              <span>{{ option.label }}</span>
+              <span>{{ option.label }} only </span>
               <span v-if="facets?.get(option.value)" class="ml-auto flex h-4 w-4 items-center justify-center font-mono text-xs">
                 {{ facets.get(option.value) }}
               </span>
@@ -118,7 +117,7 @@ const selectedValues = computed(() => new Set(props.column?.getFilterValue() as 
                 class="justify-center text-center"
                 @select="column?.setFilterValue(undefined)"
               >
-                Limpar filtros
+                Reset filters
               </CommandItem>
             </CommandGroup>
           </template>

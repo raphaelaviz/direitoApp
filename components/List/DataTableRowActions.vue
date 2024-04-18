@@ -23,7 +23,8 @@ defineProps({
 })
 
 function openDeleteConfirmation (id?: string) {
-  dialog.onOpen({ title: `Excluir processo ${id}?`, description: 'Essa ação não poderá ser desfeita. Deseja mesmo excluir o processo?' });
+  dialog.onOpen({ title: `Delete lawsuit ${id}?`,
+   description: 'This action can not be undone. Are you sure you want to delete the lawsuit?' });
 };
 
 </script>
@@ -33,23 +34,21 @@ function openDeleteConfirmation (id?: string) {
     
        <CustomTooltip content="Options">
 
-       
-      
     <DropdownMenuTrigger as-child>
       <Button
         variant="ghost"
         class="flex h-8 w-8 p-0 data-[state=open]:bg-muted"
       >
         <Ellipsis  class="h-4 w-4" />
-        <span class="sr-only">Abrir menu</span>
+        <span class="sr-only">Open menu</span>
       </Button>
     </DropdownMenuTrigger>
     <DropdownMenuContent align="end" class="w-[160px]">
       
-      <DropdownMenuItem>Favoritar</DropdownMenuItem>
+      <DropdownMenuItem>Favorite</DropdownMenuItem>
       <DropdownMenuSeparator />
       <DropdownMenuSub>
-        <DropdownMenuSubTrigger>Mudar prioridade</DropdownMenuSubTrigger>
+        <DropdownMenuSubTrigger>Change priority</DropdownMenuSubTrigger>
         <DropdownMenuSubContent>
           <DropdownMenuRadioGroup>
             <DropdownMenuRadioItem v-for="priority in priorities" :key="priority.value" :value="priority.value">
@@ -59,7 +58,7 @@ function openDeleteConfirmation (id?: string) {
         </DropdownMenuSubContent>
       </DropdownMenuSub>
       <DropdownMenuSub>
-        <DropdownMenuSubTrigger>Adicionar à</DropdownMenuSubTrigger>
+        <DropdownMenuSubTrigger>Add to</DropdownMenuSubTrigger>
         <DropdownMenuSubContent>
           <DropdownMenuRadioGroup>
             <DropdownMenuRadioItem v-for="group in groups" :key="group.value" :value="group.value ">
@@ -70,7 +69,7 @@ function openDeleteConfirmation (id?: string) {
       </DropdownMenuSub>
       <DropdownMenuSeparator />
       <DropdownMenuItem @click="openDeleteConfirmation(id)">
-        Deletar
+        Delete
         <DropdownMenuShortcut>⌘⌫</DropdownMenuShortcut>
       </DropdownMenuItem>
     </DropdownMenuContent>

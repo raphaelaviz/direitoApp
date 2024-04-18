@@ -23,5 +23,6 @@ const onClick = async () => {
 <template>
     <div>
         <!-- <Button @click="onClick" class="bg-pink-200">Send Lawsuits</Button> -->
+        Precedents
     </div>
 </template>

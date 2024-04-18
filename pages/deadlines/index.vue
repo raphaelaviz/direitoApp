@@ -1,7 +1,6 @@
 <script setup lang="ts">
 
 
-const env = process.env.MY_ENV_VARIABLE
 </script>
 
 <template>

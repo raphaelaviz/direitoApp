@@ -1,7 +1,7 @@
 
 import { defineStore } from 'pinia'
 
-export const useSheet= defineStore('sheet', {
+export const useSheet = defineStore('sheet', {
     state: () => ({ isOpen: false, }),
 
     actions: {

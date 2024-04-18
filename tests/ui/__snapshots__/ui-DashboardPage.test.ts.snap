@@ -1,0 +1,1749 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`matches snapshot 1`] = `
+{
+  "baseElement": <body>
+    <div
+      data-v-app=""
+      id="__nuxt"
+    >
+      <!---->
+    </div>
+    <div>
+      <div
+        id="test-wrapper"
+      >
+        <style
+          gs-style-id="gs-id-0"
+          type="text/css"
+        >
+          
+        </style>
+        
+        
+        <div
+          class="flex justify-between border rounded-lg p-2"
+        >
+          <div
+            class="space-x-1"
+          >
+            <button
+              class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 px-4 py-2"
+            >
+              
+              <svg
+                class="lucide lucide-circle-plus-icon w-3 h-3 mr-2"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="10"
+                />
+                <path
+                  d="M8 12h8"
+                />
+                <path
+                  d="M12 8v8"
+                />
+              </svg>
+               New card 
+              
+            </button>
+            <button
+              class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 px-4 py-2"
+            >
+              
+              2
+              
+            </button>
+            <button
+              class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 px-4 py-2"
+            >
+              
+              3
+              
+            </button>
+          </div>
+          <div
+            class="space-x-1"
+          >
+            <button
+              class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 px-4 py-2"
+            >
+              
+              4
+              
+            </button>
+            <button
+              class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 px-4 py-2"
+            >
+              
+              5
+              
+            </button>
+            <button
+              class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 px-4 py-2"
+            >
+              
+              6
+              
+            </button>
+          </div>
+        </div>
+        <div
+          class="flex items-center justify-center grid-rows-3 mt-10 space-x-5"
+        />
+        
+        <div
+          class="grid-stack relative flex bg-gray-100 dark:bg-gray-900 rounded-lg gs-12 gs-id-0 grid-stack-animate"
+          gs-current-row="3"
+          style="height: 600px;"
+        >
+          <div
+            class="grid-stack-item ui-resizable-autohide"
+            gs-w="5"
+            gs-x="0"
+            gs-y="0"
+          >
+            <div
+              class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-blue-200"
+            >
+              <div
+                class="hidden group-hover:flex absolute right-2 w-full justify-end"
+              >
+                
+                
+                
+                
+                
+                <button
+                  class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
+                  data-state="closed"
+                >
+                  
+                  <span
+                    class="sr-only"
+                  >
+                    Edit card
+                  </span>
+                  <svg
+                    class="lucide lucide-pencil-icon w-4 h-4"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
+                    />
+                    <path
+                      d="m15 5 4 4"
+                    />
+                  </svg>
+                  
+                </button>
+                <!--teleport start-->
+                <!--teleport end-->
+                
+                
+                
+                
+                
+              </div>
+              <div
+                class="h-full flex flex-col items-center justify-center text-center space-y-5"
+              >
+                <div
+                  class="font-semibold"
+                >
+                  Next hearings
+                </div>
+                <span
+                  class="text-4xl"
+                />
+                
+                <div
+                  class="flex flex-col"
+                >
+                  <span>
+                    19/04/2024 - 09:15
+                  </span>
+                  <span>
+                    23/04/2024 - 11:30
+                  </span>
+                  <span>
+                    24/04/2024 - 10:00
+                  </span>
+                </div>
+                
+              </div>
+            </div>
+            <div
+              class="ui-resizable-handle ui-resizable-se"
+              style="z-index: 100; user-select: none;"
+            />
+          </div>
+          <div
+            class="grid-stack-item ui-resizable-autohide"
+            gs-w="2"
+            gs-x="5"
+            gs-y="0"
+          >
+            <div
+              class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-purple-200"
+            >
+              <div
+                class="hidden group-hover:flex absolute right-2 w-full justify-end"
+              >
+                
+                
+                
+                
+                
+                <button
+                  class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
+                  data-state="closed"
+                >
+                  
+                  <span
+                    class="sr-only"
+                  >
+                    Edit card
+                  </span>
+                  <svg
+                    class="lucide lucide-pencil-icon w-4 h-4"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
+                    />
+                    <path
+                      d="m15 5 4 4"
+                    />
+                  </svg>
+                  
+                </button>
+                <!--teleport start-->
+                <!--teleport end-->
+                
+                
+                
+                
+                
+              </div>
+              <div
+                class="h-full flex flex-col items-center justify-center text-center space-y-5"
+              >
+                <div
+                  class="font-semibold"
+                >
+                  Low priority
+                </div>
+                <span
+                  class="text-4xl"
+                >
+                  17
+                </span>
+                
+                
+              </div>
+            </div>
+            <div
+              class="ui-resizable-handle ui-resizable-se"
+              style="z-index: 100; user-select: none;"
+            />
+          </div>
+          <div
+            class="grid-stack-item ui-resizable-autohide"
+            gs-w="3"
+            gs-x="7"
+            gs-y="0"
+          >
+            <div
+              class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-emerald-200"
+            >
+              <div
+                class="hidden group-hover:flex absolute right-2 w-full justify-end"
+              >
+                
+                
+                
+                
+                
+                <button
+                  class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
+                  data-state="closed"
+                >
+                  
+                  <span
+                    class="sr-only"
+                  >
+                    Edit card
+                  </span>
+                  <svg
+                    class="lucide lucide-pencil-icon w-4 h-4"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
+                    />
+                    <path
+                      d="m15 5 4 4"
+                    />
+                  </svg>
+                  
+                </button>
+                <!--teleport start-->
+                <!--teleport end-->
+                
+                
+                
+                
+                
+              </div>
+              <div
+                class="h-full flex flex-col items-center justify-center text-center space-y-5"
+              >
+                <div
+                  class="font-semibold"
+                >
+                  Favorable decisions this year
+                </div>
+                <span
+                  class="text-4xl"
+                >
+                  7
+                </span>
+                
+                
+              </div>
+            </div>
+            <div
+              class="ui-resizable-handle ui-resizable-se"
+              style="z-index: 100; user-select: none;"
+            />
+          </div>
+          <div
+            class="grid-stack-item ui-resizable-autohide"
+            gs-w="2"
+            gs-x="10"
+            gs-y="0"
+          >
+            <div
+              class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-yellow-200"
+            >
+              <div
+                class="hidden group-hover:flex absolute right-2 w-full justify-end"
+              >
+                
+                
+                
+                
+                
+                <button
+                  class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
+                  data-state="closed"
+                >
+                  
+                  <span
+                    class="sr-only"
+                  >
+                    Edit card
+                  </span>
+                  <svg
+                    class="lucide lucide-pencil-icon w-4 h-4"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
+                    />
+                    <path
+                      d="m15 5 4 4"
+                    />
+                  </svg>
+                  
+                </button>
+                <!--teleport start-->
+                <!--teleport end-->
+                
+                
+                
+                
+                
+              </div>
+              <div
+                class="h-full flex flex-col items-center justify-center text-center space-y-5"
+              >
+                <div
+                  class="font-semibold"
+                >
+                  Favorite cases
+                </div>
+                <span
+                  class="text-4xl"
+                >
+                  3
+                </span>
+                
+                
+              </div>
+            </div>
+            <div
+              class="ui-resizable-handle ui-resizable-se"
+              style="z-index: 100; user-select: none;"
+            />
+          </div>
+          <div
+            class="grid-stack-item ui-resizable-autohide"
+            gs-w="2"
+            gs-x="0"
+            gs-y="1"
+          >
+            <div
+              class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-purple-200"
+            >
+              <div
+                class="hidden group-hover:flex absolute right-2 w-full justify-end"
+              >
+                
+                
+                
+                
+                
+                <button
+                  class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
+                  data-state="closed"
+                >
+                  
+                  <span
+                    class="sr-only"
+                  >
+                    Edit card
+                  </span>
+                  <svg
+                    class="lucide lucide-pencil-icon w-4 h-4"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
+                    />
+                    <path
+                      d="m15 5 4 4"
+                    />
+                  </svg>
+                  
+                </button>
+                <!--teleport start-->
+                <!--teleport end-->
+                
+                
+                
+                
+                
+              </div>
+              <div
+                class="h-full flex flex-col items-center justify-center text-center space-y-5"
+              >
+                <div
+                  class="font-semibold"
+                >
+                  Waiting for decision
+                </div>
+                <span
+                  class="text-4xl"
+                >
+                  16
+                </span>
+                
+                
+              </div>
+            </div>
+            <div
+              class="ui-resizable-handle ui-resizable-se"
+              style="z-index: 100; user-select: none;"
+            />
+          </div>
+          <div
+            class="grid-stack-item ui-resizable-autohide"
+            gs-w="2"
+            gs-x="2"
+            gs-y="1"
+          >
+            <div
+              class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-purple-300"
+            >
+              <div
+                class="hidden group-hover:flex absolute right-2 w-full justify-end"
+              >
+                
+                
+                
+                
+                
+                <button
+                  class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
+                  data-state="closed"
+                >
+                  
+                  <span
+                    class="sr-only"
+                  >
+                    Edit card
+                  </span>
+                  <svg
+                    class="lucide lucide-pencil-icon w-4 h-4"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
+                    />
+                    <path
+                      d="m15 5 4 4"
+                    />
+                  </svg>
+                  
+                </button>
+                <!--teleport start-->
+                <!--teleport end-->
+                
+                
+                
+                
+                
+              </div>
+              <div
+                class="h-full flex flex-col items-center justify-center text-center space-y-5"
+              >
+                <div
+                  class="font-semibold"
+                >
+                  Labor Law Cases
+                </div>
+                <span
+                  class="text-4xl"
+                >
+                  11
+                </span>
+                
+                
+              </div>
+            </div>
+            <div
+              class="ui-resizable-handle ui-resizable-se"
+              style="z-index: 100; user-select: none;"
+            />
+          </div>
+          <div
+            class="grid-stack-item ui-resizable-autohide"
+            gs-w="3"
+            gs-x="4"
+            gs-y="1"
+          >
+            <div
+              class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-yellow-300"
+            >
+              <div
+                class="hidden group-hover:flex absolute right-2 w-full justify-end"
+              >
+                
+                
+                
+                
+                
+                <button
+                  class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
+                  data-state="closed"
+                >
+                  
+                  <span
+                    class="sr-only"
+                  >
+                    Edit card
+                  </span>
+                  <svg
+                    class="lucide lucide-pencil-icon w-4 h-4"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
+                    />
+                    <path
+                      d="m15 5 4 4"
+                    />
+                  </svg>
+                  
+                </button>
+                <!--teleport start-->
+                <!--teleport end-->
+                
+                
+                
+                
+                
+              </div>
+              <div
+                class="h-full flex flex-col items-center justify-center text-center space-y-5"
+              >
+                <div
+                  class="font-semibold"
+                >
+                  Reminder
+                </div>
+                <span
+                  class="text-4xl"
+                >
+                  Call Pedro ASAP
+                </span>
+                
+                
+              </div>
+            </div>
+            <div
+              class="ui-resizable-handle ui-resizable-se"
+              style="z-index: 100; user-select: none;"
+            />
+          </div>
+          <div
+            class="grid-stack-item ui-resizable-autohide"
+            gs-w="5"
+            gs-x="7"
+            gs-y="1"
+          >
+            <div
+              class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-red-400"
+            >
+              <div
+                class="hidden group-hover:flex absolute right-2 w-full justify-end"
+              >
+                
+                
+                
+                
+                
+                <button
+                  class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
+                  data-state="closed"
+                >
+                  
+                  <span
+                    class="sr-only"
+                  >
+                    Edit card
+                  </span>
+                  <svg
+                    class="lucide lucide-pencil-icon w-4 h-4"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
+                    />
+                    <path
+                      d="m15 5 4 4"
+                    />
+                  </svg>
+                  
+                </button>
+                <!--teleport start-->
+                <!--teleport end-->
+                
+                
+                
+                
+                
+              </div>
+              <div
+                class="h-full flex flex-col items-center justify-center text-center space-y-5"
+              >
+                <div
+                  class="font-semibold"
+                >
+                  Next deadlines
+                </div>
+                <span
+                  class="text-4xl"
+                >
+                  Bob Johnson' case: Appeal 
+                </span>
+                
+                
+              </div>
+            </div>
+            <div
+              class="ui-resizable-handle ui-resizable-se"
+              style="z-index: 100; user-select: none;"
+            />
+          </div>
+          <div
+            class="grid-stack-item ui-resizable-autohide"
+            gs-w="7"
+            gs-x="0"
+            gs-y="2"
+          >
+            <div
+              class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-pink-200"
+            >
+              <div
+                class="hidden group-hover:flex absolute right-2 w-full justify-end"
+              >
+                
+                
+                
+                
+                
+                <button
+                  class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
+                  data-state="closed"
+                >
+                  
+                  <span
+                    class="sr-only"
+                  >
+                    Edit card
+                  </span>
+                  <svg
+                    class="lucide lucide-pencil-icon w-4 h-4"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
+                    />
+                    <path
+                      d="m15 5 4 4"
+                    />
+                  </svg>
+                  
+                </button>
+                <!--teleport start-->
+                <!--teleport end-->
+                
+                
+                
+                
+                
+              </div>
+              <div
+                class="h-full flex flex-col items-center justify-center text-center space-y-5"
+              >
+                <div
+                  class="font-semibold"
+                >
+                  Other stuff
+                </div>
+                <span
+                  class="text-4xl"
+                />
+                
+                
+              </div>
+            </div>
+            <div
+              class="ui-resizable-handle ui-resizable-se"
+              style="z-index: 100; user-select: none;"
+            />
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    
+    <!---->
+    
+    
+    
+    
+    
+    <!---->
+    
+    
+    
+    
+    
+    <!---->
+    
+    
+    
+    
+    
+    <!---->
+    
+    
+    
+    
+    
+    <!---->
+    
+    
+    
+    
+    
+    <!---->
+    
+    
+    
+    
+    
+    <!---->
+    
+    
+    
+    
+    
+    <!---->
+    
+    
+    
+    
+    
+    <!---->
+    
+    
+    
+  </body>,
+  "container": <div>
+    <div
+      id="test-wrapper"
+    >
+      <style
+        gs-style-id="gs-id-0"
+        type="text/css"
+      >
+        
+      </style>
+      
+      
+      <div
+        class="flex justify-between border rounded-lg p-2"
+      >
+        <div
+          class="space-x-1"
+        >
+          <button
+            class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 px-4 py-2"
+          >
+            
+            <svg
+              class="lucide lucide-circle-plus-icon w-3 h-3 mr-2"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="12"
+                cy="12"
+                r="10"
+              />
+              <path
+                d="M8 12h8"
+              />
+              <path
+                d="M12 8v8"
+              />
+            </svg>
+             New card 
+            
+          </button>
+          <button
+            class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 px-4 py-2"
+          >
+            
+            2
+            
+          </button>
+          <button
+            class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 px-4 py-2"
+          >
+            
+            3
+            
+          </button>
+        </div>
+        <div
+          class="space-x-1"
+        >
+          <button
+            class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 px-4 py-2"
+          >
+            
+            4
+            
+          </button>
+          <button
+            class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 px-4 py-2"
+          >
+            
+            5
+            
+          </button>
+          <button
+            class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 px-4 py-2"
+          >
+            
+            6
+            
+          </button>
+        </div>
+      </div>
+      <div
+        class="flex items-center justify-center grid-rows-3 mt-10 space-x-5"
+      />
+      
+      <div
+        class="grid-stack relative flex bg-gray-100 dark:bg-gray-900 rounded-lg gs-12 gs-id-0 grid-stack-animate"
+        gs-current-row="3"
+        style="height: 600px;"
+      >
+        <div
+          class="grid-stack-item ui-resizable-autohide"
+          gs-w="5"
+          gs-x="0"
+          gs-y="0"
+        >
+          <div
+            class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-blue-200"
+          >
+            <div
+              class="hidden group-hover:flex absolute right-2 w-full justify-end"
+            >
+              
+              
+              
+              
+              
+              <button
+                class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
+                data-state="closed"
+              >
+                
+                <span
+                  class="sr-only"
+                >
+                  Edit card
+                </span>
+                <svg
+                  class="lucide lucide-pencil-icon w-4 h-4"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
+                  />
+                  <path
+                    d="m15 5 4 4"
+                  />
+                </svg>
+                
+              </button>
+              <!--teleport start-->
+              <!--teleport end-->
+              
+              
+              
+              
+              
+            </div>
+            <div
+              class="h-full flex flex-col items-center justify-center text-center space-y-5"
+            >
+              <div
+                class="font-semibold"
+              >
+                Next hearings
+              </div>
+              <span
+                class="text-4xl"
+              />
+              
+              <div
+                class="flex flex-col"
+              >
+                <span>
+                  19/04/2024 - 09:15
+                </span>
+                <span>
+                  23/04/2024 - 11:30
+                </span>
+                <span>
+                  24/04/2024 - 10:00
+                </span>
+              </div>
+              
+            </div>
+          </div>
+          <div
+            class="ui-resizable-handle ui-resizable-se"
+            style="z-index: 100; user-select: none;"
+          />
+        </div>
+        <div
+          class="grid-stack-item ui-resizable-autohide"
+          gs-w="2"
+          gs-x="5"
+          gs-y="0"
+        >
+          <div
+            class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-purple-200"
+          >
+            <div
+              class="hidden group-hover:flex absolute right-2 w-full justify-end"
+            >
+              
+              
+              
+              
+              
+              <button
+                class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
+                data-state="closed"
+              >
+                
+                <span
+                  class="sr-only"
+                >
+                  Edit card
+                </span>
+                <svg
+                  class="lucide lucide-pencil-icon w-4 h-4"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
+                  />
+                  <path
+                    d="m15 5 4 4"
+                  />
+                </svg>
+                
+              </button>
+              <!--teleport start-->
+              <!--teleport end-->
+              
+              
+              
+              
+              
+            </div>
+            <div
+              class="h-full flex flex-col items-center justify-center text-center space-y-5"
+            >
+              <div
+                class="font-semibold"
+              >
+                Low priority
+              </div>
+              <span
+                class="text-4xl"
+              >
+                17
+              </span>
+              
+              
+            </div>
+          </div>
+          <div
+            class="ui-resizable-handle ui-resizable-se"
+            style="z-index: 100; user-select: none;"
+          />
+        </div>
+        <div
+          class="grid-stack-item ui-resizable-autohide"
+          gs-w="3"
+          gs-x="7"
+          gs-y="0"
+        >
+          <div
+            class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-emerald-200"
+          >
+            <div
+              class="hidden group-hover:flex absolute right-2 w-full justify-end"
+            >
+              
+              
+              
+              
+              
+              <button
+                class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
+                data-state="closed"
+              >
+                
+                <span
+                  class="sr-only"
+                >
+                  Edit card
+                </span>
+                <svg
+                  class="lucide lucide-pencil-icon w-4 h-4"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
+                  />
+                  <path
+                    d="m15 5 4 4"
+                  />
+                </svg>
+                
+              </button>
+              <!--teleport start-->
+              <!--teleport end-->
+              
+              
+              
+              
+              
+            </div>
+            <div
+              class="h-full flex flex-col items-center justify-center text-center space-y-5"
+            >
+              <div
+                class="font-semibold"
+              >
+                Favorable decisions this year
+              </div>
+              <span
+                class="text-4xl"
+              >
+                7
+              </span>
+              
+              
+            </div>
+          </div>
+          <div
+            class="ui-resizable-handle ui-resizable-se"
+            style="z-index: 100; user-select: none;"
+          />
+        </div>
+        <div
+          class="grid-stack-item ui-resizable-autohide"
+          gs-w="2"
+          gs-x="10"
+          gs-y="0"
+        >
+          <div
+            class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-yellow-200"
+          >
+            <div
+              class="hidden group-hover:flex absolute right-2 w-full justify-end"
+            >
+              
+              
+              
+              
+              
+              <button
+                class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
+                data-state="closed"
+              >
+                
+                <span
+                  class="sr-only"
+                >
+                  Edit card
+                </span>
+                <svg
+                  class="lucide lucide-pencil-icon w-4 h-4"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
+                  />
+                  <path
+                    d="m15 5 4 4"
+                  />
+                </svg>
+                
+              </button>
+              <!--teleport start-->
+              <!--teleport end-->
+              
+              
+              
+              
+              
+            </div>
+            <div
+              class="h-full flex flex-col items-center justify-center text-center space-y-5"
+            >
+              <div
+                class="font-semibold"
+              >
+                Favorite cases
+              </div>
+              <span
+                class="text-4xl"
+              >
+                3
+              </span>
+              
+              
+            </div>
+          </div>
+          <div
+            class="ui-resizable-handle ui-resizable-se"
+            style="z-index: 100; user-select: none;"
+          />
+        </div>
+        <div
+          class="grid-stack-item ui-resizable-autohide"
+          gs-w="2"
+          gs-x="0"
+          gs-y="1"
+        >
+          <div
+            class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-purple-200"
+          >
+            <div
+              class="hidden group-hover:flex absolute right-2 w-full justify-end"
+            >
+              
+              
+              
+              
+              
+              <button
+                class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
+                data-state="closed"
+              >
+                
+                <span
+                  class="sr-only"
+                >
+                  Edit card
+                </span>
+                <svg
+                  class="lucide lucide-pencil-icon w-4 h-4"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
+                  />
+                  <path
+                    d="m15 5 4 4"
+                  />
+                </svg>
+                
+              </button>
+              <!--teleport start-->
+              <!--teleport end-->
+              
+              
+              
+              
+              
+            </div>
+            <div
+              class="h-full flex flex-col items-center justify-center text-center space-y-5"
+            >
+              <div
+                class="font-semibold"
+              >
+                Waiting for decision
+              </div>
+              <span
+                class="text-4xl"
+              >
+                16
+              </span>
+              
+              
+            </div>
+          </div>
+          <div
+            class="ui-resizable-handle ui-resizable-se"
+            style="z-index: 100; user-select: none;"
+          />
+        </div>
+        <div
+          class="grid-stack-item ui-resizable-autohide"
+          gs-w="2"
+          gs-x="2"
+          gs-y="1"
+        >
+          <div
+            class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-purple-300"
+          >
+            <div
+              class="hidden group-hover:flex absolute right-2 w-full justify-end"
+            >
+              
+              
+              
+              
+              
+              <button
+                class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
+                data-state="closed"
+              >
+                
+                <span
+                  class="sr-only"
+                >
+                  Edit card
+                </span>
+                <svg
+                  class="lucide lucide-pencil-icon w-4 h-4"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
+                  />
+                  <path
+                    d="m15 5 4 4"
+                  />
+                </svg>
+                
+              </button>
+              <!--teleport start-->
+              <!--teleport end-->
+              
+              
+              
+              
+              
+            </div>
+            <div
+              class="h-full flex flex-col items-center justify-center text-center space-y-5"
+            >
+              <div
+                class="font-semibold"
+              >
+                Labor Law Cases
+              </div>
+              <span
+                class="text-4xl"
+              >
+                11
+              </span>
+              
+              
+            </div>
+          </div>
+          <div
+            class="ui-resizable-handle ui-resizable-se"
+            style="z-index: 100; user-select: none;"
+          />
+        </div>
+        <div
+          class="grid-stack-item ui-resizable-autohide"
+          gs-w="3"
+          gs-x="4"
+          gs-y="1"
+        >
+          <div
+            class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-yellow-300"
+          >
+            <div
+              class="hidden group-hover:flex absolute right-2 w-full justify-end"
+            >
+              
+              
+              
+              
+              
+              <button
+                class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
+                data-state="closed"
+              >
+                
+                <span
+                  class="sr-only"
+                >
+                  Edit card
+                </span>
+                <svg
+                  class="lucide lucide-pencil-icon w-4 h-4"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
+                  />
+                  <path
+                    d="m15 5 4 4"
+                  />
+                </svg>
+                
+              </button>
+              <!--teleport start-->
+              <!--teleport end-->
+              
+              
+              
+              
+              
+            </div>
+            <div
+              class="h-full flex flex-col items-center justify-center text-center space-y-5"
+            >
+              <div
+                class="font-semibold"
+              >
+                Reminder
+              </div>
+              <span
+                class="text-4xl"
+              >
+                Call Pedro ASAP
+              </span>
+              
+              
+            </div>
+          </div>
+          <div
+            class="ui-resizable-handle ui-resizable-se"
+            style="z-index: 100; user-select: none;"
+          />
+        </div>
+        <div
+          class="grid-stack-item ui-resizable-autohide"
+          gs-w="5"
+          gs-x="7"
+          gs-y="1"
+        >
+          <div
+            class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-red-400"
+          >
+            <div
+              class="hidden group-hover:flex absolute right-2 w-full justify-end"
+            >
+              
+              
+              
+              
+              
+              <button
+                class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
+                data-state="closed"
+              >
+                
+                <span
+                  class="sr-only"
+                >
+                  Edit card
+                </span>
+                <svg
+                  class="lucide lucide-pencil-icon w-4 h-4"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
+                  />
+                  <path
+                    d="m15 5 4 4"
+                  />
+                </svg>
+                
+              </button>
+              <!--teleport start-->
+              <!--teleport end-->
+              
+              
+              
+              
+              
+            </div>
+            <div
+              class="h-full flex flex-col items-center justify-center text-center space-y-5"
+            >
+              <div
+                class="font-semibold"
+              >
+                Next deadlines
+              </div>
+              <span
+                class="text-4xl"
+              >
+                Bob Johnson' case: Appeal 
+              </span>
+              
+              
+            </div>
+          </div>
+          <div
+            class="ui-resizable-handle ui-resizable-se"
+            style="z-index: 100; user-select: none;"
+          />
+        </div>
+        <div
+          class="grid-stack-item ui-resizable-autohide"
+          gs-w="7"
+          gs-x="0"
+          gs-y="2"
+        >
+          <div
+            class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-pink-200"
+          >
+            <div
+              class="hidden group-hover:flex absolute right-2 w-full justify-end"
+            >
+              
+              
+              
+              
+              
+              <button
+                class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
+                data-state="closed"
+              >
+                
+                <span
+                  class="sr-only"
+                >
+                  Edit card
+                </span>
+                <svg
+                  class="lucide lucide-pencil-icon w-4 h-4"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
+                  />
+                  <path
+                    d="m15 5 4 4"
+                  />
+                </svg>
+                
+              </button>
+              <!--teleport start-->
+              <!--teleport end-->
+              
+              
+              
+              
+              
+            </div>
+            <div
+              class="h-full flex flex-col items-center justify-center text-center space-y-5"
+            >
+              <div
+                class="font-semibold"
+              >
+                Other stuff
+              </div>
+              <span
+                class="text-4xl"
+              />
+              
+              
+            </div>
+          </div>
+          <div
+            class="ui-resizable-handle ui-resizable-se"
+            style="z-index: 100; user-select: none;"
+          />
+        </div>
+      </div>
+      
+    </div>
+  </div>,
+  "debug": [Function],
+  "emitted": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "html": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

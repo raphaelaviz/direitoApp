@@ -9,7 +9,7 @@ import { Trash2, Pencil, PlusCircleIcon  } from 'lucide-vue-next';
         <div class="space-x-1">
         <Button variant="ghost">
             <PlusCircleIcon class="w-3 h-3 mr-2"/>
-            Novo painel
+            New card
         </Button>
         <Button variant="ghost">2</Button>
         <Button variant="ghost">3</Button>

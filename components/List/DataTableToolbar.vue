@@ -27,16 +27,19 @@ const isFiltered = computed(() => props.table.getState().columnFilters.length > 
         variant="ghost"
         class="space-x-4"
         @click="sheet.onOpen"
+        data-testid="addlawsuit"
       >
       <PlusCircleIcon class="w-5 h-5 mr-2"/>
         Add lawsuit
       </Button>
+
       <DataTableFacetedFilter
         v-if="table.getColumn('status')"
         :column="table.getColumn('status')"
         title="Status"
         :options="statuses"
       />
+
       <DataTableFacetedFilter
         v-if="table.getColumn('priority')"
         :column="table.getColumn('priority')"
@@ -51,6 +54,7 @@ const isFiltered = computed(() => props.table.getState().columnFilters.length > 
       :model-value="(table.getColumn('plaintiff')?.getFilterValue() as string) ?? ''"
       class="h-8 w-[150px] lg:w-[250px]"
       @input="table.getColumn('plaintiff')?.setFilterValue($event.target.value)"
+      data-testid="input_filter"
       />
       <Button
         v-if="isFiltered"
@@ -60,7 +64,7 @@ const isFiltered = computed(() => props.table.getState().columnFilters.length > 
       >
         Reset
       </Button>
-      <DataTableViewOptions :table="table" />
+      <DataTableViewOptions :table="table"/>
     </div>
   </div>
 </template>

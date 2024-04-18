@@ -4,13 +4,13 @@
 
 
 <template>
-    <div class="h-full relative">
-      <div class="flex h-full">
+    <div class="min-h-screen flex flex-col">
+      <div class="flex flex-grow">
         <CustomDialog/>
-        
-          <SideNav/>
-          <div class="flex flex-col w-full">
-            <div class="bg-green-400">NAVBAR</div>
+        <SideNav/>
+        <div class="flex flex-col w-full">
+            <MainHeader/>
+            
             <div class="p-3">
               <slot/>
             </div>  
