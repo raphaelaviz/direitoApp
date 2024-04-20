@@ -13,12 +13,6 @@ exports[`matches snapshot 1`] = `
       <div
         id="test-wrapper"
       >
-        <style
-          gs-style-id="gs-id-0"
-          type="text/css"
-        >
-          
-        </style>
         
         
         <div
@@ -104,21 +98,308 @@ exports[`matches snapshot 1`] = `
         />
         
         <div
-          class="grid-stack relative flex bg-gray-100 dark:bg-gray-900 rounded-lg gs-12 gs-id-0 grid-stack-animate"
-          gs-current-row="3"
-          style="height: 600px;"
+          class="flex h-full w-full data-[panel-group-direction=vertical]:flex-col min-h-screen rounded-lg border"
+          data-orientation="horizontal"
+          data-panel-group=""
+          data-panel-group-id="demo-group-1"
+          style="display: flex; flex-direction: row; height: 100%; overflow: hidden; width: 100%;"
         >
+          
+          
           <div
-            class="grid-stack-item ui-resizable-autohide"
-            gs-w="5"
-            gs-x="0"
-            gs-y="0"
+            data-panel=""
+            data-panel-group-id="demo-group-1"
+            data-panel-id="demo-panel-1"
+            data-panel-size="50.0"
+            id="demo-panel-1"
+            style="flex-basis: 0px; flex-grow: 50.0; flex-shrink: 1; overflow: hidden;"
           >
+            
             <div
-              class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-blue-200"
+              class="flex justify-end bg-yellow-100"
             >
+              
+              
+              
+              
+              
+              <button
+                class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none"
+                data-state="closed"
+              >
+                
+                <span
+                  class="sr-only"
+                >
+                  Editar informações
+                </span>
+                <svg
+                  class="lucide lucide-pencil-icon w-4 h-4"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
+                  />
+                  <path
+                    d="m15 5 4 4"
+                  />
+                </svg>
+                
+              </button>
+              <!--teleport start-->
+              <!--teleport end-->
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              <button
+                class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 px-4 py-2 hover:scale-110 border-none"
+                data-state="closed"
+              >
+                
+                <span
+                  class="sr-only"
+                >
+                  Deletar
+                </span>
+                <svg
+                  class="lucide lucide-trash2-icon w-4 h-4"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3 6h18"
+                  />
+                  <path
+                    d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"
+                  />
+                  <path
+                    d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"
+                  />
+                  <line
+                    x1="10"
+                    x2="10"
+                    y1="11"
+                    y2="17"
+                  />
+                  <line
+                    x1="14"
+                    x2="14"
+                    y1="11"
+                    y2="17"
+                  />
+                </svg>
+                
+              </button>
+              <!--teleport start-->
+              <!--teleport end-->
+              
+              
+              
+              
+              
+            </div>
+            <div
+              class="flex h-full w-full data-[panel-group-direction=vertical]:flex-col"
+              data-orientation="vertical"
+              data-panel-group=""
+              data-panel-group-id="demo-group-2"
+              style="display: flex; flex-direction: column; height: 100%; overflow: hidden; width: 100%;"
+            >
+              
+              
               <div
-                class="hidden group-hover:flex absolute right-2 w-full justify-end"
+                data-panel=""
+                data-panel-group-id="demo-group-2"
+                data-panel-id="demo-panel-3"
+                data-panel-size="50.0"
+                id="demo-panel-3"
+                style="flex-basis: 0px; flex-grow: 50.0; flex-shrink: 1; overflow: hidden;"
+              >
+                
+                <div
+                  class="flex flex-col h-full items-center justify-center p-6 bg-yellow-100"
+                >
+                  <span
+                    class="font-semibold text-2xl text-center"
+                  >
+                    Next hearings
+                  </span>
+                  <span
+                    class="font-semibold mt-4"
+                  >
+                    15/04/2014 - 14:00
+                  </span>
+                  <span
+                    class="font-semibold mt-4"
+                  >
+                    16/04/2014 - 10:00
+                  </span>
+                  <span
+                    class="font-semibold mt-4"
+                  >
+                    19/04/2014 - 9:15
+                  </span>
+                </div>
+                
+              </div>
+              <div
+                aria-controls="demo-panel-3"
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="50"
+                class="relative flex w-px items-center justify-center bg-border after:absolute after:inset-y-0 after:left-1/2 after:w-1 after:-translate-x-1/2 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring focus-visible:ring-offset-1 [&[data-orientation=vertical]]:h-px [&[data-orientation=vertical]]:w-full [&[data-orientation=vertical]]:after:left-0 [&[data-orientation=vertical]]:after:h-1 [&[data-orientation=vertical]]:after:w-full [&[data-orientation=vertical]]:after:-translate-y-1/2 [&[data-orientation=vertical]]:after:translate-x-0 [&[data-orientation=vertical]>div]:rotate-90"
+                data-orientation="vertical"
+                data-panel-group-id="demo-group-2"
+                data-panel-resize-handle-enabled="true"
+                data-panel-resize-handle-id="demo-handle-1"
+                data-resize-handle=""
+                data-resize-handle-state="inactive"
+                data-state="inactive"
+                id="demo-handle-1"
+                role="separator"
+                style="touch-action: none; user-select: none;"
+                tabindex="0"
+                withhandle="true"
+              >
+                
+                <div
+                  class="z-10 flex h-4 w-3 items-center justify-center rounded-sm border bg-border"
+                >
+                  <svg
+                    class="lucide lucide-grip-vertical-icon h-2.5 w-2.5"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="9"
+                      cy="12"
+                      r="1"
+                    />
+                    <circle
+                      cx="9"
+                      cy="5"
+                      r="1"
+                    />
+                    <circle
+                      cx="9"
+                      cy="19"
+                      r="1"
+                    />
+                    <circle
+                      cx="15"
+                      cy="12"
+                      r="1"
+                    />
+                    <circle
+                      cx="15"
+                      cy="5"
+                      r="1"
+                    />
+                    <circle
+                      cx="15"
+                      cy="19"
+                      r="1"
+                    />
+                  </svg>
+                </div>
+                
+              </div>
+              <div
+                class="relative flex w-px items-center justify-center bg-border after:absolute after:inset-y-0 after:left-1/2 after:w-1 after:-translate-x-1/2 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring focus-visible:ring-offset-1 [&[data-orientation=vertical]]:h-px [&[data-orientation=vertical]]:w-full [&[data-orientation=vertical]]:after:left-0 [&[data-orientation=vertical]]:after:h-1 [&[data-orientation=vertical]]:after:w-full [&[data-orientation=vertical]]:after:-translate-y-1/2 [&[data-orientation=vertical]]:after:translate-x-0 [&[data-orientation=vertical]>div]:rotate-90"
+                data-orientation="vertical"
+                data-panel-group-id="demo-group-2"
+                data-panel-resize-handle-enabled="true"
+                data-panel-resize-handle-id="demo-handle-5"
+                data-resize-handle=""
+                data-resize-handle-state="inactive"
+                data-state="inactive"
+                id="demo-handle-5"
+                role="separator"
+                style="touch-action: none; user-select: none;"
+                tabindex="0"
+                withhandle="true"
+              >
+                
+                <div
+                  class="z-10 flex h-4 w-3 items-center justify-center rounded-sm border bg-border"
+                >
+                  <svg
+                    class="lucide lucide-grip-vertical-icon h-2.5 w-2.5"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="9"
+                      cy="12"
+                      r="1"
+                    />
+                    <circle
+                      cx="9"
+                      cy="5"
+                      r="1"
+                    />
+                    <circle
+                      cx="9"
+                      cy="19"
+                      r="1"
+                    />
+                    <circle
+                      cx="15"
+                      cy="12"
+                      r="1"
+                    />
+                    <circle
+                      cx="15"
+                      cy="5"
+                      r="1"
+                    />
+                    <circle
+                      cx="15"
+                      cy="19"
+                      r="1"
+                    />
+                  </svg>
+                </div>
+                
+              </div>
+              <div
+                class="flex justify-end bg-green-100"
               >
                 
                 
@@ -126,14 +407,14 @@ exports[`matches snapshot 1`] = `
                 
                 
                 <button
-                  class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
+                  class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none"
                   data-state="closed"
                 >
                   
                   <span
                     class="sr-only"
                   >
-                    Edit card
+                    Editar informações
                   </span>
                   <svg
                     class="lucide lucide-pencil-icon w-4 h-4"
@@ -163,666 +444,728 @@ exports[`matches snapshot 1`] = `
                 
                 
                 
+                
+                
+                
+                
+                
+                <button
+                  class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 px-4 py-2 hover:scale-110 border-none"
+                  data-state="closed"
+                >
+                  
+                  <span
+                    class="sr-only"
+                  >
+                    Deletar
+                  </span>
+                  <svg
+                    class="lucide lucide-trash2-icon w-4 h-4"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M3 6h18"
+                    />
+                    <path
+                      d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"
+                    />
+                    <path
+                      d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"
+                    />
+                    <line
+                      x1="10"
+                      x2="10"
+                      y1="11"
+                      y2="17"
+                    />
+                    <line
+                      x1="14"
+                      x2="14"
+                      y1="11"
+                      y2="17"
+                    />
+                  </svg>
+                  
+                </button>
+                <!--teleport start-->
+                <!--teleport end-->
+                
+                
+                
+                
+                
               </div>
               <div
-                class="h-full flex flex-col items-center justify-center text-center space-y-5"
+                data-panel=""
+                data-panel-group-id="demo-group-2"
+                data-panel-id="demo-panel-5"
+                data-panel-size="50.0"
+                id="demo-panel-5"
+                style="flex-basis: 0px; flex-grow: 50.0; flex-shrink: 1; overflow: hidden;"
               >
+                
                 <div
-                  class="font-semibold"
+                  class="flex flex-col h-full items-center justify-center p-6 bg-green-100"
                 >
-                  Next hearings
+                  <span
+                    class="font-semibold text-2xl text-center"
+                  >
+                    Labor Law cases
+                  </span>
+                  <span
+                    class="font-semibold text-3xl mt-4"
+                  >
+                    8
+                  </span>
                 </div>
-                <span
-                  class="text-4xl"
+                
+              </div>
+              
+              
+            </div>
+            
+          </div>
+          <div
+            aria-controls="demo-panel-1"
+            aria-valuemax="100"
+            aria-valuemin="0"
+            aria-valuenow="50"
+            class="relative flex w-px items-center justify-center bg-border after:absolute after:inset-y-0 after:left-1/2 after:w-1 after:-translate-x-1/2 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring focus-visible:ring-offset-1 [&[data-orientation=vertical]]:h-px [&[data-orientation=vertical]]:w-full [&[data-orientation=vertical]]:after:left-0 [&[data-orientation=vertical]]:after:h-1 [&[data-orientation=vertical]]:after:w-full [&[data-orientation=vertical]]:after:-translate-y-1/2 [&[data-orientation=vertical]]:after:translate-x-0 [&[data-orientation=vertical]>div]:rotate-90"
+            data-orientation="horizontal"
+            data-panel-group-id="demo-group-1"
+            data-panel-resize-handle-enabled="true"
+            data-panel-resize-handle-id="demo-handle-1"
+            data-resize-handle=""
+            data-resize-handle-state="inactive"
+            data-state="inactive"
+            id="demo-handle-1"
+            role="separator"
+            style="touch-action: none; user-select: none;"
+            tabindex="0"
+            withhandle="true"
+          >
+            
+            <div
+              class="z-10 flex h-4 w-3 items-center justify-center rounded-sm border bg-border"
+            >
+              <svg
+                class="lucide lucide-grip-vertical-icon h-2.5 w-2.5"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="9"
+                  cy="12"
+                  r="1"
                 />
-                
-                <div
-                  class="flex flex-col"
-                >
-                  <span>
-                    19/04/2024 - 09:15
-                  </span>
-                  <span>
-                    23/04/2024 - 11:30
-                  </span>
-                  <span>
-                    24/04/2024 - 10:00
-                  </span>
-                </div>
-                
-              </div>
-            </div>
-            <div
-              class="ui-resizable-handle ui-resizable-se"
-              style="z-index: 100; user-select: none;"
-            />
-          </div>
-          <div
-            class="grid-stack-item ui-resizable-autohide"
-            gs-w="2"
-            gs-x="5"
-            gs-y="0"
-          >
-            <div
-              class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-purple-200"
-            >
-              <div
-                class="hidden group-hover:flex absolute right-2 w-full justify-end"
-              >
-                
-                
-                
-                
-                
-                <button
-                  class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
-                  data-state="closed"
-                >
-                  
-                  <span
-                    class="sr-only"
-                  >
-                    Edit card
-                  </span>
-                  <svg
-                    class="lucide lucide-pencil-icon w-4 h-4"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
-                    />
-                    <path
-                      d="m15 5 4 4"
-                    />
-                  </svg>
-                  
-                </button>
-                <!--teleport start-->
-                <!--teleport end-->
-                
-                
-                
-                
-                
-              </div>
-              <div
-                class="h-full flex flex-col items-center justify-center text-center space-y-5"
-              >
-                <div
-                  class="font-semibold"
-                >
-                  Low priority
-                </div>
-                <span
-                  class="text-4xl"
-                >
-                  17
-                </span>
-                
-                
-              </div>
-            </div>
-            <div
-              class="ui-resizable-handle ui-resizable-se"
-              style="z-index: 100; user-select: none;"
-            />
-          </div>
-          <div
-            class="grid-stack-item ui-resizable-autohide"
-            gs-w="3"
-            gs-x="7"
-            gs-y="0"
-          >
-            <div
-              class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-emerald-200"
-            >
-              <div
-                class="hidden group-hover:flex absolute right-2 w-full justify-end"
-              >
-                
-                
-                
-                
-                
-                <button
-                  class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
-                  data-state="closed"
-                >
-                  
-                  <span
-                    class="sr-only"
-                  >
-                    Edit card
-                  </span>
-                  <svg
-                    class="lucide lucide-pencil-icon w-4 h-4"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
-                    />
-                    <path
-                      d="m15 5 4 4"
-                    />
-                  </svg>
-                  
-                </button>
-                <!--teleport start-->
-                <!--teleport end-->
-                
-                
-                
-                
-                
-              </div>
-              <div
-                class="h-full flex flex-col items-center justify-center text-center space-y-5"
-              >
-                <div
-                  class="font-semibold"
-                >
-                  Favorable decisions this year
-                </div>
-                <span
-                  class="text-4xl"
-                >
-                  7
-                </span>
-                
-                
-              </div>
-            </div>
-            <div
-              class="ui-resizable-handle ui-resizable-se"
-              style="z-index: 100; user-select: none;"
-            />
-          </div>
-          <div
-            class="grid-stack-item ui-resizable-autohide"
-            gs-w="2"
-            gs-x="10"
-            gs-y="0"
-          >
-            <div
-              class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-yellow-200"
-            >
-              <div
-                class="hidden group-hover:flex absolute right-2 w-full justify-end"
-              >
-                
-                
-                
-                
-                
-                <button
-                  class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
-                  data-state="closed"
-                >
-                  
-                  <span
-                    class="sr-only"
-                  >
-                    Edit card
-                  </span>
-                  <svg
-                    class="lucide lucide-pencil-icon w-4 h-4"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
-                    />
-                    <path
-                      d="m15 5 4 4"
-                    />
-                  </svg>
-                  
-                </button>
-                <!--teleport start-->
-                <!--teleport end-->
-                
-                
-                
-                
-                
-              </div>
-              <div
-                class="h-full flex flex-col items-center justify-center text-center space-y-5"
-              >
-                <div
-                  class="font-semibold"
-                >
-                  Favorite cases
-                </div>
-                <span
-                  class="text-4xl"
-                >
-                  3
-                </span>
-                
-                
-              </div>
-            </div>
-            <div
-              class="ui-resizable-handle ui-resizable-se"
-              style="z-index: 100; user-select: none;"
-            />
-          </div>
-          <div
-            class="grid-stack-item ui-resizable-autohide"
-            gs-w="2"
-            gs-x="0"
-            gs-y="1"
-          >
-            <div
-              class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-purple-200"
-            >
-              <div
-                class="hidden group-hover:flex absolute right-2 w-full justify-end"
-              >
-                
-                
-                
-                
-                
-                <button
-                  class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
-                  data-state="closed"
-                >
-                  
-                  <span
-                    class="sr-only"
-                  >
-                    Edit card
-                  </span>
-                  <svg
-                    class="lucide lucide-pencil-icon w-4 h-4"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
-                    />
-                    <path
-                      d="m15 5 4 4"
-                    />
-                  </svg>
-                  
-                </button>
-                <!--teleport start-->
-                <!--teleport end-->
-                
-                
-                
-                
-                
-              </div>
-              <div
-                class="h-full flex flex-col items-center justify-center text-center space-y-5"
-              >
-                <div
-                  class="font-semibold"
-                >
-                  Waiting for decision
-                </div>
-                <span
-                  class="text-4xl"
-                >
-                  16
-                </span>
-                
-                
-              </div>
-            </div>
-            <div
-              class="ui-resizable-handle ui-resizable-se"
-              style="z-index: 100; user-select: none;"
-            />
-          </div>
-          <div
-            class="grid-stack-item ui-resizable-autohide"
-            gs-w="2"
-            gs-x="2"
-            gs-y="1"
-          >
-            <div
-              class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-purple-300"
-            >
-              <div
-                class="hidden group-hover:flex absolute right-2 w-full justify-end"
-              >
-                
-                
-                
-                
-                
-                <button
-                  class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
-                  data-state="closed"
-                >
-                  
-                  <span
-                    class="sr-only"
-                  >
-                    Edit card
-                  </span>
-                  <svg
-                    class="lucide lucide-pencil-icon w-4 h-4"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
-                    />
-                    <path
-                      d="m15 5 4 4"
-                    />
-                  </svg>
-                  
-                </button>
-                <!--teleport start-->
-                <!--teleport end-->
-                
-                
-                
-                
-                
-              </div>
-              <div
-                class="h-full flex flex-col items-center justify-center text-center space-y-5"
-              >
-                <div
-                  class="font-semibold"
-                >
-                  Labor Law Cases
-                </div>
-                <span
-                  class="text-4xl"
-                >
-                  11
-                </span>
-                
-                
-              </div>
-            </div>
-            <div
-              class="ui-resizable-handle ui-resizable-se"
-              style="z-index: 100; user-select: none;"
-            />
-          </div>
-          <div
-            class="grid-stack-item ui-resizable-autohide"
-            gs-w="3"
-            gs-x="4"
-            gs-y="1"
-          >
-            <div
-              class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-yellow-300"
-            >
-              <div
-                class="hidden group-hover:flex absolute right-2 w-full justify-end"
-              >
-                
-                
-                
-                
-                
-                <button
-                  class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
-                  data-state="closed"
-                >
-                  
-                  <span
-                    class="sr-only"
-                  >
-                    Edit card
-                  </span>
-                  <svg
-                    class="lucide lucide-pencil-icon w-4 h-4"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
-                    />
-                    <path
-                      d="m15 5 4 4"
-                    />
-                  </svg>
-                  
-                </button>
-                <!--teleport start-->
-                <!--teleport end-->
-                
-                
-                
-                
-                
-              </div>
-              <div
-                class="h-full flex flex-col items-center justify-center text-center space-y-5"
-              >
-                <div
-                  class="font-semibold"
-                >
-                  Reminder
-                </div>
-                <span
-                  class="text-4xl"
-                >
-                  Call Pedro ASAP
-                </span>
-                
-                
-              </div>
-            </div>
-            <div
-              class="ui-resizable-handle ui-resizable-se"
-              style="z-index: 100; user-select: none;"
-            />
-          </div>
-          <div
-            class="grid-stack-item ui-resizable-autohide"
-            gs-w="5"
-            gs-x="7"
-            gs-y="1"
-          >
-            <div
-              class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-red-400"
-            >
-              <div
-                class="hidden group-hover:flex absolute right-2 w-full justify-end"
-              >
-                
-                
-                
-                
-                
-                <button
-                  class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
-                  data-state="closed"
-                >
-                  
-                  <span
-                    class="sr-only"
-                  >
-                    Edit card
-                  </span>
-                  <svg
-                    class="lucide lucide-pencil-icon w-4 h-4"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
-                    />
-                    <path
-                      d="m15 5 4 4"
-                    />
-                  </svg>
-                  
-                </button>
-                <!--teleport start-->
-                <!--teleport end-->
-                
-                
-                
-                
-                
-              </div>
-              <div
-                class="h-full flex flex-col items-center justify-center text-center space-y-5"
-              >
-                <div
-                  class="font-semibold"
-                >
-                  Next deadlines
-                </div>
-                <span
-                  class="text-4xl"
-                >
-                  Bob Johnson' case: Appeal 
-                </span>
-                
-                
-              </div>
-            </div>
-            <div
-              class="ui-resizable-handle ui-resizable-se"
-              style="z-index: 100; user-select: none;"
-            />
-          </div>
-          <div
-            class="grid-stack-item ui-resizable-autohide"
-            gs-w="7"
-            gs-x="0"
-            gs-y="2"
-          >
-            <div
-              class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-pink-200"
-            >
-              <div
-                class="hidden group-hover:flex absolute right-2 w-full justify-end"
-              >
-                
-                
-                
-                
-                
-                <button
-                  class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
-                  data-state="closed"
-                >
-                  
-                  <span
-                    class="sr-only"
-                  >
-                    Edit card
-                  </span>
-                  <svg
-                    class="lucide lucide-pencil-icon w-4 h-4"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
-                    />
-                    <path
-                      d="m15 5 4 4"
-                    />
-                  </svg>
-                  
-                </button>
-                <!--teleport start-->
-                <!--teleport end-->
-                
-                
-                
-                
-                
-              </div>
-              <div
-                class="h-full flex flex-col items-center justify-center text-center space-y-5"
-              >
-                <div
-                  class="font-semibold"
-                >
-                  Other stuff
-                </div>
-                <span
-                  class="text-4xl"
+                <circle
+                  cx="9"
+                  cy="5"
+                  r="1"
                 />
+                <circle
+                  cx="9"
+                  cy="19"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="12"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="5"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="19"
+                  r="1"
+                />
+              </svg>
+            </div>
+            
+          </div>
+          <div
+            data-panel=""
+            data-panel-group-id="demo-group-1"
+            data-panel-id="demo-panel-2"
+            data-panel-size="50.0"
+            id="demo-panel-2"
+            style="flex-basis: 0px; flex-grow: 50.0; flex-shrink: 1; overflow: hidden;"
+          >
+            
+            <div
+              class="flex justify-end bg-yellow-100"
+            >
+              
+              
+              
+              
+              
+              <button
+                class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none"
+                data-state="closed"
+              >
+                
+                <span
+                  class="sr-only"
+                >
+                  Editar informações
+                </span>
+                <svg
+                  class="lucide lucide-pencil-icon w-4 h-4"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
+                  />
+                  <path
+                    d="m15 5 4 4"
+                  />
+                </svg>
+                
+              </button>
+              <!--teleport start-->
+              <!--teleport end-->
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              <button
+                class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 px-4 py-2 hover:scale-110 border-none"
+                data-state="closed"
+              >
+                
+                <span
+                  class="sr-only"
+                >
+                  Deletar
+                </span>
+                <svg
+                  class="lucide lucide-trash2-icon w-4 h-4"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3 6h18"
+                  />
+                  <path
+                    d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"
+                  />
+                  <path
+                    d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"
+                  />
+                  <line
+                    x1="10"
+                    x2="10"
+                    y1="11"
+                    y2="17"
+                  />
+                  <line
+                    x1="14"
+                    x2="14"
+                    y1="11"
+                    y2="17"
+                  />
+                </svg>
+                
+              </button>
+              <!--teleport start-->
+              <!--teleport end-->
+              
+              
+              
+              
+              
+            </div>
+            <div
+              class="flex h-full w-full data-[panel-group-direction=vertical]:flex-col"
+              data-orientation="vertical"
+              data-panel-group=""
+              data-panel-group-id="demo-group-2"
+              style="display: flex; flex-direction: column; height: 100%; overflow: hidden; width: 100%;"
+            >
+              
+              
+              <div
+                data-panel=""
+                data-panel-group-id="demo-group-2"
+                data-panel-id="demo-panel-3"
+                data-panel-size="33.7"
+                id="demo-panel-3"
+                style="flex-basis: 0px; flex-grow: 33.7; flex-shrink: 1; overflow: hidden;"
+              >
+                
+                <div
+                  class="flex flex-col h-full items-center justify-center p-6 bg-yellow-100"
+                >
+                  <span
+                    class="font-semibold text-2xl text-center"
+                  >
+                    Favorable decisions
+                  </span>
+                  <span
+                    class="font-semibold text-3xl mt-4"
+                  >
+                    7
+                  </span>
+                </div>
+                
+              </div>
+              <div
+                aria-controls="demo-panel-3"
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="34"
+                class="relative flex w-px items-center justify-center bg-border after:absolute after:inset-y-0 after:left-1/2 after:w-1 after:-translate-x-1/2 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring focus-visible:ring-offset-1 [&[data-orientation=vertical]]:h-px [&[data-orientation=vertical]]:w-full [&[data-orientation=vertical]]:after:left-0 [&[data-orientation=vertical]]:after:h-1 [&[data-orientation=vertical]]:after:w-full [&[data-orientation=vertical]]:after:-translate-y-1/2 [&[data-orientation=vertical]]:after:translate-x-0 [&[data-orientation=vertical]>div]:rotate-90"
+                data-orientation="vertical"
+                data-panel-group-id="demo-group-2"
+                data-panel-resize-handle-enabled="true"
+                data-panel-resize-handle-id="demo-handle-2"
+                data-resize-handle=""
+                data-resize-handle-state="inactive"
+                data-state="inactive"
+                id="demo-handle-2"
+                role="separator"
+                style="touch-action: none; user-select: none;"
+                tabindex="0"
+                withhandle="true"
+              >
+                
+                <div
+                  class="z-10 flex h-4 w-3 items-center justify-center rounded-sm border bg-border"
+                >
+                  <svg
+                    class="lucide lucide-grip-vertical-icon h-2.5 w-2.5"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="9"
+                      cy="12"
+                      r="1"
+                    />
+                    <circle
+                      cx="9"
+                      cy="5"
+                      r="1"
+                    />
+                    <circle
+                      cx="9"
+                      cy="19"
+                      r="1"
+                    />
+                    <circle
+                      cx="15"
+                      cy="12"
+                      r="1"
+                    />
+                    <circle
+                      cx="15"
+                      cy="5"
+                      r="1"
+                    />
+                    <circle
+                      cx="15"
+                      cy="19"
+                      r="1"
+                    />
+                  </svg>
+                </div>
+                
+              </div>
+              <div
+                class="flex justify-end bg-pink-100"
+              >
+                
+                
+                
+                
+                
+                <button
+                  class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none"
+                  data-state="closed"
+                >
+                  
+                  <span
+                    class="sr-only"
+                  >
+                    Editar informações
+                  </span>
+                  <svg
+                    class="lucide lucide-pencil-icon w-4 h-4"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
+                    />
+                    <path
+                      d="m15 5 4 4"
+                    />
+                  </svg>
+                  
+                </button>
+                <!--teleport start-->
+                <!--teleport end-->
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <button
+                  class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 px-4 py-2 hover:scale-110 border-none"
+                  data-state="closed"
+                >
+                  
+                  <span
+                    class="sr-only"
+                  >
+                    Deletar
+                  </span>
+                  <svg
+                    class="lucide lucide-trash2-icon w-4 h-4"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M3 6h18"
+                    />
+                    <path
+                      d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"
+                    />
+                    <path
+                      d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"
+                    />
+                    <line
+                      x1="10"
+                      x2="10"
+                      y1="11"
+                      y2="17"
+                    />
+                    <line
+                      x1="14"
+                      x2="14"
+                      y1="11"
+                      y2="17"
+                    />
+                  </svg>
+                  
+                </button>
+                <!--teleport start-->
+                <!--teleport end-->
+                
+                
+                
                 
                 
               </div>
+              <div
+                data-panel=""
+                data-panel-group-id="demo-group-2"
+                data-panel-id="demo-panel-4"
+                data-panel-size="33.7"
+                id="demo-panel-4"
+                style="flex-basis: 0px; flex-grow: 33.7; flex-shrink: 1; overflow: hidden;"
+              >
+                
+                <div
+                  class="flex flex-col h-full items-center justify-center p-6 bg-pink-100"
+                >
+                  <span
+                    class="font-semibold text-2xl text-center"
+                  >
+                    Low priority cases
+                  </span>
+                  <span
+                    class="font-semibold text-3xl mt-4"
+                  >
+                    22
+                  </span>
+                </div>
+                
+              </div>
+              <div
+                aria-controls="demo-panel-4"
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="34"
+                class="relative flex w-px items-center justify-center bg-border after:absolute after:inset-y-0 after:left-1/2 after:w-1 after:-translate-x-1/2 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring focus-visible:ring-offset-1 [&[data-orientation=vertical]]:h-px [&[data-orientation=vertical]]:w-full [&[data-orientation=vertical]]:after:left-0 [&[data-orientation=vertical]]:after:h-1 [&[data-orientation=vertical]]:after:w-full [&[data-orientation=vertical]]:after:-translate-y-1/2 [&[data-orientation=vertical]]:after:translate-x-0 [&[data-orientation=vertical]>div]:rotate-90"
+                data-orientation="vertical"
+                data-panel-group-id="demo-group-2"
+                data-panel-resize-handle-enabled="true"
+                data-panel-resize-handle-id="demo-handle-5"
+                data-resize-handle=""
+                data-resize-handle-state="inactive"
+                data-state="inactive"
+                id="demo-handle-5"
+                role="separator"
+                style="touch-action: none; user-select: none;"
+                tabindex="0"
+                withhandle="true"
+              >
+                
+                <div
+                  class="z-10 flex h-4 w-3 items-center justify-center rounded-sm border bg-border"
+                >
+                  <svg
+                    class="lucide lucide-grip-vertical-icon h-2.5 w-2.5"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="9"
+                      cy="12"
+                      r="1"
+                    />
+                    <circle
+                      cx="9"
+                      cy="5"
+                      r="1"
+                    />
+                    <circle
+                      cx="9"
+                      cy="19"
+                      r="1"
+                    />
+                    <circle
+                      cx="15"
+                      cy="12"
+                      r="1"
+                    />
+                    <circle
+                      cx="15"
+                      cy="5"
+                      r="1"
+                    />
+                    <circle
+                      cx="15"
+                      cy="19"
+                      r="1"
+                    />
+                  </svg>
+                </div>
+                
+              </div>
+              <div
+                class="flex justify-end bg-green-100"
+              >
+                
+                
+                
+                
+                
+                <button
+                  class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none"
+                  data-state="closed"
+                >
+                  
+                  <span
+                    class="sr-only"
+                  >
+                    Editar informações
+                  </span>
+                  <svg
+                    class="lucide lucide-pencil-icon w-4 h-4"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
+                    />
+                    <path
+                      d="m15 5 4 4"
+                    />
+                  </svg>
+                  
+                </button>
+                <!--teleport start-->
+                <!--teleport end-->
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <button
+                  class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 px-4 py-2 hover:scale-110 border-none"
+                  data-state="closed"
+                >
+                  
+                  <span
+                    class="sr-only"
+                  >
+                    Deletar
+                  </span>
+                  <svg
+                    class="lucide lucide-trash2-icon w-4 h-4"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M3 6h18"
+                    />
+                    <path
+                      d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"
+                    />
+                    <path
+                      d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"
+                    />
+                    <line
+                      x1="10"
+                      x2="10"
+                      y1="11"
+                      y2="17"
+                    />
+                    <line
+                      x1="14"
+                      x2="14"
+                      y1="11"
+                      y2="17"
+                    />
+                  </svg>
+                  
+                </button>
+                <!--teleport start-->
+                <!--teleport end-->
+                
+                
+                
+                
+                
+              </div>
+              <div
+                data-panel=""
+                data-panel-group-id="demo-group-2"
+                data-panel-id="demo-panel-5"
+                data-panel-size="32.6"
+                id="demo-panel-5"
+                style="flex-basis: 0px; flex-grow: 32.6; flex-shrink: 1; overflow: hidden;"
+              >
+                
+                <div
+                  class="flex flex-col h-full items-center justify-center p-6 bg-green-100"
+                >
+                  <span
+                    class="font-semibold text-2xl text-center"
+                  >
+                    Favorites
+                  </span>
+                  <span
+                    class="font-semibold text-3xl mt-4"
+                  >
+                    5
+                  </span>
+                </div>
+                
+              </div>
+              
+              
             </div>
-            <div
-              class="ui-resizable-handle ui-resizable-se"
-              style="z-index: 100; user-select: none;"
-            />
+            
           </div>
+          
+          
         </div>
+        <!-- &lt;DemoDragDropPanel/&gt; -->
         
       </div>
     </div>
+    
+    
+    <!---->
+    
+    
+    
     
     
     <!---->
@@ -882,12 +1225,6 @@ exports[`matches snapshot 1`] = `
     <div
       id="test-wrapper"
     >
-      <style
-        gs-style-id="gs-id-0"
-        type="text/css"
-      >
-        
-      </style>
       
       
       <div
@@ -973,21 +1310,308 @@ exports[`matches snapshot 1`] = `
       />
       
       <div
-        class="grid-stack relative flex bg-gray-100 dark:bg-gray-900 rounded-lg gs-12 gs-id-0 grid-stack-animate"
-        gs-current-row="3"
-        style="height: 600px;"
+        class="flex h-full w-full data-[panel-group-direction=vertical]:flex-col min-h-screen rounded-lg border"
+        data-orientation="horizontal"
+        data-panel-group=""
+        data-panel-group-id="demo-group-1"
+        style="display: flex; flex-direction: row; height: 100%; overflow: hidden; width: 100%;"
       >
+        
+        
         <div
-          class="grid-stack-item ui-resizable-autohide"
-          gs-w="5"
-          gs-x="0"
-          gs-y="0"
+          data-panel=""
+          data-panel-group-id="demo-group-1"
+          data-panel-id="demo-panel-1"
+          data-panel-size="50.0"
+          id="demo-panel-1"
+          style="flex-basis: 0px; flex-grow: 50.0; flex-shrink: 1; overflow: hidden;"
         >
+          
           <div
-            class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-blue-200"
+            class="flex justify-end bg-yellow-100"
           >
+            
+            
+            
+            
+            
+            <button
+              class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none"
+              data-state="closed"
+            >
+              
+              <span
+                class="sr-only"
+              >
+                Editar informações
+              </span>
+              <svg
+                class="lucide lucide-pencil-icon w-4 h-4"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
+                />
+                <path
+                  d="m15 5 4 4"
+                />
+              </svg>
+              
+            </button>
+            <!--teleport start-->
+            <!--teleport end-->
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <button
+              class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 px-4 py-2 hover:scale-110 border-none"
+              data-state="closed"
+            >
+              
+              <span
+                class="sr-only"
+              >
+                Deletar
+              </span>
+              <svg
+                class="lucide lucide-trash2-icon w-4 h-4"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3 6h18"
+                />
+                <path
+                  d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"
+                />
+                <path
+                  d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"
+                />
+                <line
+                  x1="10"
+                  x2="10"
+                  y1="11"
+                  y2="17"
+                />
+                <line
+                  x1="14"
+                  x2="14"
+                  y1="11"
+                  y2="17"
+                />
+              </svg>
+              
+            </button>
+            <!--teleport start-->
+            <!--teleport end-->
+            
+            
+            
+            
+            
+          </div>
+          <div
+            class="flex h-full w-full data-[panel-group-direction=vertical]:flex-col"
+            data-orientation="vertical"
+            data-panel-group=""
+            data-panel-group-id="demo-group-2"
+            style="display: flex; flex-direction: column; height: 100%; overflow: hidden; width: 100%;"
+          >
+            
+            
             <div
-              class="hidden group-hover:flex absolute right-2 w-full justify-end"
+              data-panel=""
+              data-panel-group-id="demo-group-2"
+              data-panel-id="demo-panel-3"
+              data-panel-size="50.0"
+              id="demo-panel-3"
+              style="flex-basis: 0px; flex-grow: 50.0; flex-shrink: 1; overflow: hidden;"
+            >
+              
+              <div
+                class="flex flex-col h-full items-center justify-center p-6 bg-yellow-100"
+              >
+                <span
+                  class="font-semibold text-2xl text-center"
+                >
+                  Next hearings
+                </span>
+                <span
+                  class="font-semibold mt-4"
+                >
+                  15/04/2014 - 14:00
+                </span>
+                <span
+                  class="font-semibold mt-4"
+                >
+                  16/04/2014 - 10:00
+                </span>
+                <span
+                  class="font-semibold mt-4"
+                >
+                  19/04/2014 - 9:15
+                </span>
+              </div>
+              
+            </div>
+            <div
+              aria-controls="demo-panel-3"
+              aria-valuemax="100"
+              aria-valuemin="0"
+              aria-valuenow="50"
+              class="relative flex w-px items-center justify-center bg-border after:absolute after:inset-y-0 after:left-1/2 after:w-1 after:-translate-x-1/2 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring focus-visible:ring-offset-1 [&[data-orientation=vertical]]:h-px [&[data-orientation=vertical]]:w-full [&[data-orientation=vertical]]:after:left-0 [&[data-orientation=vertical]]:after:h-1 [&[data-orientation=vertical]]:after:w-full [&[data-orientation=vertical]]:after:-translate-y-1/2 [&[data-orientation=vertical]]:after:translate-x-0 [&[data-orientation=vertical]>div]:rotate-90"
+              data-orientation="vertical"
+              data-panel-group-id="demo-group-2"
+              data-panel-resize-handle-enabled="true"
+              data-panel-resize-handle-id="demo-handle-1"
+              data-resize-handle=""
+              data-resize-handle-state="inactive"
+              data-state="inactive"
+              id="demo-handle-1"
+              role="separator"
+              style="touch-action: none; user-select: none;"
+              tabindex="0"
+              withhandle="true"
+            >
+              
+              <div
+                class="z-10 flex h-4 w-3 items-center justify-center rounded-sm border bg-border"
+              >
+                <svg
+                  class="lucide lucide-grip-vertical-icon h-2.5 w-2.5"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="9"
+                    cy="12"
+                    r="1"
+                  />
+                  <circle
+                    cx="9"
+                    cy="5"
+                    r="1"
+                  />
+                  <circle
+                    cx="9"
+                    cy="19"
+                    r="1"
+                  />
+                  <circle
+                    cx="15"
+                    cy="12"
+                    r="1"
+                  />
+                  <circle
+                    cx="15"
+                    cy="5"
+                    r="1"
+                  />
+                  <circle
+                    cx="15"
+                    cy="19"
+                    r="1"
+                  />
+                </svg>
+              </div>
+              
+            </div>
+            <div
+              class="relative flex w-px items-center justify-center bg-border after:absolute after:inset-y-0 after:left-1/2 after:w-1 after:-translate-x-1/2 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring focus-visible:ring-offset-1 [&[data-orientation=vertical]]:h-px [&[data-orientation=vertical]]:w-full [&[data-orientation=vertical]]:after:left-0 [&[data-orientation=vertical]]:after:h-1 [&[data-orientation=vertical]]:after:w-full [&[data-orientation=vertical]]:after:-translate-y-1/2 [&[data-orientation=vertical]]:after:translate-x-0 [&[data-orientation=vertical]>div]:rotate-90"
+              data-orientation="vertical"
+              data-panel-group-id="demo-group-2"
+              data-panel-resize-handle-enabled="true"
+              data-panel-resize-handle-id="demo-handle-5"
+              data-resize-handle=""
+              data-resize-handle-state="inactive"
+              data-state="inactive"
+              id="demo-handle-5"
+              role="separator"
+              style="touch-action: none; user-select: none;"
+              tabindex="0"
+              withhandle="true"
+            >
+              
+              <div
+                class="z-10 flex h-4 w-3 items-center justify-center rounded-sm border bg-border"
+              >
+                <svg
+                  class="lucide lucide-grip-vertical-icon h-2.5 w-2.5"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="9"
+                    cy="12"
+                    r="1"
+                  />
+                  <circle
+                    cx="9"
+                    cy="5"
+                    r="1"
+                  />
+                  <circle
+                    cx="9"
+                    cy="19"
+                    r="1"
+                  />
+                  <circle
+                    cx="15"
+                    cy="12"
+                    r="1"
+                  />
+                  <circle
+                    cx="15"
+                    cy="5"
+                    r="1"
+                  />
+                  <circle
+                    cx="15"
+                    cy="19"
+                    r="1"
+                  />
+                </svg>
+              </div>
+              
+            </div>
+            <div
+              class="flex justify-end bg-green-100"
             >
               
               
@@ -995,14 +1619,14 @@ exports[`matches snapshot 1`] = `
               
               
               <button
-                class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
+                class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none"
                 data-state="closed"
               >
                 
                 <span
                   class="sr-only"
                 >
-                  Edit card
+                  Editar informações
                 </span>
                 <svg
                   class="lucide lucide-pencil-icon w-4 h-4"
@@ -1032,663 +1656,719 @@ exports[`matches snapshot 1`] = `
               
               
               
+              
+              
+              
+              
+              
+              <button
+                class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 px-4 py-2 hover:scale-110 border-none"
+                data-state="closed"
+              >
+                
+                <span
+                  class="sr-only"
+                >
+                  Deletar
+                </span>
+                <svg
+                  class="lucide lucide-trash2-icon w-4 h-4"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3 6h18"
+                  />
+                  <path
+                    d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"
+                  />
+                  <path
+                    d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"
+                  />
+                  <line
+                    x1="10"
+                    x2="10"
+                    y1="11"
+                    y2="17"
+                  />
+                  <line
+                    x1="14"
+                    x2="14"
+                    y1="11"
+                    y2="17"
+                  />
+                </svg>
+                
+              </button>
+              <!--teleport start-->
+              <!--teleport end-->
+              
+              
+              
+              
+              
             </div>
             <div
-              class="h-full flex flex-col items-center justify-center text-center space-y-5"
+              data-panel=""
+              data-panel-group-id="demo-group-2"
+              data-panel-id="demo-panel-5"
+              data-panel-size="50.0"
+              id="demo-panel-5"
+              style="flex-basis: 0px; flex-grow: 50.0; flex-shrink: 1; overflow: hidden;"
             >
+              
               <div
-                class="font-semibold"
+                class="flex flex-col h-full items-center justify-center p-6 bg-green-100"
               >
-                Next hearings
+                <span
+                  class="font-semibold text-2xl text-center"
+                >
+                  Labor Law cases
+                </span>
+                <span
+                  class="font-semibold text-3xl mt-4"
+                >
+                  8
+                </span>
               </div>
-              <span
-                class="text-4xl"
+              
+            </div>
+            
+            
+          </div>
+          
+        </div>
+        <div
+          aria-controls="demo-panel-1"
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="50"
+          class="relative flex w-px items-center justify-center bg-border after:absolute after:inset-y-0 after:left-1/2 after:w-1 after:-translate-x-1/2 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring focus-visible:ring-offset-1 [&[data-orientation=vertical]]:h-px [&[data-orientation=vertical]]:w-full [&[data-orientation=vertical]]:after:left-0 [&[data-orientation=vertical]]:after:h-1 [&[data-orientation=vertical]]:after:w-full [&[data-orientation=vertical]]:after:-translate-y-1/2 [&[data-orientation=vertical]]:after:translate-x-0 [&[data-orientation=vertical]>div]:rotate-90"
+          data-orientation="horizontal"
+          data-panel-group-id="demo-group-1"
+          data-panel-resize-handle-enabled="true"
+          data-panel-resize-handle-id="demo-handle-1"
+          data-resize-handle=""
+          data-resize-handle-state="inactive"
+          data-state="inactive"
+          id="demo-handle-1"
+          role="separator"
+          style="touch-action: none; user-select: none;"
+          tabindex="0"
+          withhandle="true"
+        >
+          
+          <div
+            class="z-10 flex h-4 w-3 items-center justify-center rounded-sm border bg-border"
+          >
+            <svg
+              class="lucide lucide-grip-vertical-icon h-2.5 w-2.5"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="9"
+                cy="12"
+                r="1"
               />
-              
-              <div
-                class="flex flex-col"
-              >
-                <span>
-                  19/04/2024 - 09:15
-                </span>
-                <span>
-                  23/04/2024 - 11:30
-                </span>
-                <span>
-                  24/04/2024 - 10:00
-                </span>
-              </div>
-              
-            </div>
-          </div>
-          <div
-            class="ui-resizable-handle ui-resizable-se"
-            style="z-index: 100; user-select: none;"
-          />
-        </div>
-        <div
-          class="grid-stack-item ui-resizable-autohide"
-          gs-w="2"
-          gs-x="5"
-          gs-y="0"
-        >
-          <div
-            class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-purple-200"
-          >
-            <div
-              class="hidden group-hover:flex absolute right-2 w-full justify-end"
-            >
-              
-              
-              
-              
-              
-              <button
-                class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
-                data-state="closed"
-              >
-                
-                <span
-                  class="sr-only"
-                >
-                  Edit card
-                </span>
-                <svg
-                  class="lucide lucide-pencil-icon w-4 h-4"
-                  fill="none"
-                  height="24"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  viewBox="0 0 24 24"
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
-                  />
-                  <path
-                    d="m15 5 4 4"
-                  />
-                </svg>
-                
-              </button>
-              <!--teleport start-->
-              <!--teleport end-->
-              
-              
-              
-              
-              
-            </div>
-            <div
-              class="h-full flex flex-col items-center justify-center text-center space-y-5"
-            >
-              <div
-                class="font-semibold"
-              >
-                Low priority
-              </div>
-              <span
-                class="text-4xl"
-              >
-                17
-              </span>
-              
-              
-            </div>
-          </div>
-          <div
-            class="ui-resizable-handle ui-resizable-se"
-            style="z-index: 100; user-select: none;"
-          />
-        </div>
-        <div
-          class="grid-stack-item ui-resizable-autohide"
-          gs-w="3"
-          gs-x="7"
-          gs-y="0"
-        >
-          <div
-            class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-emerald-200"
-          >
-            <div
-              class="hidden group-hover:flex absolute right-2 w-full justify-end"
-            >
-              
-              
-              
-              
-              
-              <button
-                class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
-                data-state="closed"
-              >
-                
-                <span
-                  class="sr-only"
-                >
-                  Edit card
-                </span>
-                <svg
-                  class="lucide lucide-pencil-icon w-4 h-4"
-                  fill="none"
-                  height="24"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  viewBox="0 0 24 24"
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
-                  />
-                  <path
-                    d="m15 5 4 4"
-                  />
-                </svg>
-                
-              </button>
-              <!--teleport start-->
-              <!--teleport end-->
-              
-              
-              
-              
-              
-            </div>
-            <div
-              class="h-full flex flex-col items-center justify-center text-center space-y-5"
-            >
-              <div
-                class="font-semibold"
-              >
-                Favorable decisions this year
-              </div>
-              <span
-                class="text-4xl"
-              >
-                7
-              </span>
-              
-              
-            </div>
-          </div>
-          <div
-            class="ui-resizable-handle ui-resizable-se"
-            style="z-index: 100; user-select: none;"
-          />
-        </div>
-        <div
-          class="grid-stack-item ui-resizable-autohide"
-          gs-w="2"
-          gs-x="10"
-          gs-y="0"
-        >
-          <div
-            class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-yellow-200"
-          >
-            <div
-              class="hidden group-hover:flex absolute right-2 w-full justify-end"
-            >
-              
-              
-              
-              
-              
-              <button
-                class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
-                data-state="closed"
-              >
-                
-                <span
-                  class="sr-only"
-                >
-                  Edit card
-                </span>
-                <svg
-                  class="lucide lucide-pencil-icon w-4 h-4"
-                  fill="none"
-                  height="24"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  viewBox="0 0 24 24"
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
-                  />
-                  <path
-                    d="m15 5 4 4"
-                  />
-                </svg>
-                
-              </button>
-              <!--teleport start-->
-              <!--teleport end-->
-              
-              
-              
-              
-              
-            </div>
-            <div
-              class="h-full flex flex-col items-center justify-center text-center space-y-5"
-            >
-              <div
-                class="font-semibold"
-              >
-                Favorite cases
-              </div>
-              <span
-                class="text-4xl"
-              >
-                3
-              </span>
-              
-              
-            </div>
-          </div>
-          <div
-            class="ui-resizable-handle ui-resizable-se"
-            style="z-index: 100; user-select: none;"
-          />
-        </div>
-        <div
-          class="grid-stack-item ui-resizable-autohide"
-          gs-w="2"
-          gs-x="0"
-          gs-y="1"
-        >
-          <div
-            class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-purple-200"
-          >
-            <div
-              class="hidden group-hover:flex absolute right-2 w-full justify-end"
-            >
-              
-              
-              
-              
-              
-              <button
-                class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
-                data-state="closed"
-              >
-                
-                <span
-                  class="sr-only"
-                >
-                  Edit card
-                </span>
-                <svg
-                  class="lucide lucide-pencil-icon w-4 h-4"
-                  fill="none"
-                  height="24"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  viewBox="0 0 24 24"
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
-                  />
-                  <path
-                    d="m15 5 4 4"
-                  />
-                </svg>
-                
-              </button>
-              <!--teleport start-->
-              <!--teleport end-->
-              
-              
-              
-              
-              
-            </div>
-            <div
-              class="h-full flex flex-col items-center justify-center text-center space-y-5"
-            >
-              <div
-                class="font-semibold"
-              >
-                Waiting for decision
-              </div>
-              <span
-                class="text-4xl"
-              >
-                16
-              </span>
-              
-              
-            </div>
-          </div>
-          <div
-            class="ui-resizable-handle ui-resizable-se"
-            style="z-index: 100; user-select: none;"
-          />
-        </div>
-        <div
-          class="grid-stack-item ui-resizable-autohide"
-          gs-w="2"
-          gs-x="2"
-          gs-y="1"
-        >
-          <div
-            class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-purple-300"
-          >
-            <div
-              class="hidden group-hover:flex absolute right-2 w-full justify-end"
-            >
-              
-              
-              
-              
-              
-              <button
-                class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
-                data-state="closed"
-              >
-                
-                <span
-                  class="sr-only"
-                >
-                  Edit card
-                </span>
-                <svg
-                  class="lucide lucide-pencil-icon w-4 h-4"
-                  fill="none"
-                  height="24"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  viewBox="0 0 24 24"
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
-                  />
-                  <path
-                    d="m15 5 4 4"
-                  />
-                </svg>
-                
-              </button>
-              <!--teleport start-->
-              <!--teleport end-->
-              
-              
-              
-              
-              
-            </div>
-            <div
-              class="h-full flex flex-col items-center justify-center text-center space-y-5"
-            >
-              <div
-                class="font-semibold"
-              >
-                Labor Law Cases
-              </div>
-              <span
-                class="text-4xl"
-              >
-                11
-              </span>
-              
-              
-            </div>
-          </div>
-          <div
-            class="ui-resizable-handle ui-resizable-se"
-            style="z-index: 100; user-select: none;"
-          />
-        </div>
-        <div
-          class="grid-stack-item ui-resizable-autohide"
-          gs-w="3"
-          gs-x="4"
-          gs-y="1"
-        >
-          <div
-            class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-yellow-300"
-          >
-            <div
-              class="hidden group-hover:flex absolute right-2 w-full justify-end"
-            >
-              
-              
-              
-              
-              
-              <button
-                class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
-                data-state="closed"
-              >
-                
-                <span
-                  class="sr-only"
-                >
-                  Edit card
-                </span>
-                <svg
-                  class="lucide lucide-pencil-icon w-4 h-4"
-                  fill="none"
-                  height="24"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  viewBox="0 0 24 24"
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
-                  />
-                  <path
-                    d="m15 5 4 4"
-                  />
-                </svg>
-                
-              </button>
-              <!--teleport start-->
-              <!--teleport end-->
-              
-              
-              
-              
-              
-            </div>
-            <div
-              class="h-full flex flex-col items-center justify-center text-center space-y-5"
-            >
-              <div
-                class="font-semibold"
-              >
-                Reminder
-              </div>
-              <span
-                class="text-4xl"
-              >
-                Call Pedro ASAP
-              </span>
-              
-              
-            </div>
-          </div>
-          <div
-            class="ui-resizable-handle ui-resizable-se"
-            style="z-index: 100; user-select: none;"
-          />
-        </div>
-        <div
-          class="grid-stack-item ui-resizable-autohide"
-          gs-w="5"
-          gs-x="7"
-          gs-y="1"
-        >
-          <div
-            class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-red-400"
-          >
-            <div
-              class="hidden group-hover:flex absolute right-2 w-full justify-end"
-            >
-              
-              
-              
-              
-              
-              <button
-                class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
-                data-state="closed"
-              >
-                
-                <span
-                  class="sr-only"
-                >
-                  Edit card
-                </span>
-                <svg
-                  class="lucide lucide-pencil-icon w-4 h-4"
-                  fill="none"
-                  height="24"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  viewBox="0 0 24 24"
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
-                  />
-                  <path
-                    d="m15 5 4 4"
-                  />
-                </svg>
-                
-              </button>
-              <!--teleport start-->
-              <!--teleport end-->
-              
-              
-              
-              
-              
-            </div>
-            <div
-              class="h-full flex flex-col items-center justify-center text-center space-y-5"
-            >
-              <div
-                class="font-semibold"
-              >
-                Next deadlines
-              </div>
-              <span
-                class="text-4xl"
-              >
-                Bob Johnson' case: Appeal 
-              </span>
-              
-              
-            </div>
-          </div>
-          <div
-            class="ui-resizable-handle ui-resizable-se"
-            style="z-index: 100; user-select: none;"
-          />
-        </div>
-        <div
-          class="grid-stack-item ui-resizable-autohide"
-          gs-w="7"
-          gs-x="0"
-          gs-y="2"
-        >
-          <div
-            class="grid-stack-item-content group flex flex-col pt-1 rounded-lg dark:text-gray-800 hover:cursor-grabbing shadow-md shadow-slate-400 dark:shadow-slate-700 bg-pink-200"
-          >
-            <div
-              class="hidden group-hover:flex absolute right-2 w-full justify-end"
-            >
-              
-              
-              
-              
-              
-              <button
-                class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none rounded-full"
-                data-state="closed"
-              >
-                
-                <span
-                  class="sr-only"
-                >
-                  Edit card
-                </span>
-                <svg
-                  class="lucide lucide-pencil-icon w-4 h-4"
-                  fill="none"
-                  height="24"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  viewBox="0 0 24 24"
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
-                  />
-                  <path
-                    d="m15 5 4 4"
-                  />
-                </svg>
-                
-              </button>
-              <!--teleport start-->
-              <!--teleport end-->
-              
-              
-              
-              
-              
-            </div>
-            <div
-              class="h-full flex flex-col items-center justify-center text-center space-y-5"
-            >
-              <div
-                class="font-semibold"
-              >
-                Other stuff
-              </div>
-              <span
-                class="text-4xl"
+              <circle
+                cx="9"
+                cy="5"
+                r="1"
               />
+              <circle
+                cx="9"
+                cy="19"
+                r="1"
+              />
+              <circle
+                cx="15"
+                cy="12"
+                r="1"
+              />
+              <circle
+                cx="15"
+                cy="5"
+                r="1"
+              />
+              <circle
+                cx="15"
+                cy="19"
+                r="1"
+              />
+            </svg>
+          </div>
+          
+        </div>
+        <div
+          data-panel=""
+          data-panel-group-id="demo-group-1"
+          data-panel-id="demo-panel-2"
+          data-panel-size="50.0"
+          id="demo-panel-2"
+          style="flex-basis: 0px; flex-grow: 50.0; flex-shrink: 1; overflow: hidden;"
+        >
+          
+          <div
+            class="flex justify-end bg-yellow-100"
+          >
+            
+            
+            
+            
+            
+            <button
+              class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none"
+              data-state="closed"
+            >
+              
+              <span
+                class="sr-only"
+              >
+                Editar informações
+              </span>
+              <svg
+                class="lucide lucide-pencil-icon w-4 h-4"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
+                />
+                <path
+                  d="m15 5 4 4"
+                />
+              </svg>
+              
+            </button>
+            <!--teleport start-->
+            <!--teleport end-->
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <button
+              class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 px-4 py-2 hover:scale-110 border-none"
+              data-state="closed"
+            >
+              
+              <span
+                class="sr-only"
+              >
+                Deletar
+              </span>
+              <svg
+                class="lucide lucide-trash2-icon w-4 h-4"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3 6h18"
+                />
+                <path
+                  d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"
+                />
+                <path
+                  d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"
+                />
+                <line
+                  x1="10"
+                  x2="10"
+                  y1="11"
+                  y2="17"
+                />
+                <line
+                  x1="14"
+                  x2="14"
+                  y1="11"
+                  y2="17"
+                />
+              </svg>
+              
+            </button>
+            <!--teleport start-->
+            <!--teleport end-->
+            
+            
+            
+            
+            
+          </div>
+          <div
+            class="flex h-full w-full data-[panel-group-direction=vertical]:flex-col"
+            data-orientation="vertical"
+            data-panel-group=""
+            data-panel-group-id="demo-group-2"
+            style="display: flex; flex-direction: column; height: 100%; overflow: hidden; width: 100%;"
+          >
+            
+            
+            <div
+              data-panel=""
+              data-panel-group-id="demo-group-2"
+              data-panel-id="demo-panel-3"
+              data-panel-size="33.7"
+              id="demo-panel-3"
+              style="flex-basis: 0px; flex-grow: 33.7; flex-shrink: 1; overflow: hidden;"
+            >
+              
+              <div
+                class="flex flex-col h-full items-center justify-center p-6 bg-yellow-100"
+              >
+                <span
+                  class="font-semibold text-2xl text-center"
+                >
+                  Favorable decisions
+                </span>
+                <span
+                  class="font-semibold text-3xl mt-4"
+                >
+                  7
+                </span>
+              </div>
+              
+            </div>
+            <div
+              aria-controls="demo-panel-3"
+              aria-valuemax="100"
+              aria-valuemin="0"
+              aria-valuenow="34"
+              class="relative flex w-px items-center justify-center bg-border after:absolute after:inset-y-0 after:left-1/2 after:w-1 after:-translate-x-1/2 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring focus-visible:ring-offset-1 [&[data-orientation=vertical]]:h-px [&[data-orientation=vertical]]:w-full [&[data-orientation=vertical]]:after:left-0 [&[data-orientation=vertical]]:after:h-1 [&[data-orientation=vertical]]:after:w-full [&[data-orientation=vertical]]:after:-translate-y-1/2 [&[data-orientation=vertical]]:after:translate-x-0 [&[data-orientation=vertical]>div]:rotate-90"
+              data-orientation="vertical"
+              data-panel-group-id="demo-group-2"
+              data-panel-resize-handle-enabled="true"
+              data-panel-resize-handle-id="demo-handle-2"
+              data-resize-handle=""
+              data-resize-handle-state="inactive"
+              data-state="inactive"
+              id="demo-handle-2"
+              role="separator"
+              style="touch-action: none; user-select: none;"
+              tabindex="0"
+              withhandle="true"
+            >
+              
+              <div
+                class="z-10 flex h-4 w-3 items-center justify-center rounded-sm border bg-border"
+              >
+                <svg
+                  class="lucide lucide-grip-vertical-icon h-2.5 w-2.5"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="9"
+                    cy="12"
+                    r="1"
+                  />
+                  <circle
+                    cx="9"
+                    cy="5"
+                    r="1"
+                  />
+                  <circle
+                    cx="9"
+                    cy="19"
+                    r="1"
+                  />
+                  <circle
+                    cx="15"
+                    cy="12"
+                    r="1"
+                  />
+                  <circle
+                    cx="15"
+                    cy="5"
+                    r="1"
+                  />
+                  <circle
+                    cx="15"
+                    cy="19"
+                    r="1"
+                  />
+                </svg>
+              </div>
+              
+            </div>
+            <div
+              class="flex justify-end bg-pink-100"
+            >
+              
+              
+              
+              
+              
+              <button
+                class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none"
+                data-state="closed"
+              >
+                
+                <span
+                  class="sr-only"
+                >
+                  Editar informações
+                </span>
+                <svg
+                  class="lucide lucide-pencil-icon w-4 h-4"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
+                  />
+                  <path
+                    d="m15 5 4 4"
+                  />
+                </svg>
+                
+              </button>
+              <!--teleport start-->
+              <!--teleport end-->
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              <button
+                class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 px-4 py-2 hover:scale-110 border-none"
+                data-state="closed"
+              >
+                
+                <span
+                  class="sr-only"
+                >
+                  Deletar
+                </span>
+                <svg
+                  class="lucide lucide-trash2-icon w-4 h-4"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3 6h18"
+                  />
+                  <path
+                    d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"
+                  />
+                  <path
+                    d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"
+                  />
+                  <line
+                    x1="10"
+                    x2="10"
+                    y1="11"
+                    y2="17"
+                  />
+                  <line
+                    x1="14"
+                    x2="14"
+                    y1="11"
+                    y2="17"
+                  />
+                </svg>
+                
+              </button>
+              <!--teleport start-->
+              <!--teleport end-->
+              
+              
+              
               
               
             </div>
+            <div
+              data-panel=""
+              data-panel-group-id="demo-group-2"
+              data-panel-id="demo-panel-4"
+              data-panel-size="33.7"
+              id="demo-panel-4"
+              style="flex-basis: 0px; flex-grow: 33.7; flex-shrink: 1; overflow: hidden;"
+            >
+              
+              <div
+                class="flex flex-col h-full items-center justify-center p-6 bg-pink-100"
+              >
+                <span
+                  class="font-semibold text-2xl text-center"
+                >
+                  Low priority cases
+                </span>
+                <span
+                  class="font-semibold text-3xl mt-4"
+                >
+                  22
+                </span>
+              </div>
+              
+            </div>
+            <div
+              aria-controls="demo-panel-4"
+              aria-valuemax="100"
+              aria-valuemin="0"
+              aria-valuenow="34"
+              class="relative flex w-px items-center justify-center bg-border after:absolute after:inset-y-0 after:left-1/2 after:w-1 after:-translate-x-1/2 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring focus-visible:ring-offset-1 [&[data-orientation=vertical]]:h-px [&[data-orientation=vertical]]:w-full [&[data-orientation=vertical]]:after:left-0 [&[data-orientation=vertical]]:after:h-1 [&[data-orientation=vertical]]:after:w-full [&[data-orientation=vertical]]:after:-translate-y-1/2 [&[data-orientation=vertical]]:after:translate-x-0 [&[data-orientation=vertical]>div]:rotate-90"
+              data-orientation="vertical"
+              data-panel-group-id="demo-group-2"
+              data-panel-resize-handle-enabled="true"
+              data-panel-resize-handle-id="demo-handle-5"
+              data-resize-handle=""
+              data-resize-handle-state="inactive"
+              data-state="inactive"
+              id="demo-handle-5"
+              role="separator"
+              style="touch-action: none; user-select: none;"
+              tabindex="0"
+              withhandle="true"
+            >
+              
+              <div
+                class="z-10 flex h-4 w-3 items-center justify-center rounded-sm border bg-border"
+              >
+                <svg
+                  class="lucide lucide-grip-vertical-icon h-2.5 w-2.5"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="9"
+                    cy="12"
+                    r="1"
+                  />
+                  <circle
+                    cx="9"
+                    cy="5"
+                    r="1"
+                  />
+                  <circle
+                    cx="9"
+                    cy="19"
+                    r="1"
+                  />
+                  <circle
+                    cx="15"
+                    cy="12"
+                    r="1"
+                  />
+                  <circle
+                    cx="15"
+                    cy="5"
+                    r="1"
+                  />
+                  <circle
+                    cx="15"
+                    cy="19"
+                    r="1"
+                  />
+                </svg>
+              </div>
+              
+            </div>
+            <div
+              class="flex justify-end bg-green-100"
+            >
+              
+              
+              
+              
+              
+              <button
+                class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 hover:scale-110 px-3 py-3 border-none"
+                data-state="closed"
+              >
+                
+                <span
+                  class="sr-only"
+                >
+                  Editar informações
+                </span>
+                <svg
+                  class="lucide lucide-pencil-icon w-4 h-4"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"
+                  />
+                  <path
+                    d="m15 5 4 4"
+                  />
+                </svg>
+                
+              </button>
+              <!--teleport start-->
+              <!--teleport end-->
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              <button
+                class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent border-[1px] hover:text-accent-foreground h-10 px-4 py-2 hover:scale-110 border-none"
+                data-state="closed"
+              >
+                
+                <span
+                  class="sr-only"
+                >
+                  Deletar
+                </span>
+                <svg
+                  class="lucide lucide-trash2-icon w-4 h-4"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3 6h18"
+                  />
+                  <path
+                    d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"
+                  />
+                  <path
+                    d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"
+                  />
+                  <line
+                    x1="10"
+                    x2="10"
+                    y1="11"
+                    y2="17"
+                  />
+                  <line
+                    x1="14"
+                    x2="14"
+                    y1="11"
+                    y2="17"
+                  />
+                </svg>
+                
+              </button>
+              <!--teleport start-->
+              <!--teleport end-->
+              
+              
+              
+              
+              
+            </div>
+            <div
+              data-panel=""
+              data-panel-group-id="demo-group-2"
+              data-panel-id="demo-panel-5"
+              data-panel-size="32.6"
+              id="demo-panel-5"
+              style="flex-basis: 0px; flex-grow: 32.6; flex-shrink: 1; overflow: hidden;"
+            >
+              
+              <div
+                class="flex flex-col h-full items-center justify-center p-6 bg-green-100"
+              >
+                <span
+                  class="font-semibold text-2xl text-center"
+                >
+                  Favorites
+                </span>
+                <span
+                  class="font-semibold text-3xl mt-4"
+                >
+                  5
+                </span>
+              </div>
+              
+            </div>
+            
+            
           </div>
-          <div
-            class="ui-resizable-handle ui-resizable-se"
-            style="z-index: 100; user-select: none;"
-          />
+          
         </div>
+        
+        
       </div>
+      <!-- &lt;DemoDragDropPanel/&gt; -->
       
     </div>
   </div>,

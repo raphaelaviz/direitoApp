@@ -1,15 +1,17 @@
 <script setup lang="ts">
 import { Bell, User } from 'lucide-vue-next';
 
+const route = useRoute()
+
 
 </script>
 
 <template>
     <header class="flex justify-between px-8 py-4 items-center border-[1px] rounded-lg h-16">
         <div class="flex items-center justify-center">
-            <!-- <div>
-               ROUTE.PATH TO GO HERE
-            </div> -->
+            <div class="font-semibold">
+               {{ route.path.substring(1).toLocaleUpperCase()}}
+            </div>
         </div>
         <div>
             <Input placeholder="Search lawsuit..." class="p-4 rounded-full w-80"/>
