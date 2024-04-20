@@ -9,9 +9,11 @@ import { GridStack } from 'gridstack';
 
 
 
-GridStack.init({
+onMounted(() => {
+  GridStack.init({
   float: true,
   cellHeight: '200px'
+}) 
 });
   
           
