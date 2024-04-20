@@ -130,12 +130,16 @@ export const columns: ColumnDef<LawsuitType>[] = [
   enableSorting: true,
   enableHiding: true,
 },
+
+//LINK COLUMN
 {
-  id: 'see',
-  cell: ({ row }) => h(DataTableRowLink, { id: row.id }),
+  id: 'id',
+  cell: ({ row }) => h(DataTableRowLink, { id: row.original.id }),
 },
+
+//OPTIONS COLUMN
   {
     id: 'actions',
-    cell: ({ row }) => h(DataTableRowActions, { id: row.id }),
+    cell: ({ row }) => h(DataTableRowActions, { id: row.original.id }),
   },
 ]

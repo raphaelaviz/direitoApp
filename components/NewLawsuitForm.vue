@@ -55,7 +55,9 @@ const onSubmit = form.handleSubmit(async (entries) => {
     await refreshData()
     
   } catch (error) {
-    console.error('Error creating lawsuit:', error);
+    toast({
+      description: 'Failed to delete lawsuit.',
+    })
   }
   sheet.onClose()
   console.log('Form submitted!', entries)

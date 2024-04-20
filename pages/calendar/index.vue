@@ -1,15 +1,34 @@
 <script setup lang="ts">
-
 import { useToast } from '@/components/ui/toast/use-toast'
+
 const { toast } = useToast()
+
+const handleDelete = async () => {
+  try {
+     await useFetch(`/api/lawsuits/153`, {
+      method: 'DELETE'
+    })
+
+    toast({
+      description: 'Lawsuit deleted successfully.',
+  
+    })
+  } catch (error) {
+    toast({
+      description: 'Failed to delete lawsuit.',
+
+    })
+  }
+}
 
 </script>
 
 <template>
-  <div>Toaster Test</div>
   <div>
-    <Button @click="toast({
-        description: 'New lawsuit created.',
-      });">Open toaster</Button>
+    <div>Tests for now</div>
+    <div>
+      <Button @click="handleDelete">Delete Lawsuit</Button>
+    </div>
+
   </div>
 </template>

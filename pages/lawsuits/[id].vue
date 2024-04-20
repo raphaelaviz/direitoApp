@@ -1,8 +1,11 @@
 <script setup lang="ts">
 
-import { Bell, Pencil } from 'lucide-vue-next';
+  import { Bell, Pencil } from 'lucide-vue-next';
+  const config = useRuntimeConfig()
+   const route = useRoute()
+    
+   const { data , pending, error, refresh } = await useFetch(`${config.public.API_ENDPOINT}/${route.params.id}`);
 
-    const route = useRoute()    
 
 </script>
 <!-- TODO: fetch lawsuits/:id -->
@@ -10,7 +13,7 @@ import { Bell, Pencil } from 'lucide-vue-next';
     <div class="min-h-screen space-y-10">
         <div class="flex justify-between items-center h-20 bg-green-100 p-3 px-6 rounded-lg">
              <div>
-                 Header com informações gerais do processo <span class="font-bold">{{ route.params.id }}</span>
+                 {{ data }}
              </div>
              <div class="flex space-x-2">
                 <CustomTooltip content="Editar informações">

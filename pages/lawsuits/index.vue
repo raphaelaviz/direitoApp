@@ -5,8 +5,8 @@ import localLawsuits from '@/lib/dummy/processos.json'
 const config = useRuntimeConfig()
 
 //TODO: change to env variable after switching to postgres
-// const { data = { lawsuits: [] }, pending, error, refresh } = await useFetch(config.public.API_ENDPOINT)
-const { data = { lawsuits: [] }, pending, error, refresh } = await useFetch('/api/lawsuits')
+const { data = { lawsuits: [] }, pending, error, refresh } = await useFetch(config.public.API_ENDPOINT)
+// const { data = { lawsuits: [] }, pending, error, refresh } = await useFetch('/api/lawsuits')
 
 // TODO: Review this type
 interface DataProps {
@@ -24,8 +24,8 @@ const lawsuitsData = data as DataProps;
 <template>
     <div class="min-h-screen">
         <NewLawsuitSheet :refreshData="refresh"/>
-        <ListDataTable :data="localLawsuits" :columns="columns"/>
+        <!-- <ListDataTable :data="localLawsuits" :columns="columns"/> -->
         <!-- go back to api data later  -->
-        <!-- <ListDataTable :data="lawsuitsData.lawsuits" :columns="columns"/> -->
+        <ListDataTable :data="lawsuitsData.lawsuits" :columns="columns"/>
     </div>
 </template>
