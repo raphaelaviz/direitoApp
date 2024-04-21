@@ -78,8 +78,28 @@ onMounted(() => {
     />
     <WrappedWidget 
       title="Other stuff" 
-      class="bg-pink-200" 
-      size="7"
+      class="bg-blue-300" 
+      size="2"
+    />
+    <WrappedWidget 
+      title="Other stuff" 
+      class="bg-pink-300" 
+      size="3"
+    />
+    <WrappedWidget 
+      title="Other stuff" 
+      class="bg-orange-300" 
+      size="4"
+    />
+    <WrappedWidget 
+      title="Other stuff" 
+      class="bg-green-300" 
+      size="2"
+    />
+    <WrappedWidget 
+      title="Other stuff" 
+      class="bg-red-300" 
+      size="1"
     />
 
     </div>

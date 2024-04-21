@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  
   routeRules: {
     '/lawsuits': {ssr: true},
     '/dashboard': {prerender:true},
@@ -9,6 +10,13 @@ export default defineNuxtConfig({
       API_ENDPOINT: process.env.API_ENDPOINT
     }
   },
+
+  // ATTENTION HERE
+  experimental: {
+    crossOriginPrefetch: true
+  },
+
+
   devtools: { enabled: true },
   modules: [
     '@nuxtjs/tailwindcss', 

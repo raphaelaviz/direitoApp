@@ -13,12 +13,12 @@ const colors = [
   'red-300', //missing in production
   'orange-300', //missing in production
   'red-400',
-];
+];      
 
 </script>
 
 <template>
-  <div class="grid grid-cols-4 gap-2">
+  <div class="grid grid-cols-4 gap-2 ">
     <div
       v-for="color in colors" 
       :key="color" 

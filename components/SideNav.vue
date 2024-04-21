@@ -43,7 +43,7 @@
 
         <NuxtLink
           v-for="button in sideBarButtons"
-          prefetch: true
+          prefetch
           v-bind="button" 
           :to="button.route"
           class="flex items-center rounded-full h-10 px-4 py-2 hover:font-semibold"

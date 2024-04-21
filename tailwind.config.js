@@ -3,9 +3,16 @@ const animate = require("tailwindcss-animate")
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ["class"],
-  safelist: ["dark"],
   prefix: "",
-  
+  safelist: [
+    "dark",
+    'blue-300', //missing in production
+    'pink-300', //missing in production
+    'green-300', //missing in production
+    'red-300', //missing in production
+    'orange-300', //missing in production
+  ],
+
   theme: {
     container: {
       center: true,
