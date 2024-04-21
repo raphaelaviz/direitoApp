@@ -10,7 +10,7 @@ const route = useRoute()
     <header class="flex justify-between px-8 py-4 items-center border-[1px] rounded-lg h-16">
         <div class="flex items-center justify-center">
             <div class="font-semibold">
-               {{ route.path.substring(1).toLocaleUpperCase()}}
+               {{ route.path.split('/')[1].toUpperCase()}}
             </div>
         </div>
         <div>

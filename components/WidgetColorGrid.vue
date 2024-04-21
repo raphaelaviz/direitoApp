@@ -5,13 +5,13 @@ const colors = [
   'pink-200',
   'yellow-200',
   'purple-200',
-  '[#93c5fd]', //missing in production
-  '[#f9a8d4]', //missing in production
+  'blue-300', //missing in production
+  'pink-300', //missing in production
   'yellow-300',
   'purple-300',
-  '[#86efac]', //missing in production
-  '[#fca5a5]', //missing in production
-  '[#fdba74]', //missing in production
+  'green-300', //missing in production
+  'red-300', //missing in production
+  'orange-300', //missing in production
   'red-400',
 ];
 
