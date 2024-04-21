@@ -2,19 +2,7 @@
 import { groups, priorities } from '@/lib/constants'
 import { Ellipsis, SquareArrowOutUpRight } from 'lucide-vue-next'
 import { Button } from '@/components/ui/button'
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuRadioGroup,
-  DropdownMenuRadioItem,
-  DropdownMenuSeparator,
-  DropdownMenuShortcut,
-  DropdownMenuSub,
-  DropdownMenuSubContent,
-  DropdownMenuSubTrigger,
-  DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu'
+
 
 const dialog = useDialog()
 
@@ -22,9 +10,11 @@ defineProps({
   id: String,
 })
 
-function openDeleteConfirmation (id?: string) {
-  dialog.onOpen({ title: `Delete lawsuit ${id}?`,
+const openDeleteConfirmation = async (id?: string) => {
+  dialog.onOpen({ 
+   title: `Delete lawsuit ${id}?`,
    description: 'This action can not be undone. Are you sure you want to delete the lawsuit?' });
+
 };
 
 </script>

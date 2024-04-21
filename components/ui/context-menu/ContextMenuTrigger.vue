@@ -7,7 +7,9 @@ const forwardedProps = useForwardProps(props)
 </script>
 
 <template>
-  <ContextMenuTrigger v-bind="forwardedProps">
+
+  <!-- TODO: change the aschild attribute -->
+  <ContextMenuTrigger v-bind="forwardedProps" as-child: asChild>
     <slot />
   </ContextMenuTrigger>
 </template>

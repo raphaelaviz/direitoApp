@@ -1,4 +1,4 @@
-import { sql } from "drizzle-orm";
+/*import { sql } from "drizzle-orm";
 import { sqliteTable, text, integer } from "drizzle-orm/sqlite-core";
 
 
@@ -16,6 +16,7 @@ export const lawsuits = sqliteTable("lawsuits", {
   favorite: integer('Favorite', { mode: 'boolean' }),
   createdAt: text("createdAt").default(sql`CURRENT_TIMESTAMP`),
 });
+*/
 
 
 
