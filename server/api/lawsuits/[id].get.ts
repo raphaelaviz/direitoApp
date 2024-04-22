@@ -1,6 +1,9 @@
 
 import { lawsuitsTable, db } from "../../db-schemas/pg-lawsuits.schema";
-import { eq } from 'drizzle-orm';
+import { eq, ne, gt, gte, lt, isNull } from 'drizzle-orm';
+
+// https://orm.drizzle.team/docs/operators
+ 
 
 export default defineEventHandler(async (e) => {
 
@@ -11,8 +14,6 @@ export default defineEventHandler(async (e) => {
             .select()
             .from(lawsuitsTable)
             .where(eq(lawsuitsTable.id, parseInt(lawsuitId)));
-
-         console.log(lawsuitId)
 
 
         return { "lawsuits": singleLawsuitData }

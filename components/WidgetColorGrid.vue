@@ -1,4 +1,5 @@
 <script setup lang="ts">
+const colorMode = useColorMode()
 
 const colors = [
   'blue-200',
@@ -13,7 +14,23 @@ const colors = [
   'red-300', 
   'orange-300', 
   'red-400',
-];      
+];
+
+//TODO: implement conditional coloring depending on Dark/Light mode
+const colorsinDark = [
+  'blue-100',
+  'pink-100',
+  'yellow-100',
+  'purple-100',
+  'blue-200', 
+  'pink-200', 
+  'yellow-200',
+  'purple-200',
+  'green-200', 
+  'red-200', 
+  'orange-200', 
+  'red-300',
+];  
 
 </script>
 

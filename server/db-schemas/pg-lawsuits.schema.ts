@@ -30,8 +30,5 @@ export const lawsuitsTable = pgTable(
     };
   },
 );
- 
-export const getExampleTable = async () => {
-  const selectResult = await db.select().from(lawsuitsTable);
-  console.log('Results', selectResult);
-};
+
+

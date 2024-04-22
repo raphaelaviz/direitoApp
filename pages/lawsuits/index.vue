@@ -5,8 +5,17 @@ import localLawsuits from '@/lib/dummy/processos.json'
 
 const config = useRuntimeConfig()
 
+const nuxtApp = useNuxtApp()
 
-const { data = { lawsuits: [] }, pending, error, refresh } = await useFetch(config.public.API_ENDPOINT)
+const { data = { lawsuits: [] }, refresh } = await useFetch(config.public.API_ENDPOINT, {
+  headers: {
+    Accept: 'application/json'
+  },
+  getCachedData(key) {
+    return nuxtApp.payload.data[key] ||  nuxtApp.static.data[key]
+
+  }
+})
 // const { data = { lawsuits: [] }, pending, error, refresh } = await useFetch('/api/lawsuits')
 
 // TODO: Review this type

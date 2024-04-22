@@ -11,9 +11,6 @@ export default defineEventHandler(async (e) => {
             .delete(lawsuitsTable)
             .where(eq(lawsuitsTable.id, parseInt(lawsuitId)))
 
-         console.log(lawsuitId)
-
-
         return { "lawsuits": singleLawsuitData }
         
     } catch (e: any) {

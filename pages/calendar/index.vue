@@ -3,7 +3,7 @@ import { useToast } from '@/components/ui/toast/use-toast'
 
 const { toast } = useToast()
 const dialog = useDialog()
-
+const colorMode = useColorMode()
 const openEditConfirmation = async (id?: string) => {
   dialog.onOpen({
    isOpen: true, 

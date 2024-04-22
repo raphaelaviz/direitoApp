@@ -1,16 +1,28 @@
 <script setup lang="ts">
 
-import type { HTMLAttributes } from 'vue'
-import { cn } from '@/lib/utils'
-import { Pencil } from 'lucide-vue-next'
-import RightClick from '@/assets/icons/mouse_right_click.svg'
-const props = defineProps<{
-  class?: HTMLAttributes['class'],
-  title: String,
-  size: String,
-  content?: String
-}>()
+  import type { HTMLAttributes } from 'vue'
+  import { cn } from '@/lib/utils'
+  import RightClick from '@/assets/icons/mouse_right_click.svg'
 
+  const props = defineProps<{
+    class?: HTMLAttributes['class'],
+    title: String,
+    size: String,
+    content?: String
+  }>()
+
+
+const dialog = useDialog();
+
+const openDeleteConfirmation = async (id?: string) => {
+  dialog.onOpen({
+   isOpen: true, 
+   title: `Delete widget?`,
+   description: 'This action can not be undone. Are you sure you want to delete this widget?',
+   confirmAction: 'delete', 
+   payload: id,
+  })
+};
 </script>
 
 <template>
@@ -77,7 +89,7 @@ const props = defineProps<{
     
       <ContextMenuSeparator />
       
-      <ContextMenuItem inset>
+      <ContextMenuItem inset @click="openDeleteConfirmation()">
         Delete widget
         <ContextMenuShortcut>⌘⇧D</ContextMenuShortcut>
       </ContextMenuItem>

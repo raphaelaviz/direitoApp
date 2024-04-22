@@ -142,4 +142,5 @@ export const columns: ColumnDef<LawsuitType>[] = [
     id: 'actions',
     cell: ({ row }) => h(DataTableRowActions, { id: row.original.id }),
   },
+  
 ]

@@ -33,7 +33,6 @@ const handleConfirmAction = async () => {
 
     })
   }
-   
       break;
     case 'log':
     

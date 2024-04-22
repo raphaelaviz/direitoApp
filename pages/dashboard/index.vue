@@ -1,39 +1,40 @@
 <script setup lang="ts">
 import { useDialog } from '@/composables/useDialog';
 
-const dialog = useDialog();
 import 'gridstack/dist/gridstack.min.css';
 import { GridStack } from 'gridstack';
 // https://github.com/gridstack/gridstack.js/blob/master/doc/README.md#grid-options
 
 
+let grid = GridStack
 
 onMounted(() => {
-  GridStack.init({
-  float: true,
-  cellHeight: '200px'
-}) 
+
+  grid.init({
+    float: true,
+    cellHeight: '200px', 
+    minRow: 1,
+    removable: true,
+  }) 
 });
   
-          
 </script>
+
 <template>
   
     <DashboardToolbar/>
     
-
-    <!-- <DemoResizablePanel/> -->
     <div class="grid-stack absolute flex bg-gray-100 dark:bg-gray-900 rounded-lg">
 
-    <WrappedWidget title="Next hearings" class="bg-blue-200" size="5">
-      <div class="flex flex-col">
-        <span>19/04/2024 - 09:15</span>
-        <span>23/04/2024 - 11:30</span>
-        <span>24/04/2024 - 10:00</span>
-      </div>
-    </WrappedWidget>
+        <WrappedWidget title="Next hearings" class="bg-blue-200" size="5">
+          <div class="flex flex-col">
+            <span>19/04/2024 - 09:15</span>
+            <span>23/04/2024 - 11:30</span>
+            <span>24/04/2024 - 10:00</span>
+          </div>
+        </WrappedWidget>
 
-    <WrappedWidget 
+        <WrappedWidget 
       title="Low priority" 
       class="bg-purple-200" 
       size="2" 
@@ -104,5 +105,7 @@ onMounted(() => {
 
     </div>
 
+</template>
 
-    </template>
+
+<!--   -->
