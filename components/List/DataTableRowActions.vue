@@ -11,10 +11,13 @@ defineProps({
 })
 
 const openDeleteConfirmation = async (id?: string) => {
-  dialog.onOpen({ 
+  dialog.onOpen({
+   isOpen: true, 
    title: `Delete lawsuit ${id}?`,
-   description: 'This action can not be undone. Are you sure you want to delete the lawsuit?' });
-
+   description: 'This action can not be undone. Are you sure you want to delete the lawsuit?',
+   confirmAction: 'delete', 
+   payload: id,
+  })
 };
 
 </script>

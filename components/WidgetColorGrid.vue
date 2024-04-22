@@ -5,13 +5,13 @@ const colors = [
   'pink-200',
   'yellow-200',
   'purple-200',
-  'blue-300', //missing in production
-  'pink-300', //missing in production
+  'blue-300', 
+  'pink-300', 
   'yellow-300',
   'purple-300',
-  'green-300', //missing in production
-  'red-300', //missing in production
-  'orange-300', //missing in production
+  'green-300', 
+  'red-300', 
+  'orange-300', 
   'red-400',
 ];      
 

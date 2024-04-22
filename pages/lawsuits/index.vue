@@ -2,9 +2,10 @@
 import { columns } from '@/components/List/columns'
 import type { LawsuitType} from '~/lib/utils';
 import localLawsuits from '@/lib/dummy/processos.json'
+
 const config = useRuntimeConfig()
 
-//TODO: change to env variable after switching to postgres
+
 const { data = { lawsuits: [] }, pending, error, refresh } = await useFetch(config.public.API_ENDPOINT)
 // const { data = { lawsuits: [] }, pending, error, refresh } = await useFetch('/api/lawsuits')
 

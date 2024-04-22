@@ -2,24 +2,17 @@
 import { useToast } from '@/components/ui/toast/use-toast'
 
 const { toast } = useToast()
+const dialog = useDialog()
 
-const handleDelete = async () => {
-  try {
-     await useFetch(`/api/lawsuits/153`, {
-      method: 'DELETE'
-    })
-
-    toast({
-      description: 'Lawsuit deleted successfully.',
-  
-    })
-  } catch (error) {
-    toast({
-      description: 'Failed to delete lawsuit.',
-
-    })
-  }
-}
+const openEditConfirmation = async (id?: string) => {
+  dialog.onOpen({
+   isOpen: true, 
+   title: `Do stuff to ${id}?`,
+   description: `${id} will be editted, deleted or logged`,
+   confirmAction: 'edit', 
+   payload: id,
+  }) 
+};
 
 </script>
 
@@ -27,7 +20,7 @@ const handleDelete = async () => {
   <div>
     <div>Tests for now</div>
     <div>
-      <Button @click="handleDelete">Delete Lawsuit</Button>
+      <Button @click="openEditConfirmation('My payload')">Do stuff</Button>
     </div>
 
   </div>

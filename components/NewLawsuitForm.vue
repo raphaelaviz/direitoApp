@@ -52,8 +52,8 @@ const onSubmit = form.handleSubmit(async (entries) => {
     toast({
         description: 'New lawsuit created.',
       });
-    await refreshData()
-    
+      
+      await refreshData()
   } catch (error) {
     toast({
       description: 'Failed to delete lawsuit.',
