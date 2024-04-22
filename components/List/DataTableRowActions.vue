@@ -1,13 +1,16 @@
 <script setup lang="ts">
 import { groups, priorities } from '@/lib/constants'
-import { Ellipsis, SquareArrowOutUpRight } from 'lucide-vue-next'
+import { Ellipsis, Star } from 'lucide-vue-next'
 import { Button } from '@/components/ui/button'
-
+import { useToast } from '@/components/ui/toast/use-toast'
+import { StarFilledIcon, StarIcon } from '@radix-icons/vue'
 
 const dialog = useDialog()
+const { toast } = useToast()
 
-defineProps({
+const props = defineProps({
   id: String,
+  favorite: Boolean,
 })
 
 const openDeleteConfirmation = async (id?: string) => {
@@ -19,6 +22,11 @@ const openDeleteConfirmation = async (id?: string) => {
    payload: id,
   })
 };
+
+const handleFavorite = async (id?: string) => {
+  //put request to change favorite field
+  toast({description: 'Lawsuit added to favorites.'})
+}
 
 </script>
 
@@ -38,7 +46,13 @@ const openDeleteConfirmation = async (id?: string) => {
     </DropdownMenuTrigger>
     <DropdownMenuContent align="end" class="w-[160px]">
       
-      <DropdownMenuItem>Favorite</DropdownMenuItem>
+      <DropdownMenuItem class="flex justify-between" @click="handleFavorite">
+        <span>Favorite</span>
+        <Star class="h-5 w-5"/>
+        <!-- <StarIcon class="h-5 w-5"/>
+        <StarFilledIcon class="h-5 w-5"/> -->
+        </DropdownMenuItem>
+
       <DropdownMenuSeparator />
       <DropdownMenuSub>
         <DropdownMenuSubTrigger>Change priority</DropdownMenuSubTrigger>

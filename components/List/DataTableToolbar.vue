@@ -33,12 +33,12 @@ const isFiltered = computed(() => props.table.getState().columnFilters.length > 
         Add lawsuit
       </Button>
 
-      <!-- <DataTableFacetedFilter
+      <DataTableFacetedFilter
         v-if="table.getColumn('status')"
         :column="table.getColumn('status')"
         title="Status"
         :options="statuses"
-      /> -->
+      />
 
       <DataTableFacetedFilter
         v-if="table.getColumn('priority')"

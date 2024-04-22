@@ -21,7 +21,7 @@ export const lawsuitsTable = pgTable(
     defendant: text("Defendant").notNull(),
     status: text ("Status").notNull(),
     priority: text("Priority"),
-    favorite: boolean('boolean'),
+    favorite: boolean('Favorite').default(false),
     createdAt: text ("Created at"),
   },
   (lawsuits) => {

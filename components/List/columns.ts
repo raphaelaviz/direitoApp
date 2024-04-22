@@ -24,7 +24,7 @@ export const columns: ColumnDef<LawsuitType>[] = [
   },
   {
     accessorKey: 'number',
-    header: ({ column }) => h(DataTableColumnHeader, { column, title: 'Nº do Processo' }),
+    header: ({ column }) => h(DataTableColumnHeader, { column, title: 'Number' }),
     cell: ({ row }) => h('div', { class: 'w-20' }, row.getValue('number')),
     enableSorting: false,
     enableHiding: true,
@@ -140,7 +140,7 @@ export const columns: ColumnDef<LawsuitType>[] = [
 //OPTIONS COLUMN
   {
     id: 'actions',
-    cell: ({ row }) => h(DataTableRowActions, { id: row.original.id }),
+    cell: ({ row }) => h(DataTableRowActions, { id: row.original.id, favorite: row.original.favorite }),
   },
   
 ]
