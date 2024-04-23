@@ -4,7 +4,7 @@ import { useToast } from '@/components/ui/toast/use-toast'
 const { toast } = useToast()
 const dialog = useDialog()
 const colorMode = useColorMode()
-const openEditConfirmation = async (id?: string) => {
+/*const openEditConfirmation = async (id?: string) => {
   dialog.onOpen({
    isOpen: true, 
    title: `Do stuff to ${id}?`,
@@ -12,7 +12,18 @@ const openEditConfirmation = async (id?: string) => {
    confirmAction: 'edit', 
    payload: id,
   }) 
-};
+};*/
+const config = useRuntimeConfig()
+
+const edit = async (id?: string) => {
+  await useFetch(`${config.public.API_ENDPOINT}/${id}`, {
+        method: 'PUT',
+        body: {
+          plaintiff: "EDITADO 3x",
+      },
+      })
+      refreshNuxtData()
+}
 
 </script>
 
@@ -20,7 +31,7 @@ const openEditConfirmation = async (id?: string) => {
   <div>
     <div>Tests for now</div>
     <div>
-      <Button @click="openEditConfirmation('My payload')">Do stuff</Button>
+      <Button @click="edit('185')">Edit lawsuit</Button>
     </div>
 
   </div>

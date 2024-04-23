@@ -7,6 +7,7 @@ import { StarFilledIcon, StarIcon } from '@radix-icons/vue'
 
 const dialog = useDialog()
 const { toast } = useToast()
+const config = useRuntimeConfig()
 
 const props = defineProps({
   id: String,
@@ -25,16 +26,32 @@ const openDeleteConfirmation = async (id?: string) => {
 
 const isFavorite = ref(props.favorite)
 
-async function handleFavorite (id?: string) { 
-  //put request to change favorite field
-  isFavorite.value = !isFavorite.value
+async function handleFavorite(id?: string) {
 
+  // optimistic update
+  isFavorite.value = !isFavorite.value;
+
+  
   if (isFavorite.value) {
     toast({ description: 'Lawsuit added to favorites.' });
   } else {
     toast({ description: 'Lawsuit removed from favorites.' });
   }
+
+  // real update
+  try {
+    await useFetch(`${config.public.API_ENDPOINT}/${id}`, {
+      method: 'PUT',
+      body: {
+        favorite: isFavorite.value
+      },
+    });
+    refreshNuxtData();
+  } catch (error) {
+    console.log(error);
+  }
 }
+
 
 </script>
 
@@ -54,7 +71,7 @@ async function handleFavorite (id?: string) {
     </DropdownMenuTrigger>
     <DropdownMenuContent align="end" class="w-[160px]">
       
-      <DropdownMenuItem class="flex justify-between" @click="handleFavorite">
+      <DropdownMenuItem class="flex justify-between" @click="handleFavorite(id)">
         <span>Favorite</span>
           <Star v-if="!isFavorite" class="h-5 w-5"/>
           <StarFilledIcon v-else class="h-5 w-5"/>

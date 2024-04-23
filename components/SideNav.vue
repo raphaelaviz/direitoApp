@@ -3,7 +3,7 @@
   import { sideBarButtons } from '~/lib/constants';
   import { Scale } from 'lucide-vue-next';
   import { useRoute } from 'vue-router';
-
+ 
   const currentRoute = useRoute();
   const isHovered = ref(false);
 

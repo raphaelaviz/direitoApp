@@ -8,7 +8,7 @@
 
 
 </script>
-<!-- TODO: fetch lawsuits/:id -->
+
 <template>
     <div class="min-h-screen space-y-10">
         <div class="flex justify-between items-center h-20 bg-green-100 p-3 px-6 rounded-lg">
@@ -16,15 +16,15 @@
                  {{ data }}
              </div>
              <div class="flex space-x-2">
-                <CustomTooltip content="Editar informações">
+                <CustomTooltip content="Edit information">
                     <Button variant="ghost" class="hover:scale-110">
-                        <span class="sr-only">Editar informações</span>
+                        <span class="sr-only">Edit information</span>
                         <Pencil />
                     </Button>
                 </CustomTooltip>
-                <CustomTooltip content="Criar notificação">
+                <CustomTooltip content="Set notifications">
                     <Button variant="ghost" class="hover:scale-110">
-                        <span class="sr-only">Criar notificação</span>
+                        <span class="sr-only">Set notifications</span>
                         <Bell/>
                     </Button>
                 </CustomTooltip>
