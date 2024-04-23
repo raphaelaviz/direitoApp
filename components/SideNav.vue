@@ -16,7 +16,7 @@
   const handleMouseLeave = () => {
     setTimeout(() => {
       isHovered.value = false;
-    }, 3000);
+    }, 1500);
   };
 </script>
 
@@ -26,7 +26,7 @@
       'w-64': isHovered,
       'w-24': !isHovered,
     }"
-    class="space-y-4 py-4 flex flex-col rounded-lg shadow-md border-r 'transition-all duration-500 ease-in-out'"
+    class="space-y-4 py-4 flex flex-col rounded-lg shadow-md border-r 'transition-all duration-200 ease-in-out'"
     @mouseenter="handleMouseEnter"
     @mouseleave="handleMouseLeave"
   >
@@ -41,9 +41,10 @@
 
       <div class="flex flex-col space-y-1">
 
+        <!-- TODO: prefetch not working. Why? -->
         <NuxtLink
           v-for="button in sideBarButtons"
-          prefetch
+          prefetch 
           v-bind="button" 
           :to="button.route"
           class="flex items-center rounded-full h-10 px-4 py-2 hover:font-semibold"

@@ -23,9 +23,17 @@ const openDeleteConfirmation = async (id?: string) => {
   })
 };
 
-const handleFavorite = async (id?: string) => {
+const isFavorite = ref(props.favorite)
+
+async function handleFavorite (id?: string) { 
   //put request to change favorite field
-  toast({description: 'Lawsuit added to favorites.'})
+  isFavorite.value = !isFavorite.value
+
+  if (isFavorite.value) {
+    toast({ description: 'Lawsuit added to favorites.' });
+  } else {
+    toast({ description: 'Lawsuit removed from favorites.' });
+  }
 }
 
 </script>
@@ -48,22 +56,26 @@ const handleFavorite = async (id?: string) => {
       
       <DropdownMenuItem class="flex justify-between" @click="handleFavorite">
         <span>Favorite</span>
-        <Star class="h-5 w-5"/>
-        <!-- <StarIcon class="h-5 w-5"/>
-        <StarFilledIcon class="h-5 w-5"/> -->
-        </DropdownMenuItem>
+          <Star v-if="!isFavorite" class="h-5 w-5"/>
+          <StarFilledIcon v-else class="h-5 w-5"/>
+      </DropdownMenuItem>
 
       <DropdownMenuSeparator />
+
       <DropdownMenuSub>
         <DropdownMenuSubTrigger>Change priority</DropdownMenuSubTrigger>
+
         <DropdownMenuSubContent>
           <DropdownMenuRadioGroup>
+
             <DropdownMenuRadioItem v-for="priority in priorities" :key="priority.value" :value="priority.value">
               {{ priority.label }}
             </DropdownMenuRadioItem>
+
           </DropdownMenuRadioGroup>
         </DropdownMenuSubContent>
       </DropdownMenuSub>
+
       <DropdownMenuSub>
         <DropdownMenuSubTrigger>Add to</DropdownMenuSubTrigger>
         <DropdownMenuSubContent>
@@ -74,10 +86,13 @@ const handleFavorite = async (id?: string) => {
           </DropdownMenuRadioGroup>
         </DropdownMenuSubContent>
       </DropdownMenuSub>
+
       <DropdownMenuSeparator />
+
       <DropdownMenuItem @click="openDeleteConfirmation(id)">
         Delete
         <DropdownMenuShortcut>⌘⌫</DropdownMenuShortcut>
+        
       </DropdownMenuItem>
     </DropdownMenuContent>
   </CustomTooltip> 
