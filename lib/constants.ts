@@ -1,5 +1,12 @@
 
-import { AlarmClock, LayoutDashboard, BookText } from 'lucide-vue-next';
+import { 
+  
+  AlarmClock,
+  LayoutDashboard, 
+  BookText, 
+  CalendarRange,
+  Scale,
+} from 'lucide-vue-next';
 
 export const sideBarButtons = {
     button1: {
@@ -20,12 +27,12 @@ export const sideBarButtons = {
      button4: {
          name: "Precedents",
          route: "/precedents",
-         icon: BookText
+         icon: Scale
      },
      button5: {
          name: "Calendar",
          route: "/calendar",
-         icon: BookText
+         icon: CalendarRange
      }
 };
 

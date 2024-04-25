@@ -8,6 +8,8 @@ import { Checkbox } from '@/components/ui/checkbox'
 import { Badge } from '@/components/ui/badge'
 import { SquareArrowOutUpRight } from 'lucide-vue-next'
 import DataTableRowLink from './DataTableRowLink.vue'
+import EditActions from './EditActions.vue'
+import PriorityBadge from '../PriorityBadge.vue'
 
 export const columns: ColumnDef<LawsuitType>[] = [
   {
@@ -81,16 +83,10 @@ export const columns: ColumnDef<LawsuitType>[] = [
     accessorKey: 'priority',
     header: ({ column }) => h(DataTableColumnHeader, { column, title: 'Priority' }),
     cell: ({ row }) => {
-      const priority = priorities.find(
-          priority => priority.value === row.getValue('priority'),
-      );
-
-      if (!priority)
-          return null;
-
+  
       let bgColorClass = '';
 
-      switch (priority.label) {
+      switch (row.original.priority) {
           case 'Critic':
               bgColorClass = 'bg-[#e7968b] hover:bg-[#e7968b] px-3';
               break;
@@ -109,7 +105,7 @@ export const columns: ColumnDef<LawsuitType>[] = [
       }
 
       return h('div', { class: 'flex items-center justify center' },
-          h(Badge, { class: `text-gray-700 ${bgColorClass}` }, priority.label),
+           h(Badge, { class: `text-gray-700 ${bgColorClass}` }, row.original.priority),
       );
     },
     filterFn: (row, id, value) => {
@@ -140,7 +136,13 @@ export const columns: ColumnDef<LawsuitType>[] = [
 //OPTIONS COLUMN
   {
     id: 'actions',
-    cell: ({ row }) => h(DataTableRowActions, { id: row.original.id, favorite: row.original.favorite }),
+    cell: ({ row }) => 
+      h(DataTableRowActions, { 
+        id: row.original.id, 
+        favorite: row.original.favorite, 
+        priority: row.original.priority
+      }),
   },
+
   
 ]

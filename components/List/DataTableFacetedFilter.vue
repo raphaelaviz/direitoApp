@@ -6,7 +6,6 @@ import type { LawsuitType } from '@/lib/utils'
 import { SquareMousePointer, Check} from 'lucide-vue-next'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
-import { priorities } from '~/lib/constants'
 import {
   Popover,
   PopoverContent,

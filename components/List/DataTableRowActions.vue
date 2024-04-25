@@ -12,25 +12,26 @@ const config = useRuntimeConfig()
 const props = defineProps({
   id: String,
   favorite: Boolean,
+  priority: String,
 })
 
-const openDeleteConfirmation = async (id?: string) => {
+async function openDeleteConfirmation (id?: string) {
   dialog.onOpen({
    isOpen: true, 
-   title: `Delete lawsuit ${id}?`,
+   title: `Delete lawsuit?`,
    description: 'This action can not be undone. Are you sure you want to delete the lawsuit?',
    confirmAction: 'delete', 
    payload: id,
   })
 };
 
+
 const isFavorite = ref(props.favorite)
 
-async function handleFavorite(id?: string) {
+async function handleFavoriteChange(id?: string) {
 
   // optimistic update
   isFavorite.value = !isFavorite.value;
-
   
   if (isFavorite.value) {
     toast({ description: 'Lawsuit added to favorites.' });
@@ -52,6 +53,31 @@ async function handleFavorite(id?: string) {
   }
 }
 
+///////
+
+const selectedPriority = ref(props.priority)
+
+
+async function handlePriorityChange(newPriority: string, lawSuitId?: string) {
+
+
+// $fetch instead of useFetch sends the request only once even with refreshNuxtData
+try {
+  await $fetch(`${config.public.API_ENDPOINT}/${lawSuitId}`, {
+    method: 'PUT',
+    body: {
+      priority: newPriority
+    },
+    });
+    toast({ description: `Priority changed to ${newPriority}.` });
+  } catch (error) {     
+    console.log(error);
+  }
+  
+  refreshNuxtData();
+}
+
+
 
 </script>
 
@@ -71,7 +97,7 @@ async function handleFavorite(id?: string) {
     </DropdownMenuTrigger>
     <DropdownMenuContent align="end" class="w-[160px]">
       
-      <DropdownMenuItem class="flex justify-between" @click="handleFavorite(id)">
+      <DropdownMenuItem class="flex justify-between" @click="handleFavoriteChange(props.id)">
         <span>Favorite</span>
           <Star v-if="!isFavorite" class="h-5 w-5"/>
           <StarFilledIcon v-else class="h-5 w-5"/>
@@ -83,9 +109,16 @@ async function handleFavorite(id?: string) {
         <DropdownMenuSubTrigger>Change priority</DropdownMenuSubTrigger>
 
         <DropdownMenuSubContent>
-          <DropdownMenuRadioGroup>
-
-            <DropdownMenuRadioItem v-for="priority in priorities" :key="priority.value" :value="priority.value">
+          <DropdownMenuRadioGroup v-model="selectedPriority">
+            
+            <DropdownMenuRadioItem
+              v-for="priority in priorities"
+              :key="priority.value" 
+              :value="priority.value"
+              @click="handlePriorityChange(priority.value, props.id)"
+              :disabled="selectedPriority == priority.value"
+            
+            >
               {{ priority.label }}
             </DropdownMenuRadioItem>
 
@@ -106,7 +139,7 @@ async function handleFavorite(id?: string) {
 
       <DropdownMenuSeparator />
 
-      <DropdownMenuItem @click="openDeleteConfirmation(id)">
+      <DropdownMenuItem @click="openDeleteConfirmation(props.id)">
         Delete
         <DropdownMenuShortcut>⌘⌫</DropdownMenuShortcut>
         
